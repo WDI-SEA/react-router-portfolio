@@ -12,7 +12,8 @@ Now let's put that to the test!
 
 ## You Do: Implement Router
 
-Let's build a basic portfolio. It can be your information of just dummy information
+Let's build a basic portfolio. It can be your information of just dummy information, 
+you can style it with a framework or your own CSS
 
 Your portfolio needs to have these pages:
 - Homepage: A main welcome page
@@ -43,3 +44,4 @@ Tasks:
 
 - Have the ability to edit, post, and delete new blog posts
 - Have a button on the About page that downloads a resume file
+- Make it pretty!
