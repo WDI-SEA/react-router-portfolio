@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: grey;
+  min-height: 30vh;
+  font-size: 48px;
+  color: pink;
+}
+
+.App-link {
+  color: grey;
+}
+
+nav {
+  background-color: pink;
+  color: grey;
+  font-size: 26px;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: grey;
+}
+
+
+.subtext {
+  font-size: 22px;
+  color: pink;
+}
+
+.image img {
+  max-width: 300px;
+  height: auto;
+}
