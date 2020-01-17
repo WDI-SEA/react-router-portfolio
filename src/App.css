@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  border: solid 2px red;
 }
 
 .App-header {
