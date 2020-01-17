@@ -1,0 +1,46 @@
+.app {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.app-header {
+  height: 10vh;
+}
+
+.home-links {
+  font-size: 25px;
+  color: black;
+}
+
+.main {
+  height: 80vh;
+}
+
+.footer {
+  height: 10vh;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.post-paper {
+  padding: 25px;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+}
