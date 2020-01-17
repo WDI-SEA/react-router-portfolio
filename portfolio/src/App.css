@@ -1,0 +1,19 @@
+.app {
+  text-align: center;
+}
+
+.nav {
+  background-color: #e3aceb;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+li {
+  list-style: none;
+  padding: 1em;
+}
+
+
