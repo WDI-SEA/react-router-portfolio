@@ -2,9 +2,10 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import './App.css';
 
-import About from './About'
-import Blog from './Blog'
-import Projects from './Projects'
+import Home from './Home'
+import About from './About.jsx'
+import Blog from './Blog.jsx'
+import Projects from './Projects.jsx'
 
 function App() {
   
@@ -33,16 +34,15 @@ function App() {
           </div>
         </header>
 
-        <Switch>
-          <Route exact path='/' component={App} />
+          <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
           <Route path='/blog' component={Blog} />
           <Route path='/projects' component={Projects} />
-        </Switch>
+
         
       </div>
     </Router>
-  );
+  )
 }
 
 export default App;
