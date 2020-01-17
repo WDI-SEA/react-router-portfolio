@@ -25,7 +25,7 @@ Tasks:
 
 - Each page is a component - we're learning to use React Router here!
 - Create a navigation menu of list items that Route to each page.
-- The main App should be a class-based component so it can hold state
+- The main App component will need to hold state (via the useState hook if using functional components) 
   - The main App's state should hold an array of `post` objects, each with a title and a body, both strings.
 - The rest of the components should be functional.
 - The blog page should be rendered so that you can pass props (the posts) into it. Then render each post nicely.
@@ -37,7 +37,7 @@ Tasks:
 * Here is how to render a component with `props` inside of a `<Route>` element:
 
 ```js
-<Route path="/blog" render={ () => <Blog posts={this.props.posts} /> }/>
+<Route path="/blog" render={ () => <Blog posts={posts} /> }/>
 ```
 
 ## Bonuses
