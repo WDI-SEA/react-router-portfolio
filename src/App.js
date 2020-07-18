@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Nav from './Nav.js';
 
 function App() {
   return (
     <div className="App">
-
+      <h1>Eliott's Portfolio</h1>
+      <Nav />
     </div>
   );
 }
