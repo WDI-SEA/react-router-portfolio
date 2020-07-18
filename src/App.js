@@ -19,7 +19,27 @@ function App() {
     body: "Follow me on all social media platforms so that you can watch my journey of begging my way into a new job position (@zbarovsky)"
   }]
 
-  const [post, setPost] = useState(blogPosts)
+  let listOfSkills = [
+    "React (DUH)",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Phaser",
+    "Node",
+    "Git",
+    "Bootstrap",
+    "SQL",
+    "MERN Stack",
+    "REST API",
+    "JSON",
+    "I can play a mean guitar"
+  ]
+  
+  
+
+  const [post, setPost] = useState(blogPosts);
+  const [skills, setSkills] = useState(listOfSkills)
+
 
 
   return (
@@ -32,11 +52,11 @@ function App() {
           <Link to='/projects'>Projects</Link>
         </nav>
       </div>
-      <div className="App">
-        <h1>All About Zack</h1>
+      <div>
+        <h1 className="header">All About Zack</h1>
         <Route exact path='/' component={Home} />
         <Route path='/blog' render={() => <Blog posts={post} /> } />
-        <Route path='/about' component={About} />
+        <Route path='/about' render={() => <About skills={skills} /> } />
         <Route path='/projects' component={Projects} />
       </div>
     </Router>

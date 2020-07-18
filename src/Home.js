@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
     return (
         <div>
-            Welcome to Zacks Webpage
+            <h1 className="header">Welcome to Zacks Webpage</h1>
         </div>
     )
 }

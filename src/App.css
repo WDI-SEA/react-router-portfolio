@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  background-color: lightblue;
+  padding: 10px;
+  text-align: end;
+}
+
+.header {
+  text-align: center;
+}
+
+.skillList {
+  text-align: center;
+  margin-top: 10px;
+}
