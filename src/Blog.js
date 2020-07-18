@@ -3,9 +3,9 @@ import Post from "./Post.js";
 
 const Blog = () => {
     const [postsContent, setPostsContent] = useState([
-        {title: "first post", text: "omg look I did a blog"},
-        {title: "second post", text: "React is so fun"},
-        {title: "third post", text: "React is sometimes fun"}
+        {title: "I did a blog!", text: "I feel so hip now"},
+        {title: "React is so fun!", text: "wheee"},
+        {title: "React is sometimes fun", text: "yeah"}
     ])
     return (
         <div>
