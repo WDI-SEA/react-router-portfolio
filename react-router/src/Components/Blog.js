@@ -5,6 +5,7 @@ const Blog = (props) => {
     
     return (
         <div className='post-container'>
+            <h1>Blog</h1>
             {props.posts.map(post => (
                 <BlogPosts
                     title={post.title}

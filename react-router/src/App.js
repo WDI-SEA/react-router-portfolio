@@ -25,6 +25,14 @@ function App() {
     }
   ])
 
+  const [projects, setProjects] = useState([
+    {
+      title: 'Ani-Cal',
+      image: 'https://raw.githubusercontent.com/d4vves/anime-scheduler/master/public/img/screenshot.png',
+      content: 'Ani-Cal is my first full-stack web app that I created in my cohort. Here you can plan out your schedule for the upcoming anime season! How fun.'
+    }
+  ])
+
   return (
     <Router>
       <div>
@@ -39,7 +47,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route path='/blog' render={() => <Blog posts={blogPosts} />} />
         <Route path='/about' component={About} />
-        <Route path='/projects' component={Projects} />
+        <Route path='/projects' render={() => <Projects projects={projects} />} />
       </div>
     </Router>
   );
