@@ -20,10 +20,13 @@ function App() {
       </div>
       <style jsx>
         {`
+          body {
+            margin: 15px;
+          }
           .card {
             display: block;
             padding: 10px;
-            width: 500px;
+            max-width: 500px;
             margin: 18px auto;
             border: 2px solid black;
             border-radius: 10px;

@@ -8,6 +8,16 @@ const Nav = () => {
             <Link to="/about">About</Link> | 
             <Link to="/projects">Projects</Link> | 
             <Link to="/blog">Blog</Link>
+            <style jsx>
+                {`
+                    nav {
+                        width: 300px;
+                        margin: auto;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                `}
+            </style>
         </nav>
     )
 }

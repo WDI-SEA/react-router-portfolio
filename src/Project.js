@@ -17,7 +17,7 @@ const Project = (props) => {
                     ))}
                 </ul>
             </div>
-            <p>Documentation: <a href={`{props.projectData.deployUrl}/help`} target='_blank'>{`${props.projectData.deployUrl}/help`}</a></p>
+            <p>On Github: <a href={props.projectData.gitHubUrl} target='_blank'>{props.projectData.gitHubUrl}</a></p>
             <style jsx>
                 {`
                     .techs {
