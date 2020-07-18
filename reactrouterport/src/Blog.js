@@ -1,28 +1,16 @@
-import React from 'react'
+import React, {useState } from 'react'
 
 
 const Blog = (props) => {
-
+console.log(props)
     return (
         <div>
             <h2> Blog ! </h2>
-            <h2>Create a new post</h2>
-                <div class="login-page">
-                <div id="form">
-                    <form action="/articles" method="POST" />
-                        <div id="form-group" >
-                            <label for="title">Title </label>
-                            <input type="text" class="form-control" id="title" name="title" required />
-                        </div>
-
-                        <div id="form-group">
-                            <label for="content">Content</label>
-                            <textarea type="text" class="form-control" id="content" name="content" required></textarea>
-                        </div>
-                        <input type="submit" id="btn" />
-                    <form/> 
-                </div>
-                </div>
+            <img src={props.blog.imgUrl} />
+            <h3>{props.blog.name}</h3>
+            <p>{props.blog.phone}</p>
+            <p>{props.blog.date}</p>
+                
         </div>
     )
 }
