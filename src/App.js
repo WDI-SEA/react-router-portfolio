@@ -21,6 +21,7 @@ function App() {
       <style jsx>
         {`
           body {
+            font-family: 'Sunflower', sans-serif;
             margin: 15px;
           }
           .card {
