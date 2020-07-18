@@ -4,8 +4,9 @@ const Home = (props) => {
     return (
         <div>
             <h1>I am Dave.</h1>
-            <h2>Hear me roar.</h2>
-            <h3>*rawr*</h3>
+            <h2>I like computers and music and motorcycles.</h2>
+            <h3>Hear me roar.</h3>
+            <h4>*rawr*</h4>
         </div>
     )
 }

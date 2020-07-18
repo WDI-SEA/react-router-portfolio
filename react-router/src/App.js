@@ -20,7 +20,7 @@ function App() {
     },
     {
       title: 'Country Music Rules',
-      content: 'Country gets a bad wrap. But if you look deeper into the scene, specifically the origins of country, it is incredible! Check out Waylon Jennings, Bobby Bare, The Louvin Brothers, Johnny Western, Glen Campbell, Eddie Noack and the likes for a taste of the real stuff!',
+      content: 'Country gets a bad wrap. But if you look deeper into the scene, specifically the origins of country, it is incredible! Check out Waylon Jennings, Bobby Bare, The Louvin Brothers, Johnny Western, Glen Campbell, Eddie Noack and the like for a taste of the real stuff!',
       date: '7/17/2020'
     }
   ])
@@ -29,7 +29,14 @@ function App() {
     {
       title: 'Ani-Cal',
       image: 'https://raw.githubusercontent.com/d4vves/anime-scheduler/master/public/img/screenshot.png',
-      content: 'Ani-Cal is my first full-stack web app that I created in my cohort. Here you can plan out your schedule for the upcoming anime season! How fun.'
+      content: 'Ani-Cal is my first full-stack web app that I created in my cohort. Here you can plan out your schedule for the upcoming anime season! How fun.',
+      link: 'https://github.com/d4vves/anime-scheduler'
+    },
+    {
+      title: 'Garbage Boy',
+      image: 'https://raw.githubusercontent.com/d4vves/garbage-boy/master/img/screen-shot.png',
+      content: 'GARBAGE BOY! For my first project in my cohort I was to create a game using HTML, CSS and JavaScript. The result was the legendary Garbage Boy.',
+      link: 'https://github.com/d4vves/garbage-boy'
     }
   ])
 

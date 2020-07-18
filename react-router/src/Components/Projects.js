@@ -11,6 +11,7 @@ const Projects = (props) => {
                     title={project.title}
                     image={project.image}
                     content={project.content}
+                    link={project.link}
                 />
             ))}
         </div>
