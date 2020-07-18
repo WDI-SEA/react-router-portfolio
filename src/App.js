@@ -21,10 +21,12 @@ function App() {
       <style jsx>
         {`
           body {
+            background-color: #CCCCCC;
             font-family: 'Sunflower', sans-serif;
             margin: 15px;
           }
           .card {
+            background: #FFFFFF;
             display: block;
             padding: 10px;
             max-width: 500px;
@@ -45,6 +47,9 @@ function App() {
               width: calc(50% - 20px);
               vertical-align: top;
               text-align: right;
+          }
+          img {
+            border: 2px solid black;
           }
         `}
       </style>
