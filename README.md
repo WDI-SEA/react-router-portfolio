@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) React Router 
 
-## Available Scripts
+## Recap
 
-In the project directory, you can run:
+What have we learned so far?
+* Single Page Applications have specific URLs that are routed to display different content.
+* React Router is a third-party library that we can install and use with React.
+* Since React Router isn't built in to React, we must import its components.
+* React Router makes it easy for us to route URLs to components.
+* React Router automatically manipulates modern browser history mechanics.
 
-### `npm start`
+Now let's put that to the test!
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Your Task: Implement Router
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Let's build a basic portfolio website. It can be your information of just dummy information, you can style it with a framework or your own custom CSS.
 
-### `npm test`
+Your portfolio needs to have these pages:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Homepage: A main welcome page
+- Blog: A page displaying a few blog posts
+- About: A page about you and your skills
+- Projects: A page with a screenshot and a little bit of info
 
-### `npm run build`
+**TODOs:**
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Each page is a component - we're learning to use React Router here!
+- Create a navigation menu of list items that Route to each page.
+- The main App should be a class-based component OR a functional component that uses the useState hook so it can hold state
+  - The main App's state should hold an array of `post` objects, each with a title and a body, both strings.
+- The rest of the components should be functional.
+- The blog page should be rendered so that you can pass props (the posts) into it. Then render each post nicely.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Don't Forget...
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Do you have `react-router-dom` npm installed for this project?
 
-### `npm run eject`
+* Here is how to render a component with `props` inside of a `<Route>` element:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```js
+<Route path="/blog" render={ () => <Blog posts={this.props.posts} /> }/>
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Bonuses
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Have the ability to edit, post, and delete new blog posts
+- Have a button on the About page that downloads a resume file
+- Make it pretty!
