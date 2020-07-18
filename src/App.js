@@ -32,7 +32,8 @@ function App() {
     "MERN Stack",
     "REST API",
     "JSON",
-    "I can play a mean guitar"
+    "I can play a mean guitar",
+    "And many more"
   ]
   
   let projectDescription = [{
@@ -42,7 +43,7 @@ function App() {
   }, {
     title: "Project Two: D&D Encounter Tracker",
     img: './img/p2ScreenShot.png',
-    description: "Built a dungeons and dragons encounter tracker app using node and sql. Interested? go to https://encounter-tracker.herokuapp.com to try it for yourself."
+    description: "Built a dungeons and dragons encounter tracker app using node and sql. Interested? Go to https://encounter-tracker.herokuapp.com to try it for yourself."
   }]
 
   let additionalWorks = [
@@ -64,10 +65,10 @@ function App() {
     <Router>
       <div>
         <nav>
-          <Link to='/'>Home</Link>
-          <Link to='/blog'>Blogs</Link>
-          <Link to='/about'>About Me</Link>
-          <Link to='/projects'>Projects</Link>
+          <Link to='/'>Home </Link>
+          <Link to='/blog'>Blogs </Link>
+          <Link to='/about'>About Me </Link>
+          <Link to='/projects'>Projects </Link>
         </nav>
       </div>
       <div>
