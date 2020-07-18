@@ -35,10 +35,28 @@ function App() {
     "I can play a mean guitar"
   ]
   
+  let projectDescription = [{
+    title: "Project One: Zombie Survival Video Game",
+    img: './img/p1ScreenShot.png',
+    description: "Utilizing phaser, I built a zombie slaying survivial game"
+  }, {
+    title: "Project Two: D&D Encounter Tracker",
+    img: './img/p2ScreenShot.png',
+    description: "Built a dungeons and dragons encounter tracker app using node and sql. Interested? go to https://encounter-tracker.herokuapp.com to try it for yourself."
+  }]
+
+  let additionalWorks = [
+    "Rick and Morty themed Tic-Tac-Toe",
+    "Movie description web app with favorites function to track favorite movies",
+    "Pokedex that tracked and displayed information about favorited pokemon",
+    "Web app to convert temperature between fahrenheit and celsius"
+  ]
   
 
   const [post, setPost] = useState(blogPosts);
   const [skills, setSkills] = useState(listOfSkills)
+  const [projects, setProjects] = useState(projectDescription)
+  const [works, setWorks] = useState(additionalWorks)
 
 
 
@@ -57,7 +75,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route path='/blog' render={() => <Blog posts={post} /> } />
         <Route path='/about' render={() => <About skills={skills} /> } />
-        <Route path='/projects' component={Projects} />
+        <Route path='/projects' render={() => <Projects projects={projects} works={works} /> } />
       </div>
     </Router>
   );

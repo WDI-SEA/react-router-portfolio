@@ -55,3 +55,19 @@ nav {
   text-align: center;
   margin-top: 10px;
 }
+
+.projectImg {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homeImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  width: 600px;
+}
