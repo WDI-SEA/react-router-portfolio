@@ -1,8 +1,11 @@
 import React from 'react';
 
-const Post = () => {
+const Post = (props) => {
     return (
-        <h3>I'm a child of the Blog</h3>
+        <div>
+            <h3>{props.postInfo.title}</h3>
+            <p>{props.postInfo.text}</p>
+        </div>
     )
 }
 export default Post;
