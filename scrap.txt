@@ -1,0 +1,3 @@
+{props.projectLinks.map(screenshot => (
+            <img key={screenshot} src={screenshot} />
+        ))}
