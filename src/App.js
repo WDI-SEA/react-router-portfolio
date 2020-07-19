@@ -10,9 +10,17 @@ import About from './components/About'
 import Projects from './components/Projects'
 
 function App() {
-  let blogItems = [
+  let posts = [
+    {
     title: "My Coding Journey Begins",
-    date: ""
+    date: "5/26/2020",
+    content: "On my first day at General Assembly..."
+  },
+  {
+    title: "Learning React",
+    date: "7/14/2020",
+    content: "This new framework has destructured everything I knew"
+  }
   ]
   return (
     <Router>
@@ -24,7 +32,7 @@ function App() {
           <Link to="/projects">My Projects</Link>
         </nav>
         <Route exact path="/" component={Homepage} />
-        <Route path="/blog" render={() => <Blog blogItems={Blog} />} />
+        <Route path="/blog" render={() => <Blog posts={posts} />} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
       </div>
