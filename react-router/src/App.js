@@ -10,8 +10,12 @@ import ProjectData from './api/ProjectData'
 
 function App() {
   const [blogPosts, setBlogPosts] = useState(BlogData)
-
   const [projects, setProjects] = useState(ProjectData)
+
+  const deletePost = (post) => {
+    let newBlogPosts = blogPosts.filter(blogPost => blogPost.id !== post.id)
+    setBlogPosts(newBlogPosts)
+  }
 
   return (
     <Router>
@@ -19,16 +23,16 @@ function App() {
         <nav>
           <h2>davves //</h2>
           <Link to='/'>home</Link>
-          <Link to='/blog'>blog</Link>
           <Link to='/about'>about</Link>
           <Link to='/projects'>projects</Link>
+          <Link to='/blog'>blog</Link>
         </nav>
       </div>
       <div className='App'>
         <Route exact path='/' component={Home} />
-        <Route path='/blog' render={() => <Blog posts={blogPosts} />} />
         <Route path='/about' component={About} />
         <Route path='/projects' render={() => <Projects projects={projects} />} />
+        <Route path='/blog' render={() => <Blog posts={blogPosts} deletePost={deletePost} />} />
       </div>
     </Router>
   );

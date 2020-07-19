@@ -11,6 +11,8 @@ const Blog = (props) => {
                     title={post.title}
                     content={post.content}
                     date={post.date}
+                    id={post.id}
+                    deletePost={() => {props.deletePost(post)}}
                 />
             ))}
         </div>
