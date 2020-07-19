@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  width:65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.homePage, .about {
+  width:65%;
+  margin: 0 auto;
+}
+
+.about h1, h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.blogList {
+  width:65%;
+  margin: 0 auto;
+}
+
+.blogPosts {
+  margin: 0 auto;
+  text-align: center;
+  width:65%;
+}
+
+.blogList h1 {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutPic {
+  margin: 0 auto;
+  width:70%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
