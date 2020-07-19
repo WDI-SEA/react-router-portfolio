@@ -1,4 +1,5 @@
 import React from 'react';
+import NewBlog from './NewBlog';
 import blogSeed from './blogSeed';
 
 const Blog = (props) => {
@@ -15,6 +16,7 @@ const Blog = (props) => {
           )
         }) 
       }
+      <NewBlog />
     </div>
   );
 };

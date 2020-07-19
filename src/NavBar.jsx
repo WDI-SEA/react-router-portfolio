@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 import { LinkContainer } from 'react-router-bootstrap';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+import { Navbar, Nav } from 'react-bootstrap';
+
 
 const NavBar = (props) => {
   return (
@@ -12,9 +12,9 @@ const NavBar = (props) => {
         {/* button for responsive menu */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         {/* conatiner for responsove collapse */}
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
           {/* the actual nav */}
-          <Nav className="mr-auto">
+          <Nav>
             {/* link container from react-router-bootstrap */}
             <LinkContainer to="/">
               <Nav.Link>
@@ -42,8 +42,6 @@ const NavBar = (props) => {
 
           </Nav>
         </Navbar.Collapse>
-
-
       </Navbar>
       {/* original nav */}
       {/* 
