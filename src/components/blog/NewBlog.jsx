@@ -2,7 +2,6 @@ import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 
 export default function NewBlog(props){
-
   return (
     <Form onSubmit={ (e) => props.handleSubmitNewBlog(e) }>
       <Form.Group controlId="newBlog.title">
@@ -15,7 +14,8 @@ export default function NewBlog(props){
       <Form.Group controlId="newBlog.contet">
         <Form.Label>Content:</Form.Label>
         <Form.Control   as="textarea" 
-                        rows="5" 
+                        rows="5"
+                        placeholder="Start Your New Blog!" 
                         onChange={ (e) => props.setNewBlogContent(e.target.value) } 
         />
       </Form.Group>

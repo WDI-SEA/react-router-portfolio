@@ -6,6 +6,7 @@ export default function DeleteBlog(props){
     <Button type="button"
             className="btn btn-danger btn-sm"
             onClick= { () => props.handleClickDeleteBlog() }
+            key={ props.index }
     >Delete</Button>
   )
 }

@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import Navbar from './NavBar';
-import Home from './Home';
-import Blog from './Blog';
-import Projects from './Projects';
-import About from './About';
+import Navbar from './components/NavBar';
+import Home from './components/Home';
+import Blog from './components/blog/Blog';
+import Projects from './components/projects/Projects';
+import About from './components/About';
 
 import './App.css';
 
