@@ -34,6 +34,24 @@ nav {
   margin: 0 auto;
 }
 
+.post {
+  border:2px solid black;
+  width:65%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.projPic{
+  margin:0 auto;
+  text-align: center;
+}
+
+.projectsPage{
+  width:65%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .blogPosts {
   margin: 0 auto;
   text-align: center;

@@ -5,11 +5,15 @@ import CalmTheBomb from './CalmTheBomb.JPG'
 const Projects = (props) => {
 
     return (
-        <div>
+        <div className = "projectsPage">
+
+        <h1>Projects</h1>
+        <hr/>
+
             <ul>
                 {props.projects.map(item => (
-                    <li key={item}>
-                        <img src={item.screenshot} alt=""/>
+                    <li key={item} className = "projPic">
+                        <img src= {item.screenshot.Screenshot1} />
                         <h3>{item.info}</h3>
                     </li>
                 ))}

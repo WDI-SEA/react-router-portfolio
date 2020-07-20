@@ -19,7 +19,7 @@ function App() {
 
   let projects = [
     {screenshot: {Screenshot1}, info : 'NBA Database to view current teams and their rosters. Create a team and fill it with players'},
-    {screenshot: {CalmTheBomb}, info : 'Clicking game to defuse bombs! Keep clicking until you lose!'},
+    // {screenshot: {CalmTheBomb}, info : 'Clicking game to defuse bombs! Keep clicking until you lose!'},
   ]
 
 
