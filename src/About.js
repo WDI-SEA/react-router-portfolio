@@ -5,7 +5,7 @@ const About = () => {
         <div className="aboutpage">
             <h1> About Me: </h1>
 
-            <img src= "src/pics/slack profile pic.jpg" alt=" me"/>
+            <img src= "https://i.imgur.com/I1owp56.jpg" alt=" me"/>
             <p> I'm a developer who went through the General Assembly Software Engineering Immersive program! I have experience in:</p>
             <ul>
                 <li>HTML, CSS, SAAS</li>

@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Blog = props => {
-    let allPosts = props.posts.map((post) => {
+    let allPosts = props.posts.map((post, i) => {
         return (
-            <div>
+            <div key={i}>
                 <h3> {post.title} </h3>
                 <p> {post.body} </p>
             </div>
