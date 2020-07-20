@@ -8,8 +8,6 @@ import Article from './Article'
                 <Article key={Math.random()} article = {article} />
             )
         })
-
-        
      
         return (
             <div>

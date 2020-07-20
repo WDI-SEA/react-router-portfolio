@@ -9,8 +9,7 @@ import Comment from './Comment'
             <h4>Content:</h4>
             <p>{props.article.content}</p>
             <h4>Comment:</h4>
-            <p>{props.article.comments}</p>
-            
+            <p>{props.article.comments}</p>   
         </div>
     )
 }
