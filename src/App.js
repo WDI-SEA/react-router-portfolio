@@ -51,7 +51,7 @@ function App() {
         <Route exact path='/' component={Homepage} />
         <Route path='/about' component={About} />
         <Route path='/projects' render={() => <Projects projects={projects} />} />
-  <Route path='/blog' render={() => <Blog blogPosts={blogPosts} /> } />
+        <Route path='/blog' render={() => <Blog blogPosts={blogPosts} /> } />
       </div>
     </Router>
   );
