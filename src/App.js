@@ -11,7 +11,7 @@ function App() {
   let blogs = [
     { 
       name: 'Salman', 
-      about: "Likes to wake up people when they're sleeping.", 
+      about: "Likes to wake up people when they're sleeping. But I heard he's pretty cool.", 
       image: "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/22228641_10213074701375363_901385773467128542_n.jpg?_nc_cat=108&_nc_sid=85a577&_nc_ohc=e203fSi0YfQAX9MuAV2&_nc_ht=scontent-sea1-1.xx&oh=45e520522f22387e2ad0b3b3cedae4c0&oe=5F3AAB69"
     },
     { 
@@ -41,6 +41,11 @@ function App() {
     }
 
   ]
+
+  const addBlog = text => {
+    const newBlog = [...blogs, { text }]
+    
+  }
 
   return (
     <Router>
