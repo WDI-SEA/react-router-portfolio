@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.app-router {
+  background: red;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -38,20 +42,194 @@
 }
 
 
-/****** PROJECTS ******/
 
-.project-img {
-  height: 450px;
-  width: 600px;
+/******* App *******/
+
+.app-container {
+  background: red;
+}
+
+.app-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  background: black;
+}
+
+ .link-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  margin: 4px;
+} 
+
+.home-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  height: 30px;
+  width: 80px;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+/******* HOME *******/
+
+.home-body {
+  height: 100%;
+  width: 100%;
+}
+
+.home-container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 
 .home-picture {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
   height: 400px;
-  width: 400px;
+  width: 900px;
 }
 
 .home-img {
+  border: 3px solid black;
   height: 400px;
   width: 700px;
 }
 
+
+
+
+/******* Blog *******/
+
+.blog-list {
+  list-style: none;
+}
+
+
+
+
+/****** PROJECTS ******/
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 50px;
+}
+
+.p1-div {
+  height: 100%;
+  width: 100%;
+  margin: 50px;
+}
+
+.p2-div {
+  height: 100%;
+  width: 100%;
+}
+
+.project-img {
+  height: 450px;
+  width: 900px;
+ 
+}
+
+
+
+
+/****** BLOGS ******/
+
+.blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.ul-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.li-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+}
+
+
+
+
+/****** ABOUT ******/
+
+.about1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 500px;
+  border: 3px solid;
+}
+
+.name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
