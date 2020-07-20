@@ -7,8 +7,23 @@ import Projects from './Projects'
 import About from './About'
 
 function App() {
+  let posts = [
+    {
+      title: "I am tired",
+      body: "I really should go to bed earlier."
+    },
+    {
+      title: "I am hungry too",
+      body: "I'm debating making chicken for dinner, or ordering take out."
+    },
+    {
+      title: "Coffee",
+      body: "Is there such thing as too much coffee?"
+    }
+  ]
+
   return (
-    <div>
+    <Router>
       <div>
         <nav>
           <Link to="/">Home</Link>
@@ -18,13 +33,13 @@ function App() {
         </nav>
       </div>
       <div>
-        <h1>My Blog</h1>
+        <h1>These are words about me. . .</h1>
         <Route exact path="/" component={Home} />
-        <Route path="/blog" component={Blog} />
+        <Route path="/blog" render={() => <Blog posts={posts}/>} />
         <Route path="/projects" component={Projects} />
-        <Route path="/about" compnent={About} />
+        <Route path="/about" component={About} />
       </div>
-    </div>
+    </Router>
   )
 }
 

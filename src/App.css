@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+.allPosts {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.eachPost {
+  border: 2px solid black;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  width: 300px;
+  text-align: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
