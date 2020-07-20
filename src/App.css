@@ -114,16 +114,6 @@
 
 
 
-
-/******* Blog *******/
-
-.blog-list {
-  list-style: none;
-}
-
-
-
-
 /****** PROJECTS ******/
 
 .projects-container {
@@ -169,6 +159,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   height: 100%;
   width: 100%;
 }
@@ -177,6 +168,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   height: 100%;
   width: 100%;
   margin-top: 100px;
@@ -186,10 +179,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  flex-wrap: wrap;
+  height: 350px;
+  width: 400px;
   border: 2px solid black;
+  margin: 20px;
 }
+
+.blog-list {
+  list-style: none;
+}
+
+.blog-pic {
+  height: 200px;
+  width: 200px;
+}
+
 
 
 
