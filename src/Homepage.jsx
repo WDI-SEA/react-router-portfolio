@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Homepage(props) {
-  return(
-    <h3>
-      Homepage!
-    </h3>
+function Homepage() {
+  return (
+    <h1>
+      What's Noa Up To?
+    </h1>
   )
 }
 

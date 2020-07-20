@@ -2,6 +2,7 @@ import React from 'react';
 import Post from './Post';
 
 function Blog(props) {
+  console.log(props)
   const posts = props.posts.map( (post, index) => {
     return (
       <div key={index}>
