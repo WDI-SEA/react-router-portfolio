@@ -6,7 +6,7 @@ const Projects = () => {
     <div>
       <h1>Projects</h1>
       <h3>GitHub:</h3>
-      <a href="https://github.com/codesmith888?tab=repositories" />
+      <ExternalLink href="https://github.com/codesmith888?tab=repositories"></ExternalLink> 
       <h3>Addition Rocket:</h3>
       <p>This is an educational math game focusing on addition fluency. 
         The player answers as many addition problems as they can in one minute, and the game tracks
