@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: black;
+  color: white;
 }
 
 .App-logo {
@@ -35,4 +37,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.projectpage {
+  font: 15px;
+  font-size: large;
+  margin: 30px;
+}
+
+.p2 {
+  border: 2px solid white;
+}
+
+.p1 {
+  border: 2px solid white;
+}
+
+.aboutpage ul{
+  list-style-type: none;
+}
+
+.blogpage div{
+  border: 3px solid orange;
+  margin: 40px;
+
 }
