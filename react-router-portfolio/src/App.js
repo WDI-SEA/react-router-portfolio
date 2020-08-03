@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Homepage from './Homepage'
-import './fonts '
+import './fonts'
 // import Projects from './Projects'
 // import About from './About'
 // import Blog from './Blog'
