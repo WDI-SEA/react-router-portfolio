@@ -42,16 +42,16 @@ function App() {
       </nav>
       <switch>
         <Route exact path="/" render={() =>
-          <Homepage />
+          <Homepage posts={this.props.posts}/>
         } />
         <Route exact path="/about" render={() =>
-          <About />
+          <About posts={this.props.posts}/>
         } />
         <Route exact path="/blog" render={() =>
-          <Blog />
+          <Blog posts={this.props.posts}/>
         } />
         <Route exact path="/projects" render={() =>
-          <Projects />
+          <Projects posts={this.props.posts}/>
         } />
       </switch>
 
