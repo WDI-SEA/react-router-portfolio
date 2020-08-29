@@ -8,6 +8,7 @@ export default function Header() {
       <li><Link to='/blog'>Blog</Link></li>
       <li><Link to='/about'>About</Link></li>
       <li><Link to='/projects'>Projects</Link></li>
+      <li><Link to='/weather'>Weather</Link></li>
     </ul>
   )
 }
