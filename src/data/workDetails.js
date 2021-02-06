@@ -101,6 +101,25 @@ const workDetails = [
         task: 'The Internet Archive is a non-profit organization, building a digital library of websites and other cultural artifacts in digital form. Like a library that collects artifacts in physical/paper form, we provide free access to researchers, historians, scholars, the print disabled, and the general public. My mission is to provide Universal Access to All Knowledge with better solution.',
         solution: 'I realized that the most attractive and focal point of this application is the “wayback machine” function. If this method is available for mobile and web applications, it would be more functional and intuitive interactions for this project.'
     },
+    {
+        id: 7,
+        name: 'Flagguess',
+        type: 'Full-Stack App Development',
+        tech: [
+            'Illustrator',
+            'Sketch',
+            'HTML',
+            'CSS',
+            'JavaScript',
+            'Express',
+            'NodeJS',
+            'PostgresSQL',
+            'EJS',
+            'Git/GitHub'
+        ],
+        task: 'Building a full-stack app using API and local database. The challenge here is to build a quiz game in JavaScript with using the Static JavaScript and EJS.',
+        solution: 'Used local Storage function in the web browser to store temp data, and record the score, ID, time in Database. Random country flag is being called to ask questions, and user need to answer 10 questions to get higher score.'
+    }
 ];
 
 export default workDetails

@@ -5,6 +5,9 @@ class Blog extends Component {
         return (
             <div className="Blog">
                 <h1>Blog here</h1>
+                <div>
+                    <h2>blog post1</h2>
+                </div>
             </div>
         )
     }

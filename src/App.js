@@ -8,15 +8,18 @@ import Blog from './components/pages/Blog'
 import About from './components/pages/About'
 import Works from './components/pages/Works'
 
+import workDetails from './data/workDetails'
+
 class App extends Component {
   render() {
     return (
       <Router>
         <Header />
         <div className="container">
-          <Home />
-          <Works />
-
+          <Route exact path="/" component={Home} />
+          <Route exact path="/works" component={Works} />
+          <Route exact path="/blog" component={Blog} />
+          <Route exact path="/about" component={About} />
         </div>
       </Router>
     )
