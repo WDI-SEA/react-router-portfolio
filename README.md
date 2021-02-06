@@ -26,9 +26,7 @@ Your portfolio needs to have these pages:
 
 - Each page is a component - we're learning to use React Router here!
 - Create a navigation menu of list items that Route to each page.
-- The main App should be a class-based component OR a functional component that uses the useState hook so it can hold state
-  - The main App's state should hold an array of `post` objects, each with a title and a body, both strings.
-- The rest of the components should be functional.
+- The main App should be a class-based component that should hold an array of `post` objects, each with a title and a body, both strings.
 - The blog page should be rendered so that you can pass props (the posts) into it. Then render each post nicely.
 
 ## Don't Forget...
