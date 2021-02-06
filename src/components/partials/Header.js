@@ -11,7 +11,7 @@ class Header extends Component {
                 <Link onClick={() => window.location.href="/"} className="myName" to="/">YOUNG<span id="space_SA">SA</span>NG KIM</Link>
                 <nav>
                     <Link to="/about">About</Link>{' | '}
-                    <Link to="/blog">Blog</Link>{' | '}
+                    <Link to="/news">News</Link>{' | '}
                     <Link to="/Works">Works</Link>
                 </nav>
             </header>
