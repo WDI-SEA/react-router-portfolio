@@ -9,7 +9,8 @@ class Header extends Component {
                 <nav>
                     <Link to="/">Go to the Home Page</Link>{' | '}
                     <Link to="/about">About!</Link>{' | '}
-                    <Link to="/projects">See Our Services</Link>
+                    <Link to="/blog">Blog Posts!</Link>{' | '}
+                    <Link to="/projects">My Projects</Link>
                 </nav>
         </header>
         )
