@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,6 +24,14 @@
   color: white;
 }
 
+nav > a, nav > a:visited {
+  text-decoration: none;
+  color: rgb(230, 217, 230);
+}
+
+nav >a:hover {
+  color: #61dafb;
+}
 .App-link {
   color: #61dafb;
 }
