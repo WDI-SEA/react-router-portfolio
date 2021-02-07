@@ -5,7 +5,8 @@ class Home extends Component {
         return (
             <div>
                 <h1>Jason's Page (let the music play)</h1>
-                <p>Welcome to my page mwhahahahaha</p>
+                <p>To To To To To To To To To To the moon.</p>
+                <img src='https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/09/21/15/bioshock-collection.jpg' alt='' />
             </div>
         )
     }
