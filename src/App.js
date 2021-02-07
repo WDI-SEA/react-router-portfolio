@@ -18,6 +18,7 @@ import yellowPatchThree from './images/yellowPatch/yellowPatchThree.jpg'
 import yellowPatchFour from './images/yellowPatch/yellowPatchFour.jpg'
 import bodybuilding from './images/bodybuilding.jpg'
 import patrick from './images/patrick.jpg'
+import patrickNash from './images/patrickNash.pdf'
 
 
 import './App.css';
@@ -60,7 +61,8 @@ class App extends Component {
       that allowed me to assist research fellows at Michigan and futher science and understanding. After graduating, I took the LSAT and moved to Chicago. On sunny Saturday in late June, 
       eight days after moving to the city, I met my future husband on a train platform. And in keeping consistent with my love of cellphone technology, the first words I spoke to him were, 
       "I like your phone case." We moved to California in September of 2018, first living in Long Beach and now Palm Springs and raise a pedigree Alaskan Malamute named Aidan Gideon Nash 
-      together. Aidan just turned 6 years old on January 14.`}]
+      together. Aidan just turned 6 years old on January 14.`,
+      resume: patrickNash}]
 
     let projects = [
       {

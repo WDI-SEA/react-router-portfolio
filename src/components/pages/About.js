@@ -6,6 +6,7 @@ class About extends Component {
       <div>
         <h1>Patrick Benjamin Nash</h1>
         <p><img style={{marginLeft: '25vw', marginRight: '25vw', maxHeight: '40vh', maxWidth: '40vw'}} src={this.props.about[0].image} /></p>
+        <button><a href={this.props.about[0].resume}>Resume</a></button>
         <h2>{this.props.about[0].astroSign}</h2>
         <h3>{this.props.about[0].birthplace}</h3>
         <h3>{this.props.about[0].birthLocation}</h3>
