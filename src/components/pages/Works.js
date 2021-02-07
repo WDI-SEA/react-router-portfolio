@@ -6,7 +6,6 @@ class Works extends Component {
             <div className="works">
                 <h1>Works here</h1>
                 <div>
-                    <p>Work list</p>
                 </div>
             </div>
         )

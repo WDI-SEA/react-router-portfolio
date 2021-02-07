@@ -7,7 +7,7 @@ class Header extends Component {
         
         return (
             <header>
-                <img className="logo" src="img/logo.png" alt="YK logo"></img>
+                <img className="logo" src="/img/logo.png" alt="YK logo"></img>
                 <Link onClick={() => window.location.href="/"} className="myName" to="/">YOUNG<span id="space_SA">SA</span>NG KIM</Link>
                 <nav>
                     <Link to="/about">About</Link>{' | '}

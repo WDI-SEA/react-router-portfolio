@@ -7,6 +7,7 @@ import Home from './components/pages/Home'
 import News from './components/pages/News'
 import About from './components/pages/About'
 import Works from './components/pages/Works'
+import Work from './components/pages/Work'
 
 import workDetails from './data/workDetails'
 
@@ -18,8 +19,12 @@ class App extends Component {
         <div className="container">
           <Route exact path="/" component={Home} />
           <Route exact path="/works" component={Works} />
+          {/* add individual work :id */}
+          {/* <Route path="/works/" component={Work} /> */}
           <Route exact path="/news" component={News} />
+          {/* add blog posts :id */}
           <Route exact path="/about" component={About} />
+          <Route exact path="/works/work" component={Work} />
         </div>
       </Router>
     )

@@ -56,7 +56,7 @@ class Home extends Component {
 
         return (
             <div className="home">
-                <h1><a href="" className="typewrite" data-period="2000" data-type='[ "Hi, Im Youngsang.", "I am Creative.", "I Love Design.", "I Love to Develop.", "Have a look at my works." ]'>
+                <h1><a href="" className="typewrite" data-period="2000" data-type='[ "Hi, I am Youngsang.", "I am Creative.", "I Love Design.", "I Love to Develop.", "Have a look at my works." ]'>
                     <span className="wrap"></span>
                     </a></h1>
             </div>
