@@ -5,9 +5,64 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aquamarine;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header, footer{
+  text-align: center;
+  height: 10vh;
+  background-color: rgba(0,0,0,.5);
+  color: white;
+}
+a{
+text-decoration: none;
+}
+
+nav > a, nav > a:visited, footer, footer > a, footer >a:visited{
+  line-height: 10vh;
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+}
+
+main{
+  width: 600px;
+  text-align: center;
+  margin: 32px auto;
+  min-height: 70vh;
+}
+
+section h1{
+  font-size: 36px;
+}
+
+section p, section li{
+  font-size: 22px;
+}
+
+.home img{
+  width: 200px;
+  border-radius: 100%;
+}
+
+section ul{
+  list-style: none;
+}
+
+section li > a, section li >a:visited{
+  color: black
+}
+
+.project_h3 > a, .project_h3 > a:visited{
+  color: black
+}
+
+.projects img{
+  border-radius: 100px;
 }
