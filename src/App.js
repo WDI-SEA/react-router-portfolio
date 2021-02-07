@@ -5,7 +5,8 @@ import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Blog from './components/pages/Blog'
 import Projects from './components/pages/Projects'
-import WidgetShow from './components/pages/WidgetShow'
+import Post from './components/pages/Post'
+import Project from './components/pages/Project'
 import './App.css';
 
 class App extends Component {
@@ -79,11 +80,12 @@ class App extends Component {
         <span></span>
         <p>-Patrick Benjamin Nash</p>
         <span></span>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/about' component={About} />
-        <Route exact path='/blog' component={Blog} />
-        <Route exact path='/projects' component={Projects} />
-        <Route exact path='/widget/:' render={(props) => <WidgetShow {...props} />} />
+        <Route exact path='/' render={() => <Home homeContent={homeContent} />} />
+        <Route exact path='/about' render={() => <About about={about} />} />
+        <Route exact path='/blog' render={() => <Blog posts={posts} /> } />
+        <Route exact path='/projects' render={() => <Projects projects={projects} />} />
+        <Route exact path='/post/:id' render={(props) => <Post {...props} posts={posts} />} />
+        <Route exact path='/project/:id' render={(props) => <Project {...props} projects={projects} />} />
 
       </div>
     )
