@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowerRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './components/partials/Header'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
@@ -67,27 +67,28 @@ class App extends Component {
     let homeContent = [{
       image: "",
       about: `I'm just a little Black boy from Detroit. Nothing more and nothing less.`,
-      favoritePhrases: ['GO Blue!', `I'm from Detroit, Bitch!`, `The worst thing you can do is underestimate me.`, 
+      favoritePhrases: ['GO Blue!', `I'm from Detroit, Bitch!`, `The worst thing you can do is underestimate me.`,
         `I don't pray for vengence. I pray that everyone gets exactly what they deserve. Let the Universe decide.`]
-      }]
-    
+    }]
+
 
 
     return (
-      <div className="App">
-        <Header />
-        <p>"To have a good Life is to be happy inspite of your limitations"</p>
-        <span></span>
-        <p>-Patrick Benjamin Nash</p>
-        <span></span>
-        <Route exact path='/' render={() => <Home homeContent={homeContent} />} />
-        <Route exact path='/about' render={() => <About about={about} />} />
-        <Route exact path='/blog' render={() => <Blog posts={posts} /> } />
-        <Route exact path='/projects' render={() => <Projects projects={projects} />} />
-        <Route exact path='/post/:id' render={(props) => <Post {...props} posts={posts} />} />
-        <Route exact path='/project/:id' render={(props) => <Project {...props} projects={projects} />} />
-
-      </div>
+      <Router>
+        <div className="App">
+          <Header />
+          <p>"To have a good Life is to be happy inspite of your limitations"</p>
+          <span></span>
+          <p>-Patrick Benjamin Nash</p>
+          <span></span>
+          <Route exact path='/' render={() => <Home homeContent={homeContent} />} />
+          <Route exact path='/about' render={() => <About about={about} />} />
+          <Route exact path='/blog' render={() => <Blog posts={posts} />} />
+          <Route exact path='/projects' render={() => <Projects projects={projects} />} />
+          <Route exact path='/post/:id' render={(props) => <Post {...props} posts={posts} />} />
+          <Route exact path='/project/:id' render={(props) => <Project {...props} projects={projects} />} />
+        </div>
+      </Router>
     )
   }
 }

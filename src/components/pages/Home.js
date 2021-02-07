@@ -5,10 +5,10 @@ class Home extends Component {
     return(
       <div>
         <h1>Patrick Benjamin Nash</h1>
-        <h2>{this.props.homeContent.image}</h2>
-        <h2>{this.props.homeContent.about}</h2>
-        {this.props.homeContent.favoritePhrases.map((phrase, index) =>(
-          <h2 key={`${index}`}>{phrase}</h2>
+        <h2>{this.props.homeContent[0].image}</h2>
+        <h2>{this.props.homeContent[0].about}</h2>
+        {this.props.homeContent[0].favoritePhrases.map((phrase, index) =>(
+          <h3 key={`${index}`}>{phrase}</h3>
         ))}
       </div>
     )
