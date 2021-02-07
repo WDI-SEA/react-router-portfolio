@@ -18,7 +18,7 @@ class App extends Component {
         <Header />
         <div className="container">
           <Route exact path="/" component={Home} />
-          <Route exact path="/works" component={Works} />
+          <Route exact path="/works" render={() => <Works works={workDetails} />} />
           {/* add individual work :id */}
           {/* <Route path="/works/" component={Work} /> */}
           <Route exact path="/news" component={News} />
