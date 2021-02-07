@@ -24,6 +24,13 @@ import patrickNash from './images/patrickNash.pdf'
 import './App.css';
 
 class App extends Component {
+
+  writePost = (e) =>{
+    let newPost = {}
+    newPost.push('title', 'date', 'post')
+    console.log(newPost)
+  }
+
   render() {
     let posts = [
       {
@@ -86,7 +93,8 @@ class App extends Component {
       favoritePhrases: ['GO Blue!', `I'm from Detroit, Bitch!`, `The worst thing you can do is underestimate me.`,
         `I don't pray for vengence. I pray that everyone gets exactly what they deserve. Let the Universe decide.`]
     }]
-
+    
+    
 
 
     return (
