@@ -20,11 +20,17 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/works" render={() => <Works works={workDetails} />} />
           {/* add individual work :id */}
+          <Route 
+            path="/works/:id"
+            render={(props) => {
+              let work = workDetails.find(({ id }) => id.toString() === props.match.params.id)
+              props = {...work, ...props}
+              return <Work {...props} />
+            }} />
           {/* <Route path="/works/" component={Work} /> */}
           <Route exact path="/news" component={News} />
           {/* add blog posts :id */}
           <Route exact path="/about" component={About} />
-          <Route exact path="/works/work" component={Work} />
         </div>
       </Router>
     )

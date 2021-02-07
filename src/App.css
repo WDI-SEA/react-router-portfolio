@@ -34,7 +34,7 @@ header {
 
 .myName {
   font-weight: 800;
-  font-size: calc((.3em + 2vmin) + (.9em + 3vmax));
+  font-size: calc((.3em + 2vmin) + (.9em + 2vmax));
   letter-spacing: 0.09em;
   color: rgb(15, 12, 12);
   margin-bottom: 1em;
@@ -126,6 +126,7 @@ nav a:hover {
 }
 
 .links ul li a {
+  font-size: smaller;
   color: rgb(15, 12, 12);
 }
 .links ul li a:hover {
@@ -193,4 +194,26 @@ nav a:hover {
 .workImage a:hover {
   color: rgba(255, 255, 255, 1);
   line-height: 250px;
+}
+
+#quoteBottom {
+  font-style: italic;
+  font-weight: 200;
+  font-size: .4em;
+}
+
+/* work page ------------------------------ */
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.workList {
+  width: 80%;
+  padding: 5%;
+  background-color:black;
+}
+
+.workList img {
+  width: 95%;
 }

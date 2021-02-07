@@ -12,10 +12,10 @@ class About extends Component {
                 </div>
                 <div className="links">
                     <ul>
-                        <li><a href="mailto:kys3923@gmail.com"><i class="far fa-envelope"></i> mail me</a></li>
-                        <li><a href="https://drive.google.com/file/d/1ludrrUAsFFopnH-OxWjIMLWrGdu_Vb29/view?usp=sharing" target="_blank"><i class="fas fa-file-alt"></i> view resume</a></li>
-                        <li><a href="https://www.linkedin.com/in/youngsang-kim/" target="_blank"><i class="fab fa-linkedin"></i> linkedIn</a></li>
-                        <li><a href="https://github.com/kys3923" target="_blank"><i class="fab fa-github"></i> github</a></li>
+                        <li><a href="mailto:kys3923@gmail.com"><i className="far fa-envelope"></i> mail me</a></li>
+                        <li><a href="https://drive.google.com/file/d/1ludrrUAsFFopnH-OxWjIMLWrGdu_Vb29/view?usp=sharing" target="_blank"><i className="fas fa-file-alt"></i> view resume</a></li>
+                        <li><a href="https://www.linkedin.com/in/youngsang-kim/" target="_blank"><i className="fab fa-linkedin"></i> linkedIn</a></li>
+                        <li><a href="https://github.com/kys3923" target="_blank"><i className="fab fa-github"></i> github</a></li>
                     </ul>
                 </div>
             </div>

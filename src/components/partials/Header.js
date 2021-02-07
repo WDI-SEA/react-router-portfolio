@@ -12,7 +12,7 @@ class Header extends Component {
                 <nav>
                     <Link to="/about">About</Link>{' | '}
                     <Link to="/news">News</Link>{' | '}
-                    <Link to="/Works">Works</Link>
+                    <Link to="/works">Works</Link>
                 </nav>
             </header>
         )

@@ -39,7 +39,7 @@ const workDetails = [
         ],
         bgImg: 'img/kaiseki1.jpg',
         images: [
-            'img/kaiseke1.jpg',
+            'img/kaiseki1.jpg',
             'img/kaiseki2.jpg',
             'img/kaiseki3.jpg',
             'img/kaiseki4.jpg',
