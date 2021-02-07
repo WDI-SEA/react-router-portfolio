@@ -7,6 +7,19 @@ import Blog from './components/pages/Blog'
 import Projects from './components/pages/Projects'
 import Post from './components/pages/Post'
 import Project from './components/pages/Project'
+import patrickAndRyan from './images/patrickAndRyan.jpg'
+import journalFitnessOne from './images/journalFitness/journalFitnessOne.jpg'
+import journalFitnessTwo from './images/journalFitness/journalFitnessTwo.jpg'
+import journalFitnessThree from './images/journalFitness/journalFitnessThree.jpg'
+import journalFitnessFour from './images/journalFitness/journalFitnessFour.jpg'
+import yellowPatchOne from './images/yellowPatch/yellowPatchOne.jpg'
+import yellowPatchTwo from './images/yellowPatch/yellowPatchTwo.jpg'
+import yellowPatchThree from './images/yellowPatch/yellowPatchThree.jpg'
+import yellowPatchFour from './images/yellowPatch/yellowPatchFour.jpg'
+import bodybuilding from './images/bodybuilding.jpg'
+import patrick from './images/patrick.jpg'
+
+
 import './App.css';
 
 class App extends Component {
@@ -20,7 +33,7 @@ class App extends Component {
     at some point used such steroids, along with taking HGH - Human Growth Hormone - to increase the amount of testosterone in their bodies in order
     to gain a desired physique. Such choices come with high costs: steroid usage can lead to baldness, impotance, renal failure, a weakend
     system as well as a myriad of others health issues. For those reasons, along with a strong stance against interveious drug usage, I decided 
-    that natural bodybuilding was my path.`},
+    that natural bodybuilding was my path.`, image: bodybuilding},
       {
         title: 'Full-Stack Software Engineer', date: `6 February 2020`, post: `As a child I was fascinated with computers. My father was away from home most of my adolescense for 
     work, and when he was home he would continue his work on the computer. Because of his profession, my father made sure that we had the latest technological
@@ -32,6 +45,7 @@ class App extends Component {
     now both of us are developers: my brother self-taught and I by taking a course through General Assembly.`}]
 
     let about = [{
+      image: patrick,
       birthdate: '15 April 1987',
       birthLocation: 'Hutzel Hospital (then known as the Women Hospital of Detroit)',
       birthPlace: 'Detroit, Michigan',
@@ -53,7 +67,7 @@ class App extends Component {
         title: 'Yellow Patch',
         about: `I created a game using basic HTML, CSS, and vanilla JavaScrip and Canvas in order to create a Grid-based game that would honor my neighbor 
       and honorary grandmother Anita Pettigrew. The game "Yellow Patch" was inspired by her strong German ancestry and diligent work ethic that she puts in every day to keep her lawn the best 
-      in the neighborhood. The game is about pomeranians using her lawn as a toilet and the constant toil of keeping those animals off of her lawn.`, image: ""
+      in the neighborhood. The game is about pomeranians using her lawn as a toilet and the constant toil of keeping those animals off of her lawn.`, images: [yellowPatchOne, yellowPatchTwo, yellowPatchThree, yellowPatchFour]
       },
       {
         title: 'Journal Fitness', about: `Journal Fitness is a web application that utilizes internet-based CSS styling from Bootstrap along with Express/Node to furnish information from the API 
@@ -61,11 +75,11 @@ class App extends Component {
       comments should they see fit, create user profiles with secure BCrypt encryption of sensitive password data, and create a list of favorited exercises in order that they might gain new 
       knowledge of fitness. Journal Fitness is a "work-in-progress." Upon completion of my in General Assembly, I plan to augment the CSS from Bootstrap to give the site a more professional feel, 
       and introduce additional functionality by adding the ability for users to create lists of workouts compiled from WGER's API data in order that users will find it handy and really plan their 
-      fitness activities.`, image: ""
+      fitness activities.`, images: [journalFitnessOne, journalFitnessTwo, journalFitnessThree, journalFitnessFour]
       }]
 
     let homeContent = [{
-      image: "",
+      image: patrickAndRyan,
       about: `I'm just a little Black boy from Detroit. Nothing more and nothing less.`,
       favoritePhrases: ['GO Blue!', `I'm from Detroit, Bitch!`, `The worst thing you can do is underestimate me.`,
         `I don't pray for vengence. I pray that everyone gets exactly what they deserve. Let the Universe decide.`]
@@ -77,7 +91,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Header />
-          <p>"To have a good Life is to be happy inspite of your limitations"</p>
+          <h3>"To have a good Life is to be happy inspite of your limitations"</h3>
           <span></span>
           <p>-Patrick Benjamin Nash</p>
           <span></span>
