@@ -10,14 +10,14 @@ import Header from './components/partials/Header'
 import Widget from './components/pages/Widget'
 
 class App extends Component {
-  render() {
-    let posts = {
-      state: {
-        title: '',
-        body: ''
-      }
-    }
+  // state = {
+  //   posts: [
+  //   {title: 'Blog #1', body: 'Here is Blog #1'},
+  //   {title: 'Blog #2', body: 'Here is Blog #2'}
+  //   ]
+  // }
 
+  render() {
 
     return (
       <Router>
@@ -26,8 +26,9 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/projects" component={Projects} />
           <Route path="/about" component={About} />
-          <Route path="/blog" render={() => <Blog blog={posts} /> } />
-          <Route path="/widget/:id" render={(props) => <Widget {...props} blog={posts}/>} />
+          <Route path="/blog" component={Blog} />
+          {/* <Route path="/blog" render={() => <Blog blog={this.state.posts.title} /> } />
+          <Route path="/widget/:id" render={(props) => <Widget {...props} blog={this.state.posts}/>} /> */}
         </div>
       </Router>
     )
