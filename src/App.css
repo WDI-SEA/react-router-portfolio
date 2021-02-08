@@ -1,5 +1,7 @@
-.App {
+*{
   text-align: center;
+  background-color: black;
+  color:cornsilk;
 }
 
 .App-logo {
@@ -14,6 +16,10 @@
   }
 }
 
+h1 {
+  font-family: 'Comic Sans MS';
+  color: rgb(105, 235, 163);
+}
 
 .App-header {
   background-color: #282c34;
@@ -31,11 +37,11 @@ nav > a {
   color: rgb(83, 199, 161);
 }
 nav > a:visited {
-  color: coral;
+  color: rgb(101, 203, 5);
 }
 nav > a:hover {
   color: #61dafb;
-  background:rgba(66, 85, 79, 0.481)
+  background-color:rgba(49, 163, 127, 0.481)
 }
 
 .App-link {
@@ -73,10 +79,17 @@ nav > a:hover {
 }
 
 .blogPost_container{
+  background-color: black;
+  color: whitesmoke;
   display: grid;
   align-items: center;
   justify-content: space-around;
-  padding: 3em;
+  padding: 1.5em;
+  line-height: 2;
+}
+.blogPost_container > p {
+  text-align: justify;
+  margin: 1.5em;
 }
 
 .main_about_container{
@@ -97,4 +110,13 @@ nav > a:hover {
   flex-direction: row;
   justify-content: space-around;
   font-size: larger;
+}
+
+li{
+  color:rgb(172, 238, 216);
+  background-color: rgba(37, 67, 51, 0.358);
+}
+ul > a {
+  color :rgb(172, 238, 216);
+  
 }
