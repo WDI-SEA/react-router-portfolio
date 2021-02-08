@@ -8,6 +8,17 @@ import Projects from './components/pages/Projects'
 import Header from './components/partials'
 
 class App extends Component  {
+      state = {
+        title: ['MutherFucking Placeholder Text!',  'asdfasdf', 'title Second'],
+        body: "Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass."
+      }
+
+
+      addBlog = () => {
+        
+      }
+
+      
 
   render () {
     return( 
@@ -16,7 +27,7 @@ class App extends Component  {
       <div className="App">
       <Header />
       <Route exact path="/" component={Home} />
-      <Route path ="/blog" component= {Blog} />
+      <Route path="/blog" render={ () => <Blog title={this.state.title} body={this.state.body} /> }/>
       <Route path ="/about" component={About} />
       <Route path ="/projects" component={Projects} />
       </div>
