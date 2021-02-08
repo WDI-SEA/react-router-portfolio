@@ -3,7 +3,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 25vh;
+  border-radius:75%; 
   pointer-events: none;
 }
 
@@ -13,15 +14,28 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  max-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+nav > a {
+  /* text-decoration: none; */
+  text-decoration: none;
+  color: rgb(83, 199, 161);
+}
+nav > a:visited {
+  color: coral;
+}
+nav > a:hover {
+  color: #61dafb;
+  background:rgba(66, 85, 79, 0.481)
 }
 
 .App-link {
@@ -36,3 +50,22 @@
     transform: rotate(360deg);
   }
 }
+
+.main_img{
+  height: 40vh;
+}
+
+.abt_brand{
+  margin: 0 auto;
+  width: 75vw;
+}
+
+.contact_list {
+  list-style-type: none;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: larger;
+}
+
