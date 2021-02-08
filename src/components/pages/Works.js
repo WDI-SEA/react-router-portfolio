@@ -4,10 +4,7 @@ import { Link } from 'react-router-dom'
 class Works extends Component {
     
     render() {
-        console.log(this.props, 'getting data from works')
-        let workImageStyle = {
-            backgroundImage: "url(img/Ivory1.jpg)"
-        }
+        // console.log(this.props, 'getting data from works')
 
         let workPost = this.props.works.map((work, i) => {
             let workImageStyle = {

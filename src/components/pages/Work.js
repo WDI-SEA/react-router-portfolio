@@ -55,7 +55,7 @@ class Work extends Component {
                 <nav className="bottomNav">
                     <Link to="/">Home</Link>{' | '}
                     <Link to="/about">About</Link>{' | '}
-                    <Link to="/news">News</Link>{' | '}
+                    <Link to="/recents">Recent</Link>{' | '}
                     <Link to="/works">Works</Link>
                 </nav>
             </main>

@@ -4,11 +4,12 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import Header from './components/partials/Header'
 import Home from './components/pages/Home'
-import News from './components/pages/News'
+import Recents from './components/pages/Recents'
 import About from './components/pages/About'
 import Works from './components/pages/Works'
 import Work from './components/pages/Work'
 
+import recentData from './data/recentData'
 import workDetails from './data/workDetails'
 
 class App extends Component {
@@ -28,7 +29,7 @@ class App extends Component {
               return <Work {...props} />
             }} />
           {/* <Route path="/works/" component={Work} /> */}
-          <Route exact path="/news" component={News} />
+          <Route exact path="/recents" render={() => <Recents recData={recentData} />} />
           {/* add blog posts :id */}
           <Route exact path="/about" component={About} />
         </div>
