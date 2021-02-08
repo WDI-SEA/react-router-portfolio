@@ -1,0 +1,12 @@
+-- The home page with specific URL
+pages(Component):
+-->Homepage
+-->Blog(contain post)
+-->About
+-->Projects
+navigation:
+-->route to each page
+posts:
+-->We should have array of posts object{title,body} should be on main page
+
+
