@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import Newblog from './Newblog'
+
 
 class Blog extends Component {
 
@@ -15,7 +17,7 @@ class Blog extends Component {
     }
 
     newTitleChange = (e) => {
-        this.setState({ newPost:  e.target.value })
+        this.setState({ newPost: e.target.value })
         console.log('%%%%%' + this.state.newPost)
     }
 
@@ -35,19 +37,25 @@ class Blog extends Component {
             posts: tempBlogArray,
             newPost: ''
         })
-        console.log('33333 ' + tempBlogArray)
-        console.log('****' + this.state.posts)
-        console.log('***!!!!!*' + this.state.newPost)
+
 
     }
 
 
 
 
+    
     render() {
-
+        
+        // this.state.posts.map((post, index) => {
+        //     return <Newblog post={post} key={index} />
+        // })
+        
+        <Newblog posts ={this.state.posts} />
         return (
             <div>
+                {console.log(this.state.posts + '!!!!!!')}
+                {/* <NewBlog posts={this.state.posts} />  */}
                 <h1>Blog Spot</h1>
                 <form>
                     <input
@@ -63,12 +71,13 @@ class Blog extends Component {
                         value={this.state.newPost.body}
                     />
                     <button onClick={this.addItem}>Add it!</button>
-                    
+
                 </form>
                 <h3>{this.props.title} </h3>
                 <p>
-                    {this.props.post}
+                    {this.props.body}
                 </p>
+
 
 
             </div>
