@@ -12,7 +12,7 @@ class Home extends React.Component {
           <h3>Music Cultures and Software Experiments</h3>
           <h3>Writer, Researcher, Curator</h3>
         </div>
-        <img className='main_img' src='https://i.imgur.com/XqswHBj.jpg' alt="art installation" />s
+        <img className='main_img' src='https://i.imgur.com/XqswHBj.jpg' alt="art installation" />
       </div>
     )
   }
