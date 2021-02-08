@@ -6,7 +6,10 @@ class Blog extends Component {
             <div>
                 <ul>
                 {this.props.blogPosts.map((post) => {
-                    return <li>{post}</li>})}
+                    return <li>
+                        <h2>{post.title}</h2>
+                        <p>{post.body}</p>
+                        </li>})}
                 </ul>
             </div>
         )
