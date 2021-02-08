@@ -4,7 +4,10 @@ class Blog extends Component {
     render() {
         return(
             <div>
-                <h1>Blog</h1>
+                <ul>
+                {this.props.blogPosts.map((post) => {
+                    return <li>{post}</li>})}
+                </ul>
             </div>
         )
     }
