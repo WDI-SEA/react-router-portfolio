@@ -279,3 +279,97 @@ nav a:hover {
   padding-top: 4em;
   margin-bottom: 2em;
 }
+
+/* blog styles--------------------- */
+
+.blogContainer {
+  display: grid;
+  transition: all .5s ease;
+  row-gap: 4em;
+  column-gap: 2em;
+}
+
+
+@media (min-width: 600px) {
+  .blogContainer { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1080px) {
+  .blogContainer { grid-template-columns: repeat(3, 1fr); }
+}
+
+.blogThumbContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+}
+
+.blogPostpost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.blogThumb {
+  width: 90%;
+  height: 90%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150% auto;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.blogThumb a {
+  display: block;
+  width: 90%;
+  height: 90%;
+}
+
+.blogThumb:hover {
+  background-color: rgba(255, 255, 255, .5);
+  background-blend-mode: lighten;
+}
+
+.blogThumbTitle p {
+  font-weight: 800;
+  font-size: 4vh;
+  margin-bottom: .5em;
+}
+
+.Blog {
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 4em;
+  text-align: center;
+}
+
+/* recent page ------------------------------ */
+
+.recentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageHolder {
+  width: 85%;
+  height: 30%;
+  margin-bottom: 5em;
+  padding: 1em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  text-align: center;
+}
+.commentContainer {
+  margin-top: 3em;
+}
+.imageHolder img {
+  width: 90%;
+}

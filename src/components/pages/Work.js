@@ -3,14 +3,12 @@ import { Link } from 'react-router-dom'
 
 class Work extends Component {
     render() {
-        console.log(this.props, 'getting data from work')
+        // console.log(this.props, 'getting data from work')
         if (!this.props.name) return <h1> I don't have that work yet </h1>
 
         // stating this.props from App
         let dataFromApp =  this.props
         
-        // stating this.prop.location.works from Link
-
         // making list of images
         let imagesList = dataFromApp.images.map((image, i) => {
             let imageLocation = {
@@ -55,7 +53,7 @@ class Work extends Component {
                 <nav className="bottomNav">
                     <Link to="/">Home</Link>{' | '}
                     <Link to="/about">About</Link>{' | '}
-                    <Link to="/recents">Recent</Link>{' | '}
+                    <Link to="/recent">Recent</Link>{' | '}
                     <Link to="/works">Works</Link>
                 </nav>
             </main>

@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './components/partials/Header'
 import Home from './components/pages/Home'
 import Recents from './components/pages/Recents'
+import Recent from './components/pages/Recent'
 import About from './components/pages/About'
 import Works from './components/pages/Works'
 import Work from './components/pages/Work'
@@ -28,9 +29,14 @@ class App extends Component {
               props = {...work, ...props}
               return <Work {...props} />
             }} />
-          {/* <Route path="/works/" component={Work} /> */}
-          <Route exact path="/recents" render={() => <Recents recData={recentData} />} />
-          {/* add blog posts :id */}
+          <Route exact path="/recent" render={() => <Recents recData={recentData} />} />
+          <Route
+            path="/recent/:id"
+            render={(props) => {
+              let recent = recentData.find(({ id }) => id.toString() === props.match.params.id)
+              props = {...recent, ...props}
+              return <Recent {...props} />
+            }} />
           <Route exact path="/about" component={About} />
         </div>
       </Router>
