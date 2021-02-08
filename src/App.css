@@ -1,0 +1,106 @@
+header {
+  background-color: #242020;
+  color: #f0f0f0;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content:right;
+  border-bottom: ridge 10px #f0f0f0;
+  border-right: ridge 10px #f0f0f0;
+  border-bottom-right-radius: 20px;
+}
+
+nav {
+  margin: 60px 10px;
+  font-size: 25px;
+  font-family: Germania One;
+}
+
+.navLink {
+  color: #f0f0f0;
+}
+
+body {
+  /* background-image: url('/images/kayak_1.jpg'); */
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Satisfy;
+}
+
+h1 {
+  color: black;
+  text-shadow: 1px 0px #f0f0f0, 0px 1px #f0f0f0, -1px 0px #f0f0f0, 0px -1px #f0f0f0;
+  text-decoration: underline ;
+}
+
+h2 {
+  color: black;
+  text-shadow: 1px 0px #f0f0f0, 0px 1px #f0f0f0, -1px 0px #f0f0f0, 0px -1px #f0f0f0;
+}
+
+h3 {
+  color: black;
+  text-shadow: 1px 0px #f0f0f0, 0px 1px #f0f0f0, -1px 0px #f0f0f0, 0px -1px #f0f0f0;
+}
+
+ p {
+   font-size: 30px;
+   color: black;
+   text-shadow: 1px 0px #f0f0f0, 0px 1px #f0f0f0, -1px 0px #f0f0f0, 0px -1px #f0f0f0;
+ }
+
+li {
+  color: black;
+  list-style-type: none;
+}
+
+footer {
+  background-color: #242020;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 150px;
+  width: 100%;
+  border-top: ridge 10px #f0f0f0;
+  border-right: ridge 10px #f0f0f0;
+  border-top-right-radius: 20px;
+  font-family: Germania One;
+}
+
+.socialMedia {
+  height: 100px;
+  width: 100px;
+  margin: 20px 10px;
+  border-radius: 10px;
+  border: solid 3px #f0f0f0;
+}
+
+img {
+  height: 100px;
+  width: 100px
+}
+
+address {
+  letter-spacing: 3px;
+}
+
+a {
+  color: #d5d6d4;
+}
+
+.blogList {
+  color: black;
+  font-family: Germania One;
+  height: 20px;
+}
+
+.projectList {
+  color: black;
+  font-family: Germania One;
+  height: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
