@@ -1,0 +1,19 @@
+
+h1 {
+  text-align: left;
+  font-size: 50px;
+}
+
+.nav {
+  margin: 10px;
+  padding: 20px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container{
+  padding: 20px;
+  margin: 20px;
+  background-color: lightblue;
+}
