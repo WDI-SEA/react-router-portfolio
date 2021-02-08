@@ -5,7 +5,7 @@ class Home extends Component {
         return(
             <div>
                 <h1>Welcome to my site!</h1>
-                <p>I am a video game developer, currently working on my third game, Prodrome.</p>
+                <p>I am an experimental video game maker with three games under my belt. You can find more information about my games by clicking on the 'Projects' link.</p>
             </div>
         )
     }
