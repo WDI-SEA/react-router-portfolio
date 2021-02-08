@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Home from './components/pages/Home'
+import About from './components/pages/About'
+import Blog from './components/pages/Blog'
+import Projects from './components/pages/Projects'
+import Header from './components/partials/Header'
+import Widget from './components/pages/Widget'
+
+class App extends Component {
+  render() {
+    let posts = {
+      state: {
+        title: '',
+        body: ''
+      }
+    }
+
+
+    return (
+      <Router>
+        <div className="App">
+          <Header />
+          <Route exact path="/" component={Home} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/about" component={About} />
+          <Route path="/blog" render={() => <Blog blog={posts} /> } />
+          <Route path="/widget/:id" render={(props) => <Widget {...props} blog={posts}/>} />
+        </div>
+      </Router>
+    )
+  }
 }
 
-export default App;
+export default App

@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+h1, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
