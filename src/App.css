@@ -21,7 +21,7 @@ nav {
 }
 
 body {
-  /* background-image: url('/images/kayak_1.jpg'); */
+  background-image: url('./assests/kayak_1.jpg');
   background-size: cover;
   background-attachment: fixed;
   font-family: Satisfy;
