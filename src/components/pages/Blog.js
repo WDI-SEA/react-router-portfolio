@@ -5,12 +5,8 @@ class Blog extends Component {
     render() {
         return (
             <div>
-                <h3>Recent Blog Posts</h3>
-                {/* <ul>
-                    {this.props.blog.map((blog, i) => {
-                        return <li key={`key is ${i}`}><Link to={`/widget/${i}`}>{blog}</Link></li>
-                    })}
-                </ul> */}
+              {/* <h3>{props.post.title}</h3>
+              <p>{props.post.body}</p> */}
             </div>
         )
     }
