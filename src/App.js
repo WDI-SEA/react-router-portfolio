@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Header from './links'
 import Blog from './blog'
 import Projects from './Projects'
+import AboutMe from './AboutMe'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route exact path='/blog' component={Blog} />
         <Route exact path='/projects' component={Projects} />
+        <Route exact path='/AboutMe' component={AboutMe} />
       </div>
     </Router>
   );
