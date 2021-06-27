@@ -31,11 +31,9 @@ Your portfolio needs to have these pages:
 
 ## Getting Started
 
-This repo has already been initialized with `create-react-app`.
-
 * fork and clone this repo
 * cd into `react-router-portfolio`
-* run `npm i` to install the dependencies from the `package.json`
+* create a new react app with `create-react-app .`
 
 ## Don't Forget...
 
