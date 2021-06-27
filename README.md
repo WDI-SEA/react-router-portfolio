@@ -26,18 +26,28 @@ Your portfolio needs to have these pages:
 
 - Each page is a component - we're learning to use React Router here!
 - Create a navigation menu of list items that Route to each page.
-- The main App should be a class-based component that should hold an array of `post` objects, each with a title and a body, both strings.
+- The main App should hold an array of `post` objects, each with a title and a body, both strings.
 - The blog page should be rendered so that you can pass props (the posts) into it. Then render each post nicely.
+
+## Getting Started
+
+This repo has already been initialized with `create-react-app`.
+
+* fork and clone this repo
+* cd into `react-router-portfolio`
+* run `npm i` to install the dependencies from the `package.json`
 
 ## Don't Forget...
 
-* Do you have `react-router-dom` npm installed for this project?
+* Do you have [react-router-dom](https://www.npmjs.com/package/react-router-dom) npm installed for this project?
 
 * Here is how to render a component with `props` inside of a `<Route>` element:
 
 ```js
 <Route path="/blog" render={ () => <Blog posts={this.props.posts} /> }/>
 ```
+
+more info is to be found at the [react router docs](https://reactrouter.com/web/guides/quick-start).
 
 ## Bonuses
 
