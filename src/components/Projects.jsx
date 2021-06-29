@@ -1,6 +1,3 @@
-// https://consecratio.github.io/Checkers/
-// https://spellbook-project.herokuapp.com/
-
 // import css
 import './Projects.css'
 
