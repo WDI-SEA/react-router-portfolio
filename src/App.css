@@ -56,3 +56,7 @@
   max-width: 750px;
   max-height: auto;
 }
+
+.portImage {
+  max-width: 500px;
+}

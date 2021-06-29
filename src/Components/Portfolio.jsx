@@ -6,6 +6,7 @@ export default function Portfolio(props) {
       <div key={`project-${index}`}>
         <h3 key={`title-${index}`}>{project.title}</h3>
         <p key={`paragraph-${index}`}>{project.content}</p>
+        <div key={`image-${index}`}> {project.img} </div>
       </div>
     )
   })

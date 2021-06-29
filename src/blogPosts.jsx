@@ -8,7 +8,12 @@ const blogPosts = [
     title: 'top 10 anime betrayal',
     content: '1. the post titled "Setting the Tone.'
 
+  },
+  {
+    title: 'review view',
+    content: 'this is the review view'
   }
+
 
 
 ]
