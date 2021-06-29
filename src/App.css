@@ -8,6 +8,10 @@
 }
 a {
   text-decoration: none;
+  color: #000000;
+}
+a:hover, a:visited {
+  color: #000;
 }
 
 a.nav-link  {
@@ -24,6 +28,12 @@ a.nav-link:hover, a.nav-link:visited {
 
 ul {
   padding: 0;
+}
+
+ul img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 1.5rem;
 }
 
 li {
