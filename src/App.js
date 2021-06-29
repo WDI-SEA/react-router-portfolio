@@ -44,7 +44,7 @@ function App() {
           />
 
           <Route path='/blog'
-          render={() => <Blog />}
+          render={() => <Blog blogPosts={blogPosts}/>}
           />
 
           <Route path='/about'

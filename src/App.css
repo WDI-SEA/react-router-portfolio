@@ -37,11 +37,21 @@
   }
 }
 
-ul {
+#nav {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
 }
 
-li {
-  display: inline;
+.navList {
   padding: 20px;
+}
+
+#blog {
+  display: block;
+}
+
+#myself {
+  list-style-type: circle;
 }
