@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import { Home } from './components/Home'
 import { Blog } from './components/Blog'
@@ -9,12 +9,29 @@ import { Header } from './components/Header'
 
 export const App = () => {
     return (
-        <div>
+        <BrowserRouter>
             <Header />
-            <Home />
-            <Blog />
-            <About />
-            <Projects />
-        </div>
+            <main>
+                <Switch>
+                    <Route
+                        exact path="/"
+                        component={Home}
+                    />
+                    <Route
+                        path="/blog"
+                        component={Blog}
+                    />
+                    <Route
+                        path="/about"
+                        component={About}
+                    />
+                    <Route
+                        path="/projects"
+                        component={Projects}
+                    />
+                </Switch>
+                
+            </main>
+        </BrowserRouter>
     )
 }

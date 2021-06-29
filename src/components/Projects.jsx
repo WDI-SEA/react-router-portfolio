@@ -1,7 +1,7 @@
 export const Projects = () => {
     return (
         <div>
-            Hello from Projects
+            <h1>Projects</h1>
         </div>
     )
 }

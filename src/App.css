@@ -1,0 +1,71 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(20,20,20);
+}
+
+main {
+    position: absolute;
+    background-color: rgb(200,200,200);
+    top: 48px;
+    left: 100px;
+    right: 100px;
+    height: 100vh;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(rgb(88,88,88), rgb(140,140,140));
+    box-shadow: 0 0 15px 0 black;
+    z-index: 1;
+}
+
+nav li {
+    display: inline;
+    padding: 15px;
+    float: left;
+    text-shadow: 0 0 1px black;
+}
+
+.linkStyle {
+    text-decoration: none;
+    color: rgb(220,220,220);
+    transition-duration: 0.2s;
+}
+
+.linkStyle:hover {
+    color: rgb(180,180,180);
+    transition-duration: 0.2s;
+}
+
+.clickedLink {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.welcomeText {
+    font-size: 48px;
+    animation-duration: 2s;
+    animation-name: slideIn;
+}
+
+@keyframes slideIn {
+    from {
+        margin-top: 30%;
+        opacity: 0%;
+    }
+    to {
+        margin-top: 20%;
+        opacity: 100%;
+    }
+}
