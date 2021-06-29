@@ -9,8 +9,11 @@ export default function Blog(props) {
     })
 
     return (
-        <ul>
-            {displayPosts}
-        </ul>
+        <div>
+            <h2>Blog</h2>
+            <ul>
+                {displayPosts}
+            </ul>
+        </div>
     )
 }
