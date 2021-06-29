@@ -5,6 +5,7 @@ import Blog from './components/Blog'
 import About from './components/About'
 import Projects from './components/Projects'
 import Header from './components/Header'
+import BlogPost from './components/BlogPost'
 
 
 import {
@@ -63,11 +64,31 @@ function App() {
           <Route path="/projects" component={Projects} />
 
           <Route 
-        path='/blog/:id'
-        render={props => {
-          console.log(props.match.params)
+            path='/blog/:id'
+            render={props => {
+            console.log(props.match.params)
         }}
         />
+
+
+        <Route
+         exact path="/blog/:id"
+
+        render={props => {
+          const blogP = blogPosts.find(bp=> bp.index == props.match.params.index)
+          props = {...props, ...blogP}
+          return <BlogPost {...props} />
+            
+            
+        }}
+        />
+
+
+
+
+
+
+
 
         </Router>
 
