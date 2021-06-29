@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export const Blog = (props) => {
     let postData = props.postArray.map((e, id) => {
         return (
-            <div className="blog-box">
+            <div className="blog-entry-box">
                 <Link
                     to={`/blog/${e.id}`}
                     className="linkStyle">
@@ -15,7 +15,9 @@ export const Blog = (props) => {
     return (
         <div>
             <h1>Blog</h1>
-            {postData}
+            <div className="blog-box">
+                {postData}
+            </div>
         </div>
     )
 }

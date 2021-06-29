@@ -55,7 +55,7 @@ h1 {
     color: rgb(44,44,44);
 }
 
-.welcomeText {
+#welcomeText {
     color: rgb(44,44,44);
     margin-top: 20%;
     font-size: 48px;
@@ -75,19 +75,26 @@ h1 {
 }
 
 .blog-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-entry-box {
     background-image: linear-gradient(rgb(88,88,88), rgb(140,140,140));
     margin: 10px;
     padding: 10px;
-    border-radius: 15px;;
+    border-radius: 15px;
+    text-align: center;
+    text-shadow: 0 0 1px black;
 }
 
 .body-box {
     background-image: linear-gradient(rgb(88,88,88), rgb(140,140,140));
     box-shadow: 0 0 15px 0 black;
-    margin: 10px auto;
+    margin: 20px;
     padding: 10px;
-    height: 60vh;
-    width: 80vh;
+    min-height: 60vh;
     border-radius: 15px;
 }
 
@@ -95,6 +102,13 @@ h1 {
     text-align: center;
     color: rgb(220,220,220);
     white-space: pre-line;
+}
+
+.skill-box {
+    position: relative;
+    color: white;
+    text-align: justify;
+    left: 45%;
 }
 
 #headshot {
@@ -118,26 +132,33 @@ fieldset {
     margin: 10px;
     border-radius: 15px;
     border: 5px solid grey;
+    background-image: linear-gradient(rgb(88,88,88), rgb(140,140,140));
 }
 
 legend {
     font-size: 20px;
+    background-color: rgb(88,88,88);
+    padding: 5px;
+    border-radius: 15px;
+    border: 3px solid grey;
+    color: rgb(220,220,220);
 }
 
 .screenshot {
     width: 300px;
     margin: 20px;
-    border-radius: 15px;
+    border-radius: 20px;
     border: 5px solid grey;
 }
 
 .project-desc {
     margin-left: 50px;
     margin-right: 50px;
+    color: rgb(220,220,220);
 }
 
 a {
-    color: rgb(88,88,88);
+    color: rgb(220,220,220);
 }
 
 a:hover {

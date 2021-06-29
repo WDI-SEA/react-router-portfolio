@@ -12,7 +12,8 @@ export const ProjectArray = [
                 id: 2,
                 url: "https://i.imgur.com/Dh02BvX.png"
             }
-        ]
+        ],
+        skills: ["HTML", "CSS", "JavaScript", "Canvas"]
     },
     {
         name: "Project 2: PokéMap",
@@ -35,6 +36,7 @@ export const ProjectArray = [
                 id: 6,
                 url: "https://i.imgur.com/5CtyoFV.png"
             }
-        ]
+        ],
+        skills: ["HTML", "CSS", "JavaScript", "Express", "EJS", "Axios", "PostgreSQL", "Sequelize"]
     }
 ]

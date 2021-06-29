@@ -46,7 +46,6 @@ export const App = () => {
                         render={() => <Projects projectArray={ProjectArray}/>}
                     />
                 </Switch>
-                
             </main>
         </BrowserRouter>
     )

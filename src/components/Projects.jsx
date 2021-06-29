@@ -1,18 +1,23 @@
 export const Projects = (props) => {
-    let projectData = props.projectArray.map((e, id) => {
+    let projectData = props.projectArray.map((project, id) => {
         return (
-            <fieldset>
+            <fieldset key={id}>
                 <legend>
-                    <a href={e.link}>
-                        {e.name}
+                    <a href={project.link} rel="noreferrer" target="_blank">
+                        {project.name}
                     </a>
                 </legend>
-                <p className="project-desc">{e.desc}</p>
-                {e.images.map(image => {
+                <p className="project-desc">{project.desc}</p>
+                {project.images.map(image => {
                     return (
                         <img src={image.url} className="screenshot" alt="screenshot"/>
                     )
                 })}
+                <ul className="skill-box">
+                    {project.skills.map(skill => {
+                        return <li>{skill}</li>
+                    })}
+                </ul>
             </fieldset>
         )
     })
