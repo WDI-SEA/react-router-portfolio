@@ -1,6 +1,6 @@
 const projects = [  { 
   title: 'The Bagel Invitational',
-  content: 'A golf game that tests your skill'
+  content: 'Coming Soon. A golf game that tests your skill'
 },
 { 
   title: 'Tic Tac Toe',

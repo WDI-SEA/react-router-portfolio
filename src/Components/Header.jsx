@@ -4,12 +4,12 @@ export default function Header() {
   return (
     <nav className="header">
       <ul className="ulHeader">
-          <li class="liHeader">
+          <li className="liHeader">
             <Link to='/'>Home</Link>
           </li>
 
           <li className="liHeader">
-            <Link to='/about'>About Us!</Link>
+            <Link to='/about'>About</Link>
           </li>
 
           <li className="liHeader">

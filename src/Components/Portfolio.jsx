@@ -1,6 +1,6 @@
 export default function Portfolio(props) {
   const renderProjects = props.projects.map((project, index) => {
-    console.log(props.projects.title)
+    console.log(props.projects)
     return (
       
       <div key={`project-${index}`}>

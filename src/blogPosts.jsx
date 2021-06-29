@@ -1,7 +1,7 @@
 const blogPosts = [
   { 
     title: 'Setting the Tone',
-    content: 'The two people looking at each other are beautiful.'
+    content: 'Did you know the phrase "Insidiarum Indicem Ab Corydon" will translate itself if you look at your phone screen after you click the power button'
 
   },
   { 

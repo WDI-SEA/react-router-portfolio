@@ -47,3 +47,12 @@
 .liHeader {
   margin: 20px;
 }
+
+.aboutImage {
+  max-width: 300px;
+  max-height: auto;
+}
+.hpImage {
+  max-width: 750px;
+  max-height: auto;
+}
