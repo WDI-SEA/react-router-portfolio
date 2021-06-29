@@ -1,7 +1,16 @@
-export default function Blog() {
+export default function Blog(props) {
+    const displayPosts = props.posts.map((post, index) => {
+        return (
+            <li key={index}>
+                <h5>{post.title}</h5>
+                <p>{post.body}</p>
+            </li>
+        )
+    })
+
     return (
-        <div>
-            Hello from Blog
-        </div>
+        <ul>
+            {displayPosts}
+        </ul>
     )
 }

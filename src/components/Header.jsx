@@ -9,8 +9,8 @@ export default function Header() {
     return (
       <>
         <Jumbotron className="mb-0 text-center">
-          <h1 class="display-4">Jorge Casique</h1>
-          <p class="lead">Welcome to my portfolio.</p>
+          <h1 className="display-4">Jorge Casique</h1>
+          <p className="lead">Welcome to my portfolio.</p>
         </Jumbotron>
         <Navbar bg="dark" variant="dark" expand="lg">
           <Container>
