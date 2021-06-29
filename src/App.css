@@ -50,10 +50,10 @@ nav li {
 
 h1 {
     text-align: center;
-    margin-top: 20%;
 }
 
 .welcomeText {
+    margin-top: 20%;
     font-size: 48px;
     animation-duration: 2s;
     animation-name: slideIn;
