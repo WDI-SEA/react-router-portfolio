@@ -6,9 +6,9 @@ const projectsData = props.projectsData.map((project, ind) => {
         {/* <hr /> */}
             <div key={`project-${ind}`}>
                 <h3>{project.title}</h3>
-                <p>{project.date}</p>
-                <p>{project.desc}</p>
-                <p><img className="photos" src={project.photo}/></p>
+                    <p>{project.date}</p>
+                    <p>{project.desc}</p>
+                    <p><img className="photos" src={project.photo}/></p>
                 <hr/>
             </div>
         </div>
@@ -16,17 +16,10 @@ const projectsData = props.projectsData.map((project, ind) => {
     })
     return(
         <div>
+        <div>
+        <h1>My Projects</h1>
+        </div>
             {projectsData}
         </div>
     )
 }
-
-// export default function About(props){
-//     return( 
-//         <div className="inner">
-//         <h1 class="titleHeader">About</h1>
-//         <hr />
-// <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
-//         </div>
-//     )
-// }

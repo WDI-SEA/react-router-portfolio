@@ -1,3 +1,4 @@
+
 export default function Blog(props){
 
 const blogData = props.blogData.map((blog, ind) => {
@@ -14,6 +15,9 @@ const blogData = props.blogData.map((blog, ind) => {
 })
     return(
         <div>
+        <div>
+        <h1>My Blog</h1>
+        </div>
             {blogData}
         </div>
     )
