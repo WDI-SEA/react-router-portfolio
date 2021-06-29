@@ -6,17 +6,33 @@
   height: 40vmin;
   pointer-events: none;
 }
+a {
+  text-decoration: none;
+}
 
 a.nav-link  {
   color: #ffffff;
 }
 
-a.nav-link:hover  {
+a.nav-link:hover, a.nav-link:visited {
   color: #ffffff;
 }
 
 .about {
-  text-transform: capitalize;
+  text-transform: ;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+ list-style: none;
+ text-decoration: none;
+}
+
+li a {
+  color: #000000;
 }
 
 @media (prefers-reduced-motion: no-preference) {
