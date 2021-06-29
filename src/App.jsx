@@ -8,7 +8,9 @@ import { About } from './components/About'
 import { Projects } from './components/Projects'
 import { Header } from './components/Header'
 import { BlogPost } from './components/BlogPost'
+
 import { PostArray } from './data/PostArray'
+import { ProjectArray } from './data/ProjectArray'
 
 export const App = () => {
     const [Post] = useState(PostArray)
@@ -41,7 +43,7 @@ export const App = () => {
                     />
                     <Route
                         path="/projects"
-                        component={Projects}
+                        render={() => <Projects projectArray={ProjectArray}/>}
                     />
                 </Switch>
                 
