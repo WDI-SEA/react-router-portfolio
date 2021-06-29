@@ -57,22 +57,22 @@ function App() {
       <ul>
         <li>
           <Link to="/">
-HOMEPAGE
+            HOMEPAGE
           </Link>
         </li>
         <li>
         <Link to="/blog">
-BLOG
+            BLOG
           </Link>
         </li>
         <li>
         <Link to="/about">
-ABOUT
+            ABOUT
           </Link>
         </li>
         <li>
         <Link to="/projects">
-PROJECTS
+            PROJECTS
           </Link>
         </li>
       </ul>
