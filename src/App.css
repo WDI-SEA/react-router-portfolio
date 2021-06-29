@@ -7,6 +7,18 @@
   pointer-events: none;
 }
 
+a.nav-link  {
+  color: #ffffff;
+}
+
+a.nav-link:hover  {
+  color: #ffffff;
+}
+
+.about {
+  text-transform: capitalize;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

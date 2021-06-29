@@ -1,6 +1,8 @@
 export default function About() {
   return(
-    <h1>Hey from About</h1>
+    <div className="about">
+      <h2>Hi, I Am Shannan. A Los Angeles Based Software Engineer.</h2>
+    </div>
 
   )
 }
