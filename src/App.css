@@ -1,0 +1,6 @@
+.jumbotron {
+  background-image: url('./images/jumbotron_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 0;
+}
