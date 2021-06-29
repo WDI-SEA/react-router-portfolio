@@ -1,0 +1,13 @@
+button {
+    border-radius: 15px;
+    padding: 8px 15px;
+    background-color:lightskyblue;
+    text-decoration: none;
+    border:none;
+}
+
+.btn-link {
+    text-decoration: none;
+    font-weight:300;
+    
+}

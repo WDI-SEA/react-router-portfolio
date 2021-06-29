@@ -1,0 +1,21 @@
+.project-title{
+    position: absolute;
+    top:40%;
+    left:20%;
+}
+
+.project-img{
+    position:absolute;
+    top:30%;
+    width: 40%;
+    height:40%;
+    margin-right: 30px;
+   
+}
+
+.project-des{
+    position: absolute;
+    top:45%;
+    left:15%;
+    font-size: 15px;
+}

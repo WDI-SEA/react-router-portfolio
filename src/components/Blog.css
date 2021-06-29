@@ -1,0 +1,7 @@
+
+.blog-div li{
+    list-style: none;
+    border:1px solid black;
+    margin: 15px;
+}
+
