@@ -1,5 +1,3 @@
-import { BrowserRouter as Router, Link } from 'react-router-dom'
-
 const Homepage = () => {
     return(
         <div>

@@ -7,8 +7,8 @@ const Blog = (props) => {
                 <p>{post.body}</p>
             </div>
         )
-
     })
+    
     return(
         <div>
             <h1>Blog</h1>

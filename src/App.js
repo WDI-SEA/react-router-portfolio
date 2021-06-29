@@ -15,7 +15,6 @@ const posts = [
     title: 'Do Nots',
     body: 'Don\'t wear jeans under your white coat. Its unprofessional, even though it may be more comfortable and convenient.'
   }, 
-
   {
     title: 'Times they are a changin\'',
     body: 'Major changes have recently occured in my life, both personally and professionally. We\'re approaching five years since the inception of this blog, and going back to read the posts from May \'04 is quite the experience. I suppose its what diaries and journals are for, the chance to go back and read out your thoughts and ideas from another time. Kind of like mental time travel.'
