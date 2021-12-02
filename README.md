@@ -42,10 +42,10 @@ Your portfolio needs to have these pages:
 * Here is how to render a component with `props` inside of a `<Route>` element:
 
 ```js
-<Route path="/blog" render={ () => <Blog posts={this.props.posts} /> }/>
+<Route path="/blog" element={<Blog posts={posts} /> }/>
 ```
 
-more info is to be found at the [react router docs](https://reactrouter.com/web/guides/quick-start).
+more info is to be found at the [react router docs](https://reactrouter.com/docs/en/v6/getting-started/overview).
 
 ## Bonuses
 
