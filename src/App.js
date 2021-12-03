@@ -14,7 +14,8 @@ export default class App extends Component {
     const posts = [
       {title: 'General Assembly so far...', body: 'Its cool'},
       {title: 'Its time to drink more water', body: 'Quench your thirst'},
-      {title: 'Why you should wear ear plugs at concerts', body: 'Yeah I dont but really should...'}
+      {title: 'Why you should wear ear plugs at concerts', body: 'Yeah I dont but really should...'},
+      {title: 'Its time to retire the two dudes on the bus meme', body: 'Its just this good, this bad format'}
   ]
 
 
