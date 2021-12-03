@@ -7,7 +7,9 @@ class Projects extends Component {
                 <h1>Projects</h1>
                 <h3>Spite Store: Latte Larry's</h3>
                 <small>my most proud project</small>
-                <img src="lattelarrys.jpeg" alt="Latte Larry's" />
+                <p>
+                <img src="/lattelarrys.jpeg" alt="Latte Larry's" />
+                </p>
             </div>
         )
     }
