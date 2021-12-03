@@ -7,6 +7,7 @@ import Blog from "./components/Blog";
 import Homepage from "./components/Homepage";
 import Projects from "./components/Projects";
 import Header from "./partials/header";
+import ChoosenBlog from "./components/ChoosenBlog";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 let skills = {
@@ -59,6 +60,24 @@ let projects = {
   ],
 };
 
+const blogPost = {
+  post: [
+    {title: <h2>Being Non-Binary</h2>,
+    author: "Anonymous",
+    body: 'Ehh its a Heteronomative World 🤷🏽',
+    comments: ['First!', 'Pronouns They/They', 'Heeeeeyyyy, Im NB too!']},
+    {title: <h2>Coding Baby!</h2> ,
+    author: "Me12543",
+    body: 'who really knows how to code though? is it impossible to learn?',
+    comments: ['First!', 'yea, idk anything']},
+    {
+    title: <h2>What am I doing?!</h2>,
+    author: "irishCloud69",
+    body: 'Do we even know what anyoe is doing here!?',
+    comments: ['Facts!📠', 'yea, idk anything', 'life is a simulation']}
+  ]
+}
+
 class App extends Component {
   render() {
     return (
@@ -68,7 +87,8 @@ class App extends Component {
           {/* <img src={Test} alt="" /> */}
           <Routes>
             <Route path="/" element={<Homepage />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog" element={<Blog blog={blogPost.post}/>} />
+            <Route path="/blog/*" element={<ChoosenBlog />} />
             <Route
               path="/about"
               element={<About skills={skills.languages} />}
