@@ -1,4 +1,3 @@
-
 // React and CSS import
 import React, { Component } from 'react'
 import './App.css'
