@@ -1,14 +1,23 @@
 body {
     text-align: center;
+    font-family: "Merriweather Sans", sans-serif;
 }
 
 ul {
     list-style: none;
 }
+.aboutUl {
+    margin: 20px;
+}
 
 .headerLi {
     display: inline;
     margin: 5px 30px;
+}
+
+.aboutLi {
+    display: inline;
+    margin: 10px;
 }
 
 hr {
@@ -30,10 +39,13 @@ hr {
       margin: 20px;
   }
 
+  .projectsLi {
+      margin: 20px;
+  }
 
   .homepageBackground {
     background: linear-gradient(rgba(0, 0, 255, 0.6), rgba(255, 255, 0, 0.6)),
-    url("https://cdn.artphotolimited.com/images/590ccb9cbdf0833858956566/1000x1000/nyc-skyline.jpg");
+    url("./CityLine.jpg");
     padding: 17.9%;
     background-size: cover;
     background-position: middle;

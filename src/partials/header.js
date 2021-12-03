@@ -11,10 +11,10 @@ export default class header extends Component {
               <Link to="/">Home Page</Link>
             </li>
             <li className='headerLi'>
-              <Link to="/blog">Blog Page</Link>
+              <Link to="/about">About Me</Link>
             </li>
             <li className='headerLi'>
-              <Link to="/about">About Me</Link>
+              <Link to="/blog">Blog Page</Link>
             </li>
             <li className='headerLi'>
               <Link to="/projects">Projects</Link>
