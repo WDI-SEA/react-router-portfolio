@@ -19,7 +19,7 @@ function App() {
     post: 'Porchetta, ribeye short loin turkey t-bone jowl ground round. Tail rump strip steak, sausage ham t-bone hamburger fatback ground round short loin. Ball tip pork beef, biltong ham hock shoulder meatloaf chislic tail sausage prosciutto sirloin pork chop tri-tip chicken. Beef ribs chuck pork loin ham hock short ribs chicken. Salami meatball kielbasa, shoulder porchetta tongue ham frankfurter short loin filet mignon pancetta.' 
   },
     {
-    title:'Doner strip', 
+    title:'Doner Strip', 
     post:'Steak ham, jerky spare ribs rump shank cow buffalo meatloaf salami jowl cupim venison tongue. Kielbasa salami beef ribs andouille landjaeger pork chop tail hamburger short ribs fatback alcatra rump meatball. Shankle tenderloin kielbasa brisket sausage shoulder. Porchetta andouille short loin frankfurter, pork cow cupim. Bresaola leberkas meatball turkey burgdoggen sausage shoulder pig short ribs filet mignon shank. Cupim frankfurter jerky alcatra.'
     },
     {

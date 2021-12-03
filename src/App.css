@@ -19,10 +19,18 @@ nav {
 .pageDiv {
   text-align: center;
   background-color: aliceblue;
-  max-width: 80%;
+  max-width: 75%;
   margin: 5% auto;
   padding: 50px 100px 150px 50px;
   border-radius: 8px;
+}
+
+.post {
+  max-width: 60%;
+  margin: 45px auto;
+  background-color: brown;
+  border-radius: 8px;
+  color: aliceblue;
 }
 
 #homeText {
@@ -32,4 +40,23 @@ nav {
 #homeDiv {
   margin-top: 10%;
   padding-bottom: 50px;
+}
+
+#blogDiv {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#postTitle {
+  background-color: rgb(40, 51, 97);
+  border-radius: 8px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 27px;
+}
+
+#postText {
+  margin-top: 0px;
+  padding: 25px;
+  font-weight: bold;
+
 }
