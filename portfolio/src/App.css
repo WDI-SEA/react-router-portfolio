@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@300;400&display=swap');
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Dosis';
+  background: rgb(38, 38, 38);
+  color: white;
+  margin: 0 auto;
+  width: 80%;
+}
+
+main {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+ul {
+  margin-top: 25px;
+  list-style-type: none;
+}
+
+ul li {
+  
+  display: inline-block;
+  padding-left: 10px  
+}
+
+section {
+  margin: 0 auto;
+  width: 75%;
+}
+
+button {
+  font-family: 'Dosis';
+  font-size: 1em;
+  background-color: rgb(38, 38, 38);
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: rgb(59, 59, 59);
+  cursor: pointer;
+}
+
+.hero {
+  margin: 0 auto;
+}
+
+.heroText {
+  font-family: 'Anton';
+  text-align: left;
+  font-size: 100px;
+  line-height: 40%;
+}
+
+.projectMain {
+  display: flex;
+  justify-content: space-evenly;
+}
