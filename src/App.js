@@ -6,6 +6,7 @@ import About from './components/pages/About'
 import Projects from './components/pages/Projects'
 import Header from './components/partials/Header'
 import BlogPost from './components/BlogPosts'
+import ProjectInfo from './components/ProjectInfo'
 
 function App() {
   return (
@@ -15,10 +16,10 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/blog' element={<Blog posts={BlogPost.posts} />} />
         <Route path='/about' element={<About />} />
-        <Route path='/projects' element={<Projects />} />
+        <Route path='/projects' element={<Projects projects={ProjectInfo.projects} /> } />
       </Routes>
     </BrowserRouter>
-  );
+  )
 }
 
 export default App;
