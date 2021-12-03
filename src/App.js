@@ -1,11 +1,11 @@
 import './App.css';
-import About from './components/pages/About'
-import Blog from "./components/pages/Blog"
+import About from './components/pages/About';
+import Blog from "./components/pages/Blog";
 import BlogPost from './components/BlogPost';
 import Homepage from './components/pages/Homepage';
-import Projects from './components/pages/Projects'
+import Projects from './components/pages/Projects';
 import ProjectDetail from './components/ProjectDetail';
-import Header from './partials/Header'
+import Header from './partials/Header';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 

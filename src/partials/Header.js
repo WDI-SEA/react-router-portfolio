@@ -6,12 +6,12 @@ export default class Header extends Component {
         return (
             <header>
                 <nav>
-                    <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/blog">Blog</Link></li>
-                        <li><Link to="/projects">Projects</Link></li>
-                    </ul>
+                    <div class="nav-right">
+                        <Link to="/">Home</Link>
+                        <Link to="/about">About</Link>
+                        <Link to="/blog">Blog</Link>
+                        <Link to="/projects">Projects</Link>
+                    </div>
                 </nav>
             </header>
         )
