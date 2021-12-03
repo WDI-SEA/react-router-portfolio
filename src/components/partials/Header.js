@@ -7,10 +7,10 @@ export default class Header extends Component {
             <header>
                 <nav>
                     <ul>
-                        <li><Link to="/"></Link>Home</li>
-                        <li><Link to="/blog"></Link>Blog</li>
-                        <li><Link to="/projects"></Link>Projects</li>
-                        <li><Link to="/about"></Link>About</li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/blog">Blog</Link></li>
+                        <li><Link to="/projects">Projects</Link></li>
+                        <li><Link to="/about">About</Link></li>
                     </ul>
                 </nav>
             </header>
