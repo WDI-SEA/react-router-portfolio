@@ -7,6 +7,7 @@ export default class Projects extends Component {
         return (
         <div>
             <h1>Projects</h1>
+            <p>Currently working on being the cutest and most loyal dogs for our owner. But first, a nap.</p>
         </div>
         )
     }
