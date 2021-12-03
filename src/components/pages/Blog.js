@@ -7,10 +7,10 @@ class Blog extends Component {
             return(<Post p={post} key={i}/>)
         })
         return (
-            <>
+            <div className="pageDiv">
                 <h1>Bob's Blog</h1>
                 {allPosts}
-            </>
+            </div>
         )
     }
 }

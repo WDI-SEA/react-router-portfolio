@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Projects extends Component {
     render () {
         return (
-            <>
+            <div className="pageDiv">
                 <h1>Projects</h1>
 
                 <h3>Thanksgiving Dinner: Turkey</h3>
@@ -19,7 +19,7 @@ class Projects extends Component {
                     <li>Tech Stack: Whirlpool, Kenmore, Maytag</li>
                     <li>Timeframe: 14 hours</li>
                 </ul>
-            </>
+            </div>
         )
     }
 }

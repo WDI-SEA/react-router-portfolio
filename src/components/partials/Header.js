@@ -5,12 +5,10 @@ class Header extends Component {
         return (
             <header>
                 <nav>
-                    <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/blog">Blog</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/projects">Projects</Link></li>
-                    </ul>
+                        <Link className="navLink" to="/">Home</Link>
+                        <Link className="navLink" to="/blog">Blog</Link>
+                        <Link className="navLink" to="/about">About</Link>
+                        <Link className="navLink" to="/projects">Projects</Link>
                 </nav>
             </header>
         )
