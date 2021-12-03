@@ -4,10 +4,11 @@ export default class Blog extends Component {
     render() {
         let allPosts = this.props.posts.map((t) =>{
             return (
-                <ul className='posts'>
-                    <li>{t.title}</li> 
-                    <li>{t.body}</li>
-                </ul>
+                <div className='posts'>
+                    <h3>{t.title}</h3>
+                    <small>{t.by}</small>
+                    <p>{t.body}</p>
+                </div>
             )
         })
         return(

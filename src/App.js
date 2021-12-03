@@ -8,10 +8,11 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
   let posts = [
-    {title: '1', body: 'This is 1.'},
-    {title: '2', body: 'This is 2.'},
-    {title: '3', body: 'This is 3.'}
+    {title: 'JavaScript..SMH', by:'by: Sleepy', body: 'No. Just, no.'},
+    {title: 'I See You, Canvas', by:'by: Grumpy',body: 'Okay, so Canvas, you are pretty cool. Hello, old school games!'},
+    {title: 'EJS', by:'by: Dopey', body: 'Even though your tags have cute names, you not cute.'}
   ]
+  
   return (
     <BrowserRouter>
     <Header />
