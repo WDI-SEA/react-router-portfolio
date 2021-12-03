@@ -5,7 +5,7 @@ class Blog extends Component {
     render() {
         const allPost = this.props.posts.map((post, i) =>{
         return (
-            <div>
+            <div className='myContainer'>
                 <h1>This is my Blog</h1>
                 <h3>Title: {post.title}</h3>
                 <h4>Author: {post.author}</h4>
@@ -15,7 +15,6 @@ class Blog extends Component {
     })
     return (
         <div>
-            <h1>My Blog</h1>
             {allPost}
         </div>
     )

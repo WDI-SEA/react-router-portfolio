@@ -3,8 +3,10 @@ import React, { Component } from 'react'
 class Homepage extends Component {
     render() {
         return (
-            <div>
-                <h1>HomePage</h1>
+            <div className='myContainer'>
+                <h1>Welcome to my Blog</h1>
+                <hr></hr>
+                <p>Go through my navigation links to learn more</p>
             </div>
         )
     }

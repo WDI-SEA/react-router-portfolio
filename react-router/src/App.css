@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -37,8 +38,15 @@
   }
 }
 
-.recipeImage {
+.image {
   
   display: flex;
-  width: 30%;
+  width: 75%;
+}
+
+.myContainer {
+  max-width: 500px;
+  margin: auto;
+  background-color: lightpink;
+  
 }
