@@ -8,7 +8,7 @@ class Blog extends Component {
         })
         return (
             <div className="pageDiv">
-                <h1>Bob's Blog</h1>
+                <h1 className="pageTitle">Bob's Blog</h1>
                 {allPosts}
             </div>
         )

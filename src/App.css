@@ -33,6 +33,37 @@ nav {
   color: aliceblue;
 }
 
+.proj {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.projTitle {
+  background-color: rgb(40, 51, 97);
+  border-radius: 8px 8px 0px 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 27px;
+  color:aliceblue;
+}
+
+.projImg {
+  max-width: 100%;
+  border-radius: 0 0 3px 3px;
+}
+
+.projDeets {
+  margin-top: -5px;
+  font-weight: bold;
+  background-color: rgb(40, 51, 97);
+  border-radius: 0 0 8px 8px;
+  color: aliceblue;
+}
+
+.pDt {
+  display: inline-block;
+  margin: 15px;
+}
+
 #homeText {
   font-size: 100px;
 }
