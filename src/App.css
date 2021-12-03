@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+body{
+  text-align: center;
+}
+
+.blogContainer {
+  margin: auto;
+  width: 700px;
+  text-align: left;
+  padding: 30px 10px;
+  margin: 40px auto;
+  border: 2px solid rgb(211, 211, 211);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
