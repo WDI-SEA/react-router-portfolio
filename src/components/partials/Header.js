@@ -5,12 +5,12 @@ export default class Header extends Component {
     render() {
         return(
             <header>
-                <nav>
-                    <ul>
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/blog'>Blog</Link></li>
-                        <li><Link to='/about'>About Me</Link></li>
-                        <li><Link to='/projects'>Projects</Link></li>
+                <nav className='header'>
+                    <ul className='nav'>
+                        <Link to='/'><li className='links'>Home</li></Link>
+                        <Link to='/blog'><li className='links'>Blog</li></Link>
+                        <Link to='/about'><li className='links'>About Me</li></Link>
+                        <Link to='/projects'><li className='links'>Projects</li></Link>
                     </ul>
                 </nav>
             </header>
