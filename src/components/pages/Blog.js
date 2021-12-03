@@ -5,8 +5,7 @@ export default class Blog extends Component {
         const allPosts = this.props.posts.map((post, i) => {
             return (
                 <div>
-                <h3>Title: {post.title}</h3>
-                <h4>Author: {post.author}</h4>
+                <h3>{post.title}</h3>
                 <p>{post.body}</p>
                 </div>
             )
