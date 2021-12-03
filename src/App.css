@@ -21,8 +21,21 @@ nav {
   background-color: aliceblue;
   max-width: 75%;
   margin: 5% auto;
-  padding: 50px 100px 150px 50px;
+  padding: 50px 50px 100px 50px;
   border-radius: 8px;
+}
+
+.pageTitle {
+  background-color: black;
+  display: inline-block;
+  color: aliceblue;
+  font-size: 50px;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 8px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .post {
@@ -64,6 +77,21 @@ nav {
   margin: 15px;
 }
 
+.postTitle {
+  background-color: rgb(40, 51, 97);
+  border-radius: 8px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 27px;
+}
+
+.postText {
+  margin-top: 0px;
+  padding: 25px;
+  font-weight: bold;
+
+}
+
 #homeText {
   font-size: 100px;
 }
@@ -73,21 +101,7 @@ nav {
   padding-bottom: 50px;
 }
 
-#blogDiv {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-#postTitle {
-  background-color: rgb(40, 51, 97);
-  border-radius: 8px;
-  margin-bottom: 0px;
-  padding: 10px;
-  font-size: 27px;
+#aboutMe {
+  max-width: 90%;
 }
 
-#postText {
-  margin-top: 0px;
-  padding: 25px;
-  font-weight: bold;
-
-}

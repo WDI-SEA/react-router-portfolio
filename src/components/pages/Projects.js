@@ -18,7 +18,7 @@ class Projects extends Component {
                 </div>
                 <div className="proj">
                     <h3 className="projTitle">Christmas Dinner: Roast Beef</h3>
-                    <img className="projImg" src="https://assets.bonappetit.com/photos/5bef239a86ff4441f680c7c4/1:1/w_960,c_limit/slow-roast-beef-02.jpg" alt="Roast Beef Table" />
+                    <img className="projImg" src="https://realfood.tesco.com/media/images/RFO-1400x919-Slow-roasted-beef-with-mustard-potatoes-dec8429a-d847-469f-a752-5d789755ea17-0-1400x919.jpg" alt="Roast Beef Table" />
                     <div className="projDeets">
                         <span className="pDt">Tech Stack: Whirlpool, Kenmore, Maytag</span>
                         <span className="pDt">Timeframe: 14 hours</span>
