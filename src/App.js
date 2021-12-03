@@ -1,16 +1,23 @@
+
+// React and CSS import
 import React, { Component } from 'react'
-import logo from './logo.svg'
 import './App.css'
+
+// react-router-dom import
 import {
   BrowserRouter,
   Routes,
   Route
 } from "react-router-dom"
+
+// component imports
 import Home from './components/pages/Home'
 import Blog from './components/pages/Blog'
 import About from './components/pages/About'
 import Projects from './components/pages/Projects'
 import Header from './components/partials/Header'
+
+
 export default class App extends Component {
   render() {
     const posts = [
