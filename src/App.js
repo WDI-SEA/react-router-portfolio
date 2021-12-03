@@ -5,7 +5,7 @@ import Blog from './components/pages/Blog';
 import Projects from './components/pages/Projects';
 import About from './components/pages/About';
 import Header from './components/partials/Header';
-import './App.scss';
+import './Styles/App.scss';
 
 function App() {
   return (
