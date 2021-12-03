@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.recipeImage {
+  
+  display: flex;
+  width: 30%;
+}

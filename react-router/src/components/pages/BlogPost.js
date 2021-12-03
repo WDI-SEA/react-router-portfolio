@@ -3,7 +3,7 @@ const BlogPost = {
         {
         title: 'My First Blog',
         author: 'Kelly L.',
-        body: 'Well I created a blog post',
+        body: 'Well I created a blog post'
     }
     ]
 }

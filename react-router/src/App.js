@@ -6,7 +6,7 @@ import Blog from './components/pages/Blog';
 import BlogPost from './components/pages/BlogPost';
 import Projects from './components/pages/Projects';
 import Header from './components/partials/Header';
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import { BrowserRouter, Routes, Route} from "react-router-dom"
 
 function App() {
 
