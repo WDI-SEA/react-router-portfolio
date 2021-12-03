@@ -5,7 +5,7 @@ class About extends Component {
         return (
             <div>
                 <h1>About</h1>
-                <p>Hello I am Larry David. I hate a stop and chat and I love a spite store. </p>
+                <p>Hello I am Larry David. I hate Mocha Joe and I love a spite store. I hate Mocha Joe.</p>
 
             </div>
         )
