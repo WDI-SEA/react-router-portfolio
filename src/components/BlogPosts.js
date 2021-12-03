@@ -1,6 +1,6 @@
 // create a variable that will hold an array of post objects
 // each object should have a title and body (both as strings)
-const blogPost = {
+const BlogPost = {
     posts: [
         {
             'title': 'post 1',
@@ -21,3 +21,5 @@ const blogPost = {
         }
     ]
 }
+
+export default BlogPost
