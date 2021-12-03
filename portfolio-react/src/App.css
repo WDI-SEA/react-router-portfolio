@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Spectral:500,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600i');
+
+a {
+  margin: 20px 30px 0px 0px;
+  font-family: "Spectral", serif;
+  color: blue;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #002F2F;
+  font-family: "Raleway", sans-serif;
+}
+
+li {
+  font-style: italic;
+}
+
+ol {
+  font-weight: bold;
+}
+
+body {
+  background:gainsboro;
+}
+
+h1 {
+  font-size: 26px;
+  color: #046380;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Spectral", serif;
+}
+
+h2 {
+  font-size: 24px;
+  color: #046380;
+  text-align: center;
+  font-family: "Spectral", serif;
+}
+
+h3 {
+  font-size: 22px;
+  color: #046380;
+  text-align: center;
+  font-family: "Spectral", serif;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.posts {
+  color:lightslategrey;
+  text-align: center;
+  margin: 1em .3em;
+  padding: 0 2em;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+
+ul {
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 60px !important;
+  border: 1px solid pink;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid pink;
+}
+
+li a {
+  display: block !important;
+}
+
+li a:hover {
+  background-color: #555 !important;
+  color: white !important;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.comments > * {
+  display: block !important;
+}
+
+.active {
+  background-color: #046380;
+  color: white;
+}
+
+a:hover {
+  color: #046380;
+}
+
+a {
+  color:hotpink;
+}
+
+.game-image {
+  width:300px;
+  height:300px;
+  object-fit:cover;
+  border: 3px dotted hotpink;
+}
