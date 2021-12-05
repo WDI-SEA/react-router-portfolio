@@ -1,1 +1,12 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+.aboutHeader {
+    font-family: 'Birthstone Bounce', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.bodyText {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+}

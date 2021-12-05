@@ -8,7 +8,8 @@ body {
 
 .intro {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 150px;
+    
 }
 
 #hello, #swe {
@@ -31,4 +32,9 @@ body {
     color: #4EA7A6;
     transform: rotate(-10deg);
     margin-top: -35px;
+}
+
+#filler {
+    background-color: #d9eddf;
+    height: 300px;
 }
