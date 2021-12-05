@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import './App.css';
+import './App.css'
 import Home from './components/pages/Home'
 import Blog from './components/pages/Blog'
 import About from './components/pages/About'
@@ -24,4 +24,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
