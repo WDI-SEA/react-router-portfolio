@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
 .navContainer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: end;
     column-gap: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    margin-right: 10px;
 }
