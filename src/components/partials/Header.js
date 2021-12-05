@@ -9,6 +9,7 @@ const Header = () => {
                <div className='navDiv'><Link to='/about'>About</Link></div>
                <div className='navDiv'><Link to='/blog'>Blog</Link></div>
                <div className='navDiv'><Link to='/projects'>Projects</Link></div>
+               <div classNAme='navDiv'><Link to='/contact'>Contact</Link></div>
             </nav>
         </header>
     )

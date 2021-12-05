@@ -7,6 +7,7 @@ import Projects from './components/pages/Projects'
 import Header from './components/partials/Header'
 import BlogPost from './components/BlogPosts'
 import ProjectInfo from './components/ProjectInfo'
+import Contact from './components/pages/Contact'
 import Footer from './components/partials/Footer'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/blog' element={<Blog posts={BlogPost.posts} />} />
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects projects={ProjectInfo.projects} /> } />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       {/* <Footer /> */}
     </BrowserRouter>
