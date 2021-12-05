@@ -1,17 +1,10 @@
 import '../../css/Projects.css'
+import Project from '../Project'
 
 const Projects = props => {
     const allProjects = props.projects.map((project, i) => {
         return (
-            <div>
-                <h3>{project.name}</h3>
-                <p>{project.description}</p>
-                <small>Tech Stack: {project.tech_stack}</small>
-                <br />
-                <img src={project.photo_path} alt='screenshot of app'/>
-                <br />
-                <a href={project.link}>Deployed Link</a>
-            </div>
+            <Project key={i} project={project} />
         )
     })
     return (

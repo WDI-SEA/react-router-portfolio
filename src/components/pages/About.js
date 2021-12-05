@@ -71,16 +71,16 @@ const About = () => {
                         <h1>View My Resume</h1>
                     </div>
                     <div class="column is-10 has-text-centered is-offset-1">
-                        <h2 class="subtitle">
+                        <h2 className='bodyText'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et doloremagna aliqua
                         </h2>
                         <Link to='/resume.pdf' target='_blank' download><button>Download Resume</button></Link>
-                        <form action="example.docs">
+                        {/* <form action="example.docs">
                             <button class="button">
                                 Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
                             </button>
-                        </form>
+                        </form> */}
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@ const About = () => {
                 <div class="container">
                     <div class="columns is-multiline">
                         <div class="column is-12 about-me">
-                            <h1 class="title has-text-centered section-title">Skills</h1>
+                            <h1 className='aboutHeader'>Skills</h1>
                         </div>
                         <div
                             class="column is-6"

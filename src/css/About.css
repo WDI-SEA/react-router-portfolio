@@ -1,9 +1,11 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
 
 .aboutHeader {
-    font-family: 'Birthstone Bounce', cursive;
+    font-family: 'Fira Sans', sans-serif;
     text-align: center;
     font-size: 50px;
+    text-transform: uppercase;
 }
 
 .bodyText {
