@@ -23,3 +23,8 @@
 .posts {
   margin: 90px 0px 0px 0px;
 }
+
+.png {
+  max-width: 200px;
+  max-height: auto;
+}
