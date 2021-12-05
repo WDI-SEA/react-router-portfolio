@@ -7,6 +7,7 @@ const Projects = props => {
             <Project key={i} project={project} />
         )
     })
+
     return (
         <div>
             <h1>My Projects</h1>
