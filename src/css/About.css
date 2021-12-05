@@ -12,3 +12,37 @@
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
 }
+
+#name {
+    font-weight: bold;
+    /* font-family: 'Fira Sans', sans-serif; */
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #4EA7A6;
+}
+
+#brandStatement {
+    margin-top: 10px;
+}
+
+#downloadBtn {
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4EA7A6;
+    border: 2px solid #4EA7A6;
+    margin-top: 15px;
+    background-color: #e9e5e3;
+}
+
+#downloadBtn:hover {
+    color: #e9e5e3;
+    background-color: #4EA7A6;
+    border: 2px solid #e9e5e3;
+}
+
+.skills {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+}

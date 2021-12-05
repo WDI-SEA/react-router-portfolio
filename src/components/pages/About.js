@@ -5,21 +5,16 @@ const About = () => {
     return (
         <div>
             <div class="container">
-                <header className='aboutHeader'>
+                <div className='aboutHeader'>
                     <h1>About Me</h1>
-                </header>
-                <div class="columns is-multiline">
+                </div>
+                <div class="columns is-multiline aboutMe">
                     <div
                         class="column is-6 has-vertically-aligned-content"
                         data-aos="fade-right"
                     >
-                        <p class="is-larger">
-                            <strong
-                            >Paulina Le</strong
-                            >
-                        </p>
-                        <br />
-                        <p className='bodyText'>
+                        <p className='bodyText' id='name'>Paulina Le</p>
+                        <p className='bodyText' id='brandStatement'>
                             I am a full stack software developer who strives to provide efficient and functional products. I am passionate about using technology to create a healthy space for users. My previous experience as a personal trainer has given me a creative outlook on how to approach different challenges and the patience to find effective solutions.
                         </p>
                         <br />
@@ -75,7 +70,7 @@ const About = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et doloremagna aliqua
                         </h2>
-                        <Link to='/resume.pdf' target='_blank' download><button>Download Resume</button></Link>
+                        <Link to='/resume.pdf' target='_blank' download><button id='downloadBtn'>Download Resume</button></Link>
                         {/* <form action="example.docs">
                             <button class="button">
                                 Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
@@ -96,13 +91,13 @@ const About = () => {
                             data-aos="fade-in"
                             data-aos-easing="linear"
                         >
-                            <h1>React</h1>
+                            <h1 className='skills'>React</h1>
                             <progress class="progress" value="25" max="100">30%</progress>
-                            <h1>JavaScript</h1>
+                            <h1 className='skills'>JavaScript</h1>
                             <progress class="progress" value="75" max="100">30%</progress>
-                            <h1>HTML</h1>
+                            <h1 className='skills'>HTML</h1>
                             <progress class="progress" value="85" max="100">45%</progress>
-                            <h1>CSS</h1>
+                            <h1 className='skills'>CSS</h1>
                             <progress class="progress" value="80" max="100">60%</progress>
                         </div>
                         <div
@@ -110,13 +105,13 @@ const About = () => {
                             data-aos="fade-in"
                             data-aos-easing="linear"
                         >
-                            <h1>Node.JS</h1>
+                            <h1 className='skills'>Node.JS</h1>
                             <progress class="progress" value="65" max="100">30%</progress>
-                            <h1>Express.JS</h1>
+                            <h1 className='skills'>Express.JS</h1>
                             <progress class="progress" value="70" max="100">30%</progress>
-                            <h1>PostgreSQL</h1>
+                            <h1 className='skills'>PostgreSQL</h1>
                             <progress class="progress" value="50" max="100">45%</progress>
-                            <h1>EJS</h1>
+                            <h1 className='skills'>EJS</h1>
                             <progress class="progress" value="75" max="100">30%</progress>
                         </div>
                     </div>
