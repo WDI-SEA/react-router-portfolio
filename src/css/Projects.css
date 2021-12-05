@@ -1,1 +1,27 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+.projHeader {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+}
+
+.projContainer {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.projName {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.projLink {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.projTech {
+    font-size: 17px;
+}

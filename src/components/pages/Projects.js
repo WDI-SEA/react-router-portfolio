@@ -10,7 +10,7 @@ const Projects = props => {
 
     return (
         <div>
-            <h1>My Projects</h1>
+            <h1 className='projHeader'>Projects</h1>
             {allProjects}
         </div>
     )

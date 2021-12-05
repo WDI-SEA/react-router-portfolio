@@ -1,13 +1,12 @@
 const Project = props => {
     return (
-        <div>
-            <h3>{props.project.name}</h3>
-            <p>{props.project.description}</p>
-            <small>Tech Stack: {props.project.tech_stack}</small>
+        <div className='projContainer'>
+            <h3 className='projName'>{props.project.name}</h3>
+            <p className='projBody'>{props.project.description}</p>
+            <p className='projTech'>Tech Stack: {props.project.tech_stack}</p>
+            <img classnName='projImg' src={props.project.photo_path} alt={`Screenshot of ${props.project.name}`} />
             <br />
-            <img src={props.project.photo_path} alt='screenshot of app' />
-            <br />
-            <a href={props.project.link}>Deployed Link</a>
+            <button><a className='projLink' href={props.project.link} target='_blank'>Deployed Link</a></button>
         </div>
     )
 }
