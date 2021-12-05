@@ -14,7 +14,7 @@ class Homepage extends Component {
             backgroundImage: `url("https://i.postimg.cc/GhdNk0LD/green-gradient-horizontal.png")`*/
         }}>
             <h1>Hello! I'm Shuzel Lide.</h1>
-            <h2>I'm an entry level Software Engineer and doting plant parent located in New York City.</h2>
+            <h2>I'm an entry level Software Engineer and doting plant parent with a background in health and biology located in New York City.</h2>
         </div> 
         )
     }

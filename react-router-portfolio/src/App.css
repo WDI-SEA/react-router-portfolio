@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Arima+Madurai&display=swap');
+
 body {
   text-align: center;
+  color: #ccdbcc ;
   background-image: url("https://i.postimg.cc/GhdNk0LD/green-gradient-horizontal.png");
   position: fixed;
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
   background-position: center;
+  font-family: 'Arima Madurai', cursive
 }
 
 .App-logo {

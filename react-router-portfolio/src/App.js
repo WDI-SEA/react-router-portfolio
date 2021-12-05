@@ -1,15 +1,17 @@
 import './App.css';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import Homepage from './components/Homepage';
-import Blog from './components/Blog'
+import Homepage from './pages/Homepage';
+import Blog from './pages/Blog'
 import React, {Component} from 'react'
-import About from './components/About';
-import Projects from './components/Projects';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Navbar from './NavBar';
 
 class App extends Component{
   render () {
     return (
       <BrowserRouter>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Homepage/>}/>
         <Route path="/blog" element={<Blog/>}/>
