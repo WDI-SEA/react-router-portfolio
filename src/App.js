@@ -22,14 +22,14 @@ export default class App extends Component {
     return (
       <BrowserRouter>
         <Header />
-        <Routes>
-          <Route path="/" element={<Homepage />}/>
-          <Route path="/blog" element={<Blog 
-          posts={ posts }
-          />}/>
-          <Route path="/projects" element={<Projects />}/>
-          <Route path="/about" element={<About />}/>
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Homepage />}/>
+            <Route path="/blog" element={<Blog 
+            posts={ posts }
+            />}/>
+            <Route path="/projects" element={<Projects />}/>
+            <Route path="/about" element={<About />}/>
+          </Routes>
       </BrowserRouter>
     );
 

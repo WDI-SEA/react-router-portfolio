@@ -1,17 +1,17 @@
-import Button from '@restart/ui/esm/Button'
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import Button from 'react-bootstrap/Button'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default class About extends Component {
     render() {
-        return(
+        return (
             <div>
                 <h1>About page</h1>
                 <Link to='/resume.pdf' target='_blank' download>
-                    <button type="button">
-                        Download resume 
-                    </button>
-                    
+                    <Button type="button">
+                        Download resume
+                    </Button>
                 </Link>
                 <h2>Skills </h2>
                 <ul>
