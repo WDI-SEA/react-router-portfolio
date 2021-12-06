@@ -6,7 +6,7 @@ const About = () => {
         <div>
             <div class="container">
                 <div className='aboutHeader'>
-                    <h1>About Me</h1>
+                    <h1>About</h1>
                 </div>
                 <div class="columns is-multiline aboutMe">
                     <div
@@ -63,7 +63,7 @@ const About = () => {
                     data-aos-easing="linear"
                 >
                     <div className='aboutHeader'>
-                        <h1>View My Resume</h1>
+                        <h1>Resume</h1>
                     </div>
                     <div class="column is-10 has-text-centered is-offset-1">
                         <h2 className='bodyText'>
