@@ -1,11 +1,11 @@
 body {
   margin: 0px;
   height: 100vh;
-  background: linear-gradient(#e66465, #9198e5);
+  background: linear-gradient(#ade7e9, #9198e5);
 
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .App {
@@ -46,3 +46,10 @@ body {
     transform: rotate(360deg);
   }
 }
+
+#navBar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+

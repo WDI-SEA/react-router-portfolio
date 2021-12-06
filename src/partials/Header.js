@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
-export default class Header extends Component {
-    render() {
+const Header = props => {
+
         return (
-            <div class="container">
+            <div class="container" id="navBar">
             <header>
                 <Nav>
 
@@ -18,5 +18,6 @@ export default class Header extends Component {
             </header>
             </div>
         )
-    }
 }
+
+export default Header

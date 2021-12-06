@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-export default class Homepage extends Component {
-    render() {
+const Homepage = props => {
+    
         return (
             <div>
                 <h1 class="home">if(More About Me: 
@@ -9,5 +9,6 @@ export default class Homepage extends Component {
                     <br></br>else {'{come back later}'} </h1>
             </div>
         )
-    }
 }
+
+export default Homepage

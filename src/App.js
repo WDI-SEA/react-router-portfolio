@@ -10,9 +10,8 @@ import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-export default class App extends Component {
+const App = props => {
 
-  render() {
     let blogs = [{
       title: "My Favorite Book",
       body: "The Lonely City",
@@ -40,5 +39,6 @@ export default class App extends Component {
         </BrowserRouter>
       </>
     );
-  }
 }
+
+export default App

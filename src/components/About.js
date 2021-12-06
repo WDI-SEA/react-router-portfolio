@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-export default class About extends Component {
-    render() {
+const About = props => {
+
         return (
             <div class="container">
                 <h1>About Me</h1>
@@ -14,7 +14,7 @@ export default class About extends Component {
                 <br></br>
                 <a href="https://www.instagram.com/awkwardlyisaac/">Instagram</a>
             </div>
-        )
-    }
+        )       
 }
 
+export default About
