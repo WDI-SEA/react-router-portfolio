@@ -5,9 +5,9 @@ const Project = props => {
             <small>{props.project.date}</small>
             {/* <p className='projBody'>{props.project.description}</p> */}
             <div class="img__wrap">
-                <img class="img__img" src={props.project.photo_path} />
-                <p class="img__description">Tech Stack: {props.project.tech_stack}</p>
+                <img class="img__img" src={props.project.photo_path} alt={`Screenshot of ${props.project.name}`} />
                 <p className='projBody img__description'>{props.project.description}</p>
+                <p class="img__description">{props.project.tech_stack}</p>
             </div>
             {/* <p className='projTech'>Tech Stack: {props.project.tech_stack}</p>
             <img classnName='projImg' src={props.project.photo_path} alt={`Screenshot of ${props.project.name}`} /> */}
