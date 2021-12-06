@@ -3,9 +3,8 @@ body {
   height: 100vh;
   background: linear-gradient(#ade7e9, #9198e5);
 
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
 }
 
 .App {
@@ -51,5 +50,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  /* background-color: whitesmoke; */
 }
 
+/* #aboutProject {
+  margin: auto;
+  padding: 1%;
+} */
+
+.aboutProject {
+  display: flex;
+  justify-content: unset;
+  margin: auto;
+  padding: 1%;
+}
