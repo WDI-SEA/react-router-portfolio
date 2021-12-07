@@ -1,0 +1,39 @@
+*{
+  text-align: center;
+  text-decoration: none;
+  background-color: #1B225C;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  
+}
+
+a{
+  color: white;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5% ;
+}
+
+.home-page{
+  color: white;
+background-color: #1B225C;
+margin-top: 15%;
+}
+
+.projects{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-left: 13%;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  
+}
