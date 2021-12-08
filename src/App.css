@@ -8,9 +8,8 @@ img {
   width: 400px;
 }
 
-.line-chart {
+.line-chart, .pie-chart {
   display: inline-block;
-
 }
 
 h1 {
