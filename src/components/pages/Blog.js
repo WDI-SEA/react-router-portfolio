@@ -1,10 +1,10 @@
-import React, { Component } from "react"
+import React from "react"
 import Post from '../partials/Post'
 
-export default class Blog extends Component {
+function Blog(props) {
     
-    render () {
-        let allPosts = this.props.posts.map(post => {
+
+        let allPosts = props.posts.map(post => {
             return (
                 <span><Post post={post} /></span>
             )
@@ -17,5 +17,6 @@ export default class Blog extends Component {
             </section>
             </div>
         )
-    }
+  
 }
+export default Blog

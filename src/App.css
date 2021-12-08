@@ -8,6 +8,11 @@ img {
   width: 400px;
 }
 
+.line-chart {
+  display: inline-block;
+
+}
+
 h1 {
   font-size: 80px;
   font-family: 'Fredoka One', cursive;

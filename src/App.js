@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import { 
   BrowserRouter, 
@@ -6,15 +6,21 @@ import {
   Route
 } from 'react-router-dom';
 
+
+
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Blog from './components/pages/Blog'
 import Projects from './components/pages/Projects'
-import Header from './components/partials/Header';
+import Header from './components/partials/Header'
 
-export default class App extends Component {
+// import Button from '@mui/material/Button';
+
+
+
+function App() {
   
-  render () {
+
     let posts = [
 
       { title: 'Today was cold',
@@ -28,14 +34,19 @@ export default class App extends Component {
     
     return (
       <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path='/' element={<Home />}/>
-          <Route path='/about' element={<About />}/>
-          <Route path='/blog' element={<Blog posts={posts}/>} />
-          <Route path='/projects' element={<Projects />}/>
-        </Routes>
+  
+          <Header />
+          <Routes>
+            <Route path='/' element={<Home />}/>
+            <Route path='/about' element={<About />}/>
+            <Route path='/blog' element={<Blog posts={posts}/>} />
+            <Route path='/projects' element={<Projects />}/>
+          </Routes>
+      
+      
       </BrowserRouter>
     )
-  }
+  
 }
+
+export default App
