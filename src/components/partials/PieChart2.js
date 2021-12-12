@@ -110,7 +110,7 @@ export default function PieChart2() {
                     activeShape={renderActiveShape}
                     data={data3}
                     // cx={200}
-                    cy={200}
+                    // cy={200}
                     innerRadius={60}
                     outerRadius={80}
                     fill="#FFC0CB"

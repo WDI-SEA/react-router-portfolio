@@ -89,7 +89,6 @@ export default function LineChart1() {
    
   return (
     <div className="line-chart" style={{ width: '80%', height: 300 }}>
-        <h3>Daily Energy levels</h3>
         <ResponsiveContainer>
             <LineChart
             width={1000}

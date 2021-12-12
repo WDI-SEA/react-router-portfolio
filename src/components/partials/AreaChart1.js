@@ -52,7 +52,6 @@ export default function AreaChart1() {
   return (
       <div>
           <div className="area-chart" style={{ width: '100%', height: 300 }}>
-          <h3>Human step count per dog per walk</h3>
               <ResponsiveContainer>
                 <AreaChart
                   width={1300}
