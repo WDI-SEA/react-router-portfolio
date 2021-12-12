@@ -13,6 +13,7 @@ import {
   Sector,
   AreaChart,
   Area,
+  ResponsiveContainer,
 } from "recharts";
 
 const data = [
@@ -201,7 +202,7 @@ const renderActiveShape = (props) => {
             y={ey}
             textAnchor={textAnchor}
             fill="#333"
-            >{`Breed: ${payload.name}`}</text>
+            >{`${payload.name}`}</text>
             <text
             x={ex + (cos >= 0 ? 1 : -1) * 12}
             y={ey}
@@ -234,8 +235,9 @@ export default function Projects() {
 
   return (
       <div>
-        <div className="line-chart">
+        <div className="line-chart" style={{ width: '80%', height: 300 }}>
             <h3>Daily Energy levels</h3>
+            <ResponsiveContainer>
             <LineChart
             width={1000}
             height={300}
@@ -250,7 +252,7 @@ export default function Projects() {
             <XAxis dataKey="name" />
             <YAxis />
             <Tooltip />
-            <Legend width={800}/>
+            <Legend width={"80%"}/>
             <Line
                 type="monotone"
                 dataKey="nina"
@@ -259,18 +261,16 @@ export default function Projects() {
             />
             <Line type="monotone" dataKey="finn" stroke="#82ca9d" dot={<CustomizedDot />} />
             </LineChart>
+            </ResponsiveContainer>
         </div>
-        <div className="line-chart">
+        <div className="line-chart" style={{ width: '100%', height: 300 }}>
+        <h3>Human step count per dog per walk</h3>
+        <ResponsiveContainer>
         <AreaChart
-          width={500}
+          width={1300}
           height={400}
           data={data4}
-          margin={{
-            top: 10,
-            right: 30,
-            left: 0,
-            bottom: 0
-          }}
+          margin={{ left: 250, right: 300}}
         >
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="name" />
@@ -291,39 +291,48 @@ export default function Projects() {
         fill="#FFC0CB"
       />
     </AreaChart>
+    </ResponsiveContainer>
         </div>
-        <div className="pie-chart">
-                <PieChart width={550} height={400} margin={{right: 200}}>
-            <Pie
-                activeIndex={activeIndex}
-                activeShape={renderActiveShape}
-                data={data2}
-                cx={200}
-                cy={200}
-                innerRadius={60}
-                outerRadius={80}
-                fill="#82ca9d"
-                dataKey="value"
-                onMouseEnter={onPieEnter}
-            />
-            </PieChart>
-        </div>
-        <div className="pie-chart">
-                <PieChart width={650} height={400} margin={{left: 100}}>
-            <Pie
-                activeIndex={activeIndex2}
-                activeShape={renderActiveShape}
-                data={data3}
-                cx={200}
-                cy={200}
-                innerRadius={60}
-                outerRadius={80}
-                fill="#FFC0CB"
-                dataKey="value"
-                onMouseEnter={onPieEnter2}
-            />
-            </PieChart>
-        </div>
+    
+          <div className="pie-chart1" style={{ width: "100%", height: 340 }}>
+            <ResponsiveContainer>
+                <PieChart>
+                <Pie
+                    activeIndex={activeIndex}
+                    activeShape={renderActiveShape}
+                    data={data2}
+                    // cx={200}
+                    cy={200}
+                    innerRadius={60}
+                    outerRadius={80}
+                    fill="#82ca9d"
+                    dataKey="value"
+                    onMouseEnter={onPieEnter}
+                />
+                </PieChart>
+            </ResponsiveContainer>
+            </div>
+            <div className="pie-chart2" style={{ width: "100%", height: 325 }}>
+              <ResponsiveContainer>
+                <PieChart>
+                <Pie
+                    activeIndex={activeIndex2}
+                    activeShape={renderActiveShape}
+                    data={data3}
+                    // cx={200}
+                    cy={200}
+                    innerRadius={60}
+                    outerRadius={80}
+                    fill="#FFC0CB"
+                    dataKey="value"
+                    onMouseEnter={onPieEnter2}
+                />
+                </PieChart>
+                </ResponsiveContainer>
+            </div>
+
+       
+        
     </div>
   );
 }

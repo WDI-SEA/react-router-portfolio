@@ -8,9 +8,11 @@ img {
   width: 400px;
 }
 
-.line-chart, .pie-chart {
+.line-chart, .pie-parent {
   display: inline-block;
 }
+
+
 
 h1 {
   font-size: 80px;
@@ -36,3 +38,13 @@ a {
   text-transform: uppercase;
 }
 
+/* .parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .pie-chart1 { grid-area: 1 / 1 / 2 / 2; }
+  .pie-chart2 { grid-area: 1 / 2 / 2 / 3; } */
