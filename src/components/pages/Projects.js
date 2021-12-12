@@ -11,6 +11,8 @@ import {
   PieChart, 
   Pie, 
   Sector,
+  AreaChart,
+  Area,
 } from "recharts";
 
 const data = [
@@ -72,6 +74,43 @@ const data3 = [
     { name: 'McNab', value: 4, dog: 'Nina' },
     { name: 'Other', value: 19, dog: 'Nina' }
     
+];
+const data4 = [
+  {
+    name: "Mon",
+    nina: 4000,
+    finn: 2400
+  },
+  {
+    name: "Tues",
+    nina: 3000,
+    finn: 1398
+  },
+  {
+    name: "Wed",
+    nina: 5000,
+    finn: 1800
+  },
+  {
+    name: "Thurs",
+    nina: 3780,
+    finn: 1908
+  },
+  {
+    name: "Fri",
+    nina: 3890,
+    finn: 800
+  },
+  {
+    name: "Sat",
+    nina: 2390,
+    finn: 500
+  },
+  {
+    name: "Sun",
+    nina: 3490,
+    finn: 1200
+  }
 ];
 
 const CustomizedDot = (props) => {
@@ -220,6 +259,38 @@ export default function Projects() {
             />
             <Line type="monotone" dataKey="finn" stroke="#82ca9d" dot={<CustomizedDot />} />
             </LineChart>
+        </div>
+        <div className="line-chart">
+        <AreaChart
+          width={500}
+          height={400}
+          data={data4}
+          margin={{
+            top: 10,
+            right: 30,
+            left: 0,
+            bottom: 0
+          }}
+        >
+      <CartesianGrid strokeDasharray="3 3" />
+      <XAxis dataKey="name" />
+      <YAxis />
+      <Tooltip />
+      <Area
+        type="monotone"
+        dataKey="finn"
+        stackId="1"
+        stroke="#82ca9d"
+        fill="#82ca9d"
+      />
+      <Area
+        type="monotone"
+        dataKey="nina"
+        stackId="1"
+        stroke="#FFC0CB"
+        fill="#FFC0CB"
+      />
+    </AreaChart>
         </div>
         <div className="pie-chart">
                 <PieChart width={550} height={400} margin={{right: 200}}>
