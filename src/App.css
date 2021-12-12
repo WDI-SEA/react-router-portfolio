@@ -8,7 +8,7 @@ img {
   width: 400px;
 }
 
-.line-chart, .pie-parent {
+.line-chart, .area-chart {
   display: inline-block;
 }
 
