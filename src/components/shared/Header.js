@@ -1,9 +1,11 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import Resume from './Resume-MikeKohlberg.pdf'
 
 const Header = () => {
   return (
     <header>
+      <a href={Resume} download>Resume Download</a>
       <nav>
         <ul>
           <li><Link to='/'>Home</Link></li>

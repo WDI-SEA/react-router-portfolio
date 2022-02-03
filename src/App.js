@@ -1,11 +1,13 @@
-import './App.css';
+// External Resources
+import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// Internal Resources
+import './App.css';
 import Home from './components/pages/Home';
 import Blog from './components/pages/Blog';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Header from './components/shared/Header';
-import React from 'react'
 
 function App() {
 
@@ -23,18 +25,16 @@ function App() {
   ]
 
   return (
-    // <div className="App">
-      <BrowserRouter>
-        <Header/>
-        <Routes>
-          <Route path='/' element={<Home />}/>
-          <Route path='/blog' element={<Blog posts={posts}/>}/>
-          <Route path='/about' element={<About/>}/>
-          <Route path='/projects' element={<Projects/>}/>
-        </Routes>
-      </BrowserRouter>
-    // </div>
-  );
+    <BrowserRouter>
+      <Header/>
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/blog' element={<Blog posts={posts}/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/projects' element={<Projects/>}/>
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App;

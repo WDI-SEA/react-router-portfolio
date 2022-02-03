@@ -1,0 +1,99 @@
+#reviews__container {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin: 10px;
+}
+.carousel {
+  position: relative;
+  height: 350px;
+  width: 80%;
+  margin: 0 auto;
+}
+.carousel__track-container {
+  height: 315px;
+  position: relative;
+  overflow: hidden;
+}
+.carousel__track {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  height: 100%;
+  transition: transform 250ms ease-in;
+}
+.carousel__slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.carousel__text__container {
+  width: 50%;
+  /* margin: 0; */
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.carousel__text__author {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 1;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+.carousel__text {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 1;
+  font-size: 1.7rem;
+}
+@media screen and (max-width: 800px) {
+  .carousel__text__container {
+    width: 95%;
+  }
+  .carousel__text {
+    font-size: 1.3rem;
+  }
+}
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+
+}
+.carousel__button--left {
+  left: -40px;
+}
+.carousel__button--right {
+  right: -40px;
+}
+.carousel__button img {
+  width: 15px;
+}
+.carousel__nav {
+  /* background: pink; */
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.carousel__indicator {
+  border: 0;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background: rgba(0,0,0,0.3);
+  margin: 0 10px;
+  cursor: pointer;
+}
+.carousel__indicator.current-slide {
+  background: rgba(0,0,0,0.75);
+}
+.is-hidden {
+  display: none;
+}
