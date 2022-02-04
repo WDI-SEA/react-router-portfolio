@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url('./videos/auroraBlue.gif');
+  background-size: 100%;
+  background-position: 0 -400px;
+  font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+header h1{
+  margin: 0px;
+  font-size: 4rem;
+  font-weight: normal;
+}
+header h2 {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+/* Skills */
+.logo {
+  width: 125px;
+  height: 125px;
+  display: inline;
+}
+.col-sm-3 {
+  text-align: center;
+}
+.row {
+  column-count: 4;
+  text-align: center;
+  position: center;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+/* About */
+.about-container {
+  width: 80%;
+  text-align: center;
+}

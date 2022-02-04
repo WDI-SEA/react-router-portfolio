@@ -46,7 +46,7 @@ const Projects = () => {
         <p>Roam a field of 'tall grass' and survive as many wild Pokemon encounters as you can. Search your favorite Pokemon or encounter them at random. Prepare yourself for the nostalgia that awaits.</p>
         <img style={pokePicStyle} src='https://i.imgur.com/yRTUORD.png' alt='pokeClone roamView'></img>
         <img style={pokePicStyle} src='https://i.imgur.com/dAMC7Ps.png' alt='pokeClone battleView'></img>
-        <div style={linkStyle}><a target="_blank" href='https://mgkdn9.github.io/Pokemon-Fenton-Region/'>Live Link!</a></div>
+        <div style={linkStyle}><a target="_blank" href='https://mgkdn9.github.io/PokeClone/'>Live Link!</a></div>
       </div>
 
       <div style={projectStyle}>
@@ -78,7 +78,7 @@ const Projects = () => {
           <img style={algoPicStyleHome} src='https://i.imgur.com/n9dt1ts.png' alt='AlgoViews Home'></img>
           <img style={algoPicStyleTest} src='https://i.imgur.com/Ob8nwkA.png' alt='AlgoViews Test'></img>
           </div>
-        <div style={linkStyle}><a target="_blank" href='/'>Live Link Coming Soon!</a></div>
+        <div style={linkStyle}><a target="_blank" href='https://algo-views-client.herokuapp.com/'>Live Link!</a></div>
       </div>
 
       <div style={projectStyle}>
