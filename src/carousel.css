@@ -61,6 +61,16 @@
     font-size: 1.3rem;
   }
 }
+@media screen and (max-width: 520px) {
+  .carousel__text {
+    font-size: 1rem
+  }
+}
+@media screen and (max-width: 400px) {
+  .carousel__text {
+    font-size: 0.8rem
+  }
+}
 .carousel__button {
   position: absolute;
   top: 50%;

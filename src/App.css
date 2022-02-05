@@ -87,3 +87,10 @@ header h2 {
   height: 400px;
   min-width: 400px;
 }
+
+/* Small screens */
+@media screen and (max-width: 465px) {
+  .logo_img {
+    display: none;
+  }
+}
