@@ -1,8 +1,8 @@
-#reviews__container {
+#projects__container {
   background-color: #fff;
   border: 1px solid black;
   border-radius: 50px;
-  margin: 30px;
+  margin: 0 20px 20px 20px;
 }
 .carousel {
   position: relative;
@@ -77,7 +77,7 @@
   right: -40px;
 }
 .carousel__button img {
-  width: 15px;
+  width: 25px;
 }
 .carousel__nav {
   display: flex;

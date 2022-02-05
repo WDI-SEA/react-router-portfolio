@@ -11,21 +11,19 @@ function App() {
 
   return (
     <div>
-      <header>
-        <h1>MICHAEL KOHLBERG</h1>
-        <h2>Software Engineer</h2>
-      </header>
+      <div className='header-container'>
+        <a href={Resume} download>Resume Download</a>
+        <header>
+          <h1>MICHAEL KOHLBERG</h1>
+          <h2>Software Engineer</h2>
+        </header>
+      </div>
       <main>
-        <h2>Projects</h2>
+        <h2 className='section-title'>Projects</h2>
         <ProjectsCarousel/>
         <Skills/>
         <About/>
       </main>
-      <footer>
-        <a href='https://linkedin.com/in/michaelkohlberg'>LinkedIn</a>
-        <a href='https://github.com/mgkdn9'>Github</a>
-        <a href={Resume} download>Resume Download</a>
-      </footer>
     </div>
   )
 }

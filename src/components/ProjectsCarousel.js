@@ -9,7 +9,7 @@ export default function ProjectsCarousel(){
 
   setTimeout(()=>{require('../vanillaJS/carousel')},10)
   return (
-    <div id="reviews__container">
+    <div id="projects__container">
 
       <div className="carousel">
 

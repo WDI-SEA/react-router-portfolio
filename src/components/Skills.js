@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 
 import css from '../logos/css.png'
 import db from '../logos/db.png'
@@ -11,8 +12,8 @@ import react from '../logos/react.png'
 
 export default function Skills(){
   return (
-    <div>
-      <h3>SKILLS</h3>
+    <div className='skills-container'>
+      <h2 className='section-title'>Skills</h2>
       <div className="row"> 
         <div className="col-sm-3">
           <img className="logo" src={javascript}></img>
