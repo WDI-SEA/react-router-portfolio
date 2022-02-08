@@ -1,7 +1,6 @@
 # To update
-1. commit updates to gh-pages branch
-2. run 'npm run deploy'
-3. don't forget to keep main branch up to date
+1. run 'npm run deploy'
+2. doesn't seem like I need to mess with gh-pages branch at all
 
 # Getting Started with Create React App
 
