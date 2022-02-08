@@ -1,3 +1,8 @@
+# To update
+1. commit updates to gh-pages branch
+2. run 'npm run deploy'
+3. don't forget to keep main branch up to date
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
