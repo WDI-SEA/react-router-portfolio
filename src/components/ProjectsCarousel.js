@@ -58,7 +58,7 @@ export default function ProjectsCarousel(){
               <div className="carousel__text__container">
                 <div>
                   <h2 className='project-title'>OoIHaveThat</h2>
-                  <p className='project-description'>Peer to peer tool sharing platform. Broadcast to users near you whenever you need a tool or any kind of service. Also see requests from users nearby and help a neighbor out by renting them a tool while earning some money off all the tools you own.</p>
+                  <p className='project-description'>Peer-to-peer tool sharing platform. Broadcast to users near you whenever you need a tool or any kind of service. Also see requests from users nearby and help a neighbor out by renting them a tool while earning some money off all the tools you own.</p>
                   <video src={OoIHaveThatVid1} autoPlay loop muted controls="controls" width="600" height="300" />
                   <a className='project-link' target="_blank" href='https://ooihavethat.herokuapp.com/'>Live Link!</a>
                   <a className='project-github' target='_blank' href='https://github.com/mgkdn9/OoIHaveThat'>Github Repo</a>
