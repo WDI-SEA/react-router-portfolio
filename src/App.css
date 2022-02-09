@@ -72,7 +72,7 @@ header h2 {
 }
 .about-text {
   width: 80%;
-  max-width: 550px;
+  max-width: 650px;
   align-items: center;
 }
 .about-container p {
@@ -88,10 +88,7 @@ header h2 {
   height: 400px;
   min-width: 400px;
 }
-
-/* Small screens */
-@media screen and (max-width: 465px) {
-  .logo_img {
-    display: none;
-  }
+.links-container {
+  text-align: center;
+  font-size: 1.4rem;
 }
