@@ -38,7 +38,7 @@ export default function ProjectsCarousel(){
                   <h2 className='project-title '>PokeClone</h2>
                   <p className='project-description carousel__text'>Roam a field of 'tall grass' and survive as many wild Pokemon encounters as you can. Search your favorite Pokemon or encounter them at random. Prepare yourself for the nostalgia that awaits.</p>
                   <video src={PokeCloneVid3} autoPlay={autoPlayPokeClone} loop muted  controls="controls" width="600" height="300" />
-                  <a className='project-link' target="_blank" href='https://mgkdn9.github.io/PokeClone/'>Live Link</a>
+                  <a className='project-link' target="_blank" href='https://mgkdn9.github.io/PokeClone/'>Live Link!</a>
                   <a className='project-github' target='_blank' href='https://github.com/mgkdn9/PokeClone'>Github Repo</a>
                 </div>
               </div>
