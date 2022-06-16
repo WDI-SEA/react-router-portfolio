@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <div className="Projects">
 
-            <h1> Warhol's Projects Include: </h1>
+            <h1> Warhol's Projects/Portfolios Include: </h1>
 
             <h5> Marylin Monroe Portfolio - 1967 </h5>
             <img src='./Marylin.png' alt='Marylin Monroe' />
