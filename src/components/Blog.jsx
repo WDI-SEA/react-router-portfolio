@@ -6,9 +6,9 @@ const Blog = (props) => {
 
         return (
             <ul className='Blogpost' key={`post${i}`}>
-                <h3>{title}</h3>
-                <h4>{date}</h4>
-                <p>{body}</p>
+                <h3>Exhibit: {title}</h3>
+                <h4>Date: {date}</h4>
+                <p>Details: {body}</p>
                     {img}
             </ul>
         )
