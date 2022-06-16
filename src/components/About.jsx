@@ -2,8 +2,8 @@
 
 const About = () => {
     return (
-        <div>
-            <h3> About Andy Warhol </h3>
+        <div className="About">
+            <h1> About Andy Warhol </h1>
 
             <p>Andy Warhol ; born Andrew Warhola Jr.; August 6, 1928 – February 22, 1987, was an American artist, 
                 film director, and producer who was a leading figure in the visual art movement known as pop art. 
@@ -23,6 +23,8 @@ const About = () => {
                 He lived openly as a gay man before the gay liberation movement. 
                 In June 1968, he was almost killed by radical feminist Valerie Solanas, who shot him inside his studio. 
                 After gallbladder surgery, Warhol died of cardiac arrhythmia in February 1987 at the age of 58 in New York.</p>
+
+                <img src='./WarholBandW.jpeg' alt="Warhol BnW" />
         </div>
     );
 }

@@ -8,12 +8,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+  position: relative;
+  border-color: purple;
+  border-width: 10px;
+  border-radius: 25px;
+  border-style: outset;
+  width: 50%;
+  height: 50%;
+  margin-bottom: 50px;
+}
+
+h1 {
+  padding-top: 15px;
+}
+
 li {
   text-align: center;
   margin: 15px;
+}
+
+p {
+  text-align: justify;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

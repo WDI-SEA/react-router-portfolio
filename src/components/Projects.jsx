@@ -3,8 +3,9 @@
 const Projects = () => {
 
     return (
-        <div>
-            <h3> Warhol's Projects Include: </h3>
+        <div className="Projects">
+
+            <h1> Warhol's Projects Include: </h1>
 
             <h5> Marylin Monroe Portfolio - 1967 </h5>
             <img src='./Marylin.png' alt='Marylin Monroe' />

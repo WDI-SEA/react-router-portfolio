@@ -1,16 +1,46 @@
 .App {
+  color: white;
   text-align: center;
+  background-color:dimgray;
+  min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Warhol {
+  background-color:#282c34;
+  border-radius: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Projects {
+  padding-bottom: 50px;
+  min-height: 100vh;
+  background-color: #282c34;
+  border-radius: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.Blog {
+  padding-bottom: 50px;
+  min-height: 100vh;
+  background-color: #282c34;
+  border-radius: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.About {
+  border: 10px;
+  background-color: #282c34;
+  border-radius: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.Header {
+  padding-top: 15px;
+  background-color: dimgray;
 }
 
 .App-header {
@@ -26,13 +56,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
