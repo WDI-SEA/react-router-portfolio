@@ -15,7 +15,7 @@ const Blog = (props) => {
 
     return (
         <div>
-            <h1> Upcoming Warhol Exhibitions: </h1>
+            <h1> Upcoming & Current Warhol Exhibitions: </h1>
             {post}
         </div>
     );
