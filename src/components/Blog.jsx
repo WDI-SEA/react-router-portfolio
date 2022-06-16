@@ -1,7 +1,18 @@
-export default function Blog() {
+export default function Blog({ posts }) {
+    const postElemnts = posts.map((post)=>{
+        return (
+            <div>
+
+                <h2>{post.title}</h2>
+                <p>{post.body}</p>
+            </div>
+        )
+        
+    })
     return (
-        <div>
-            <h1>Blogs</h1>
-        </div>
+        <>
+        <h1>Fun Fun Functions</h1>
+        {postElemnts}
+        </>
     )
 }
