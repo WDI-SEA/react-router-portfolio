@@ -24,7 +24,7 @@ const post = [
     title: 'Andy Warhol - Photo Factory',
     date: 'September 10, 2021 - February 20, 2022',
     body: 'With over 120 images spanning Warhol’s career, including many rare and never-before-seen photographs, Andy Warhol: Photo Factory offers a distinctly intimate visual diary of the artist’s life and work, featuring his iconic Polaroid portraits, photo strips, gelatin silver prints, and stitched photographs. The exhibition pays homage to Warhol’s iconic New York City studio The Factory and offers a distinctly intimate visual diary of the artist’s life and work, including Polaroids of celebrities, artists and friends, such as Debbie Harry, Jean-Michel Basquiat, Dolly Parton, Grace Jones, and Keith Haring. Notably, Warhol’s earliest photographic works will be presented, offering a glimpse into his experimentation with the medium and how it served as a catalyst for his early silkscreen paintings, commissioned portraits, and commercial work.',
-    img: <img src='./Warholpolaroid.jpeg' alt='Photo Factory' />
+    img: <img src='./Warholpolaroid.jpeg' alt='PhotoFactory' />
   }
 ]
 
