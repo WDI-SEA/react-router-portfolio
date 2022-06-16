@@ -7,7 +7,7 @@ export default function Blog(props) {
     
     const posts = props.posts.map((post, i) => {
         return (
-            <Post key={`post-${i}`} post={post}/>
+            <Post key={`post-${i}`} post={post} handleDeletePost={props.handleDeletePost}/>
         )
     })
 

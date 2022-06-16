@@ -57,8 +57,15 @@ function App() {
         setBody('')
     }
 
-    const handleDeletePost = () => {
-  
+    const handleDeletePost = (post) => {
+      const deletePostTitle = post.title
+      console.log(deletePostTitle)
+      const deletePostIndex= posts.findIndex(post => post.title===deletePostTitle)
+      console.log(deletePostIndex)
+      let newPosts = [...posts]
+      newPosts.splice(deletePostIndex,1)
+      setPosts(newPosts)
+      
     }
 
   return (
