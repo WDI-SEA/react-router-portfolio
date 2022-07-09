@@ -2,6 +2,14 @@
 1. run 'npm run deploy'
 2. doesn't seem like I need to mess with gh-pages branch at all
 
+## To do
+### update readme (delete boilerplate for starters)
+### fix padding on Skills title to match others
+### Make carousel buttons really Pop
+### Make Download Resume a better button
+### Navbar?
+### About Me text fade in
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
