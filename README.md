@@ -3,12 +3,14 @@
 2. doesn't seem like I need to mess with gh-pages branch at all
 
 ## To do
-### update readme (delete boilerplate for starters)
-### fix padding on Skills title to match others
+### Uglify (minimize) so it loads faster
+### Fix padding on Skills title to match others
 ### Make carousel buttons really Pop
 ### Make Download Resume a better button
-### Navbar?
+### Carousel rewind animation on page load
+### Navbar scrollTo headings
 ### About Me text fade in
+### Select different cursors (fireworks, candle, wheel rolling with mouse direction)
 
 # Getting Started with Create React App
 
