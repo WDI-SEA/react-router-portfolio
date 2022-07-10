@@ -14,7 +14,7 @@ function App() {
       <div className='header-container'>
         <a href={Resume} download>Download Resume</a>
         <header>
-          <h1>MICHAEL G KOHLBERG</h1>
+          <h1>MICHAEL KOHLBERG</h1>
           <h2>Software Engineer</h2>
         </header>
       </div>
