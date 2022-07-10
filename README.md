@@ -1,6 +1,10 @@
 # To deploy
-1. run 'npm run deploy'
-2. doesn't have to do with gh-pages branch at all for deploying
+1. It doesn't have to do with gh-pages branch at all for deploying
+2. If changes don't include adding or removing files, just run
+```npm run deploy```
+3. If changes include new files (such as a Resume update), must run
+```git add .```
+Then commit and then run npm run deploy from above^^^
 
 ## To do
 ### Uglify (minimize) so it loads faster
