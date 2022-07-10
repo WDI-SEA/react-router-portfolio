@@ -1,6 +1,6 @@
-# To update
+# To deploy
 1. run 'npm run deploy'
-2. doesn't seem like I need to mess with gh-pages branch at all
+2. doesn't have to do with gh-pages branch at all for deploying
 
 ## To do
 ### Uglify (minimize) so it loads faster
