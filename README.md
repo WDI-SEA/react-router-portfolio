@@ -5,8 +5,15 @@
 ## To do
 ### Uglify (minimize) so it loads faster
 ### Fix padding on Skills title to match others
-### Make carousel buttons really Pop
+### Make mobile friendly
+#### Projects section
+##### Skills section
+###### About Me section
+### Make carousel buttons really POP
+### Have hover/drag scrolling left and right with mouse on desktop and button/flick scrolling on mobile
 ### Make Download Resume a better button
+### Icons for LinkedIn/Github/Resume links
+### Add Angular and Swift/Kotlin to Skills
 ### Carousel rewind animation on page load
 ### Navbar scrollTo headings
 ### About Me text fade in
