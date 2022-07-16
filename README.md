@@ -23,7 +23,9 @@ Then commit and then run npm run deploy from above^^^
 ### About Me text fade in
 ### Select different cursors (fireworks, candle, wheel rolling with mouse direction)
 
-# Getting Started with Create React App
+
+# BOILER PLATE README
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
