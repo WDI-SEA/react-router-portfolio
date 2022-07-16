@@ -7,12 +7,12 @@
 Then commit and then run npm run deploy from above^^^
 
 ## To do
+### Make mobile friendly
+#### ---Projects section
+#### ---Skills section
+#### ---About Me section
 ### Uglify (minimize) so it loads faster
 ### Fix padding on Skills title to match others
-### Make mobile friendly
-#### Projects section
-##### Skills section
-###### About Me section
 ### Make carousel buttons really POP
 ### Have hover/drag scrolling left and right with mouse on desktop and button/flick scrolling on mobile
 ### Make Download Resume a better button
