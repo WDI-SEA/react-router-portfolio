@@ -1,10 +1,12 @@
-# To deploy
+# To Deploy
 1. It doesn't have to do with gh-pages branch at all for deploying
 2. If changes don't include adding or removing files, just run
 ```npm run deploy```
 3. If changes include new files (such as a Resume update), must run
 ```git add .```
 Then commit and then run npm run deploy from above^^^
+# To Develop
+1. 'npm start' to launch app
 
 ## To do
 ### Make mobile friendly
