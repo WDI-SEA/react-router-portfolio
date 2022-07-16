@@ -23,7 +23,7 @@ Then commit and then run npm run deploy from above^^^
 ### About Me text fade in
 ### Select different cursors (fireworks, candle, wheel rolling with mouse direction)
 
-
+#
 # BOILER PLATE README
 ## Getting Started with Create React App
 
