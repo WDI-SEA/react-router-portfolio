@@ -1,14 +1,19 @@
 #projects__container {
+  width: 95%;
+  max-width: 900px;
   background-color: #ddd;
   border: 1px solid black;
   border-radius: 50px;
   margin: 0 20px 20px 20px;
+  display: flex;
+  margin: 0 auto 10px auto;
 }
 .carousel {
   position: relative;
   height: 590px;
   width: 80%;
   margin: 0 auto;
+  align-self: center;
 }
 .carousel__track-container {
   height: 555px;
@@ -45,13 +50,23 @@
 .project-description {
   font-size: 1.3rem;
 }
+.video-container {
+  display: flex;
+}
+.links-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+}
 .project-link {
   font-size: 1.9rem;
-  margin: 0 50px;
+  /* margin: 0 50px; */
+  flex-grow: 1;
 }
 .project-github {
   font-size: 1.9rem;
-  margin: 0 50px;
+  /* margin: 0 50px; */
+  flex-grow: 1;
 }
 @media screen and (max-width: 800px) {
   .carousel__text__container {
@@ -60,15 +75,23 @@
   .carousel__text {
     font-size: 1.3rem;
   }
+  .project-link {
+    font-size: 1.5rem;
+    /* margin: 0 25px; */
+  }
+  .project-github {
+    font-size: 1.5rem;
+    /* margin: 0 25px; */
+  }
 }
 @media screen and (max-width: 520px) {
   .carousel__text {
-    font-size: 1rem
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 400px) {
   .carousel__text {
-    font-size: 0.8rem
+    font-size: 0.8rem;
   }
 }
 .carousel__button {
@@ -78,7 +101,6 @@
   background: transparent;
   border: 0;
   cursor: pointer;
-
 }
 .carousel__button--left {
   left: -40px;
@@ -99,12 +121,12 @@
   border-radius: 50%;
   width: 15px;
   height: 15px;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
   margin: 0 10px;
   cursor: pointer;
 }
 .carousel__indicator.current-slide {
-  background: rgba(0,0,0,0.75);
+  background: rgba(0, 0, 0, 0.75);
 }
 .is-hidden {
   display: none;

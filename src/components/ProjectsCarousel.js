@@ -50,28 +50,32 @@ export default function ProjectsCarousel() {
     <div id="projects__container">
       <div className="carousel">
         <button className="carousel__button carousel__button--left is-hidden">
-          <img src="https://i.imgur.com/UiUhUQW.png" />
+          <img src="https://i.imgur.com/UiUhUQW.png" alt="chevronL" />
         </button>
 
         <div className="carousel__track-container">
           <ul className="carousel__track">
             {ProjectsInfo.projects.map((p, index) => {
-              return <ProjectCard
-                title={p.title}
-                key={p.key}
-                styleLeft={p.styleLeft}
-                description={p.description}
-                video={videos[index]}
-                autoPlayBool={autoPlayPokeClone}
-                liveLink={p.liveLink}
-                githubRepo={p.githubRepo}
-              />;
+              return (
+                <ProjectCard
+                  title={p.title}
+                  key={p.key}
+                  styleLeft={p.styleLeft}
+                  description={p.description}
+                  video={videos[index]}
+                  autoPlayBool={autoPlayPokeClone}
+                  liveLink={p.liveLink}
+                  githubRepo={p.githubRepo}
+                />
+              );
             })}
           </ul>
         </div>
 
         <button className="carousel__button carousel__button--right">
-          <img src="https://i.imgur.com/p8SFtmi.png" />
+          <img src="/../images/right-chevron.png" alt="chevronR" />
+          pick one
+          <img src="https://i.imgur.com/p8SFtmi.png" alt="chevronR" />
         </button>
 
         <div className="carousel__nav">

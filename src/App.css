@@ -1,9 +1,13 @@
 body {
   margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
 }
 
 .header-container {
-  background-image: url('./videos/auroraBlue.gif');
+  background-image: url("./videos/auroraBlue.gif");
   /* background-size: 1500px;
   background-position: center -350px; */
   /* background-size: 100%;
@@ -13,7 +17,7 @@ body {
   background-position: center -80px;
   background-size: 750px;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: whitesmoke;
 }
 .header-container a {
@@ -27,7 +31,7 @@ header {
   justify-content: center;
   text-align: center;
 }
-header h1{
+header h1 {
   margin: 0px;
   font-size: 4rem;
   font-weight: normal;
@@ -45,7 +49,7 @@ header h2 {
 /* Skills */
 .skills-container {
   /* background-image: linear-gradient(to bottom, #EDF7FA, #badfdbb2, #99cac5d3); */
-  background-image: linear-gradient(to right, #EDF7FA, darkblue);
+  background-image: linear-gradient(to right, #edf7fa, darkblue);
   padding: 20px;
 }
 .logo {
@@ -76,14 +80,14 @@ header h2 {
   align-items: center;
 }
 .about-container p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 1.25rem;
   margin: 0 50px;
 }
 .about-img {
-  background-image: url('https://i.imgur.com/HPlCFA2.png');
-  background-position: -55px 0; 
+  background-image: url("https://i.imgur.com/HPlCFA2.png");
+  background-position: -55px 0;
   border-radius: 50%;
   height: 400px;
   min-width: 400px;
