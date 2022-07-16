@@ -8,7 +8,7 @@ const About = () => {
       <h2 className='section-title'>About Me</h2>
       <div className='about-container'>
         <div className='about-text'>
-          <p>Full stack software developer with experience in mechanical and electrical engineering and PLC programming. My career shift into full time software development was driven by my passion and aptitude for coding and my desire to make a lasting impact. I am comfortable working with many different types of people in a wide range of settings. I look forward to tackling your toughest bugs.</p>
+          <p>Full stack software developer with experience in mechanical and electrical engineering and object oriented PLC programming. My career shift into full stack software development was driven by my passion and aptitude for coding and my desire to make a lasting impact. I am comfortable working with many different types of people in a wide range of settings. I look forward to tackling your toughest bugs.</p>
           <br></br>
           <br></br>
           <div className='links-container'>

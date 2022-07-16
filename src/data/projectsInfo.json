@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "title": "PokeClone",
+      "key": 0,
+      "styleLeft": "0px",
+      "description": "Roam a field of 'tall grass' and survive as many wild Pokemon encounters as you can. Search your favorite Pokemon or encounter them at random. Prepare yourself for the nostalgia that awaits.",
+      "liveLink": "https://mgkdn9.github.io/PokeClone/",
+      "githubRepo": "https://github.com/mgkdn9/PokeClone"
+    },
+    {
+      "title": "AlgoViews",
+      "key": 1,
+      "styleLeft": "1211.19px",
+      "description": "Brush up on some common sorting algorithms and see them animated on screen. Then test your knowledge when you feel up to it.",
+      "liveLink": "https://algo-views-client.herokuapp.com/",
+      "githubRepo": "https://github.com/mgkdn9/sorting_algorithm_visualizer"
+    },
+    {
+      "title": "OoIHaveThat",
+      "key": 2,
+      "styleLeft": "2422.38px",
+      "description": "Peer-to-peer tool sharing platform. Broadcast to users near you whenever you need a tool or any kind of service. Also see requests from users nearby and help a neighbor out by renting them a tool while earning some money off the tools you already own.",
+      "liveLink": "https://ooihavethat.herokuapp.com/",
+      "githubRepo": "https://github.com/mgkdn9/OoIHaveThat"
+    },
+    {
+      "title": "Reart",
+      "key": 3,
+      "styleLeft": "3633.56px",
+      "description": "A subscription service delivers artwork right to your door. Tailored to your unique taste in art, season after season.",
+      "liveLink": "https://reart.herokuapp.com/",
+      "githubRepo": "https://github.com/mgkdn9/Re-Art-Client"
+    },
+    {
+      "title": "KCMOMovers Website",
+      "key": 4,
+      "styleLeft": "4844.75px",
+      "description": "Personal company website for marketing purposes as well as coding practice.",
+      "liveLink": "https://KCMOMovers.com/",
+      "githubRepo": "https://github.com/mgkdn9/KCMOMoversWebsite"
+    }
+  ]
+}
