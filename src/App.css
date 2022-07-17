@@ -24,6 +24,10 @@ body {
   position: relative;
   color: white;
 }
+#callToActionBtn {
+  position: absolute;
+  right: 0;
+}
 header {
   height: 300px;
   display: flex;
