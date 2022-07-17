@@ -9,13 +9,17 @@ Then commit and then run npm run deploy from above^^^
 1. 'npm start' to launch app
 
 ## To do
+### Email Me modal
 ### Make mobile friendly
 #### ---Projects section
 #### ---Skills section
 #### ---About Me section
+### Make carousel buttons really POP
+### Make Skills icons get automatically bumped around by cursor / edges of screen / each other
+### Skills in 1-3-3-3 then 2 half-staggered columnswaterfall
+#### OR a ton more skills with smaller icons
 ### Uglify (minimize) so it loads faster
 ### Fix padding on Skills title to match others
-### Make carousel buttons really POP
 ### Have hover/drag scrolling left and right with mouse on desktop and button/flick scrolling on mobile
 ### Make Download Resume a better button
 ### Icons for LinkedIn/Github/Resume links
