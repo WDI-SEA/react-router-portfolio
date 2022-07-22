@@ -17,7 +17,7 @@ function App() {
         </a>
         <Button id="callToActionBtn" variant="primary" size="lg">Email Me</Button>
         <header>
-          <h1>MICHAELA KOHLBERG</h1>
+          <h1>MICHAEL KOHLBERG</h1>
           <h2>Software Engineer</h2>
         </header>
       </div>
