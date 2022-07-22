@@ -3,7 +3,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 // Internal Resources
 import "./App.css";
-import Resume from "./Resume-MikeKohlberg-2022103.pdf";
+import Resume from "./Resume-MikeKohlberg-2022102.pdf";
 import ProjectsCarousel from "./components/ProjectsCarousel";
 import Skills from "./components/Skills";
 import About from "./components/About";
