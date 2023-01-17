@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -20,14 +21,17 @@ body {
   font-family: "Roboto", sans-serif;
   color: whitesmoke;
 }
+
 .header-container a {
   position: relative;
   color: white;
 }
+
 #callToActionBtn {
   position: absolute;
   right: 0;
 }
+
 header {
   height: 300px;
   display: flex;
@@ -35,35 +39,42 @@ header {
   justify-content: center;
   text-align: center;
 }
+
 header h1 {
   margin: 0px;
   font-size: 4rem;
   font-weight: normal;
 }
+
 header h2 {
   font-size: 2rem;
   font-style: italic;
 }
+
 /* Projects */
 .section-title {
   margin: 0 20px;
   font-size: 3rem;
   text-decoration: underline;
 }
+
 /* Skills */
 .skills-container {
   /* background-image: linear-gradient(to bottom, #EDF7FA, #badfdbb2, #99cac5d3); */
   background-image: linear-gradient(to right, #edf7fa, darkblue);
   padding: 20px;
 }
+
 .logo {
   width: 125px;
   height: 125px;
   display: inline;
 }
+
 .col-sm-3 {
   text-align: center;
 }
+
 .row {
   column-count: 4;
   text-align: center;
@@ -71,6 +82,7 @@ header h2 {
   margin-right: 15%;
   margin-left: 15%;
 }
+
 /* About */
 .about-container {
   display: flex;
@@ -78,25 +90,68 @@ header h2 {
   align-items: center;
   margin-bottom: 20px;
 }
+
 .about-text {
   width: 80%;
   max-width: 650px;
   align-items: center;
 }
-.about-container p {
+
+.about-text p {
   font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 1.25rem;
   margin: 0 50px;
 }
+
 .about-img {
   background-image: url("https://i.imgur.com/HPlCFA2.png");
+  background-repeat: no-repeat;
   background-position: -55px 0;
   border-radius: 50%;
   height: 400px;
-  min-width: 400px;
+  width: 400px;
 }
+
 .links-container {
   text-align: center;
   font-size: 1.4rem;
+}
+
+#aboutMeDesktop {
+  color: red;
+}
+
+#aboutMeMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  #aboutMeDesktop {
+    display: none;
+  }
+
+  #aboutMeMobile {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about-text p {
+    font-size: 1rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .about-img {
+    margin: 10px auto 20px auto;
+    background-position: -55px 0;
+    height: 95vw;
+    width: 95vw;
+    max-height: 300px;
+    max-width: 300px;
+    background-size: 450px;
+  }
 }
