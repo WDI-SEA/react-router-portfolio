@@ -14,6 +14,7 @@ Then commit and then run npm run deploy from above^^^
 #### ---Projects section
 #### ---Skills section
 #### ---About Me section
+### Make look same in light/dark themes
 ### Make carousel buttons really POP
 ### Make Skills icons get automatically bumped around by cursor / edges of screen / each other
 ### Skills in 1-3-3-3 then 2 half-staggered columnswaterfall
