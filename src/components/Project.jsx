@@ -1,7 +1,16 @@
-export default function Project() {
+export default function Project(props) {
+  const projects = props.projects.map((project, index) => {
+    return (
+      <div key={index}>
+        <h2>{project.title}</h2>
+        <a href={project.link}>Github Link</a>
+      </div>
+    )
+  })
+
   return (
     <div>
-      <h1>Project</h1>
+      {projects}
     </div>
   )
 }

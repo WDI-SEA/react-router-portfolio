@@ -9,8 +9,8 @@ import Navbar from './components/Navbar'
 function App() {
   const posts = [
     {
-      title: 'My First Post',
-      body: 'Content'
+      title: 'My Only Post',
+      body: 'Not really into blogging...'
     }
   ]
 
