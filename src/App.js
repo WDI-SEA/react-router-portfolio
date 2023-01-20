@@ -5,15 +5,30 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Header from './components/partials/Header';
 
+let posts = [
+  {
+    title: "Hello world",
+    body: "Goodbye world"
+  },
+  {
+    title: "Cello world",
+    body: "silence the violins"
+  },
+  {
+    title: "Ye",
+    body: "eeeeet"
+  }
+]
 
-function App() {
+
+function App(props) {
   return (
     <div className='container'>
     <BrowserRouter>
     <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/blog' element={<Blog />} />
+        <Route path='/blog' element={<Blog post={posts}/>} />
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />
       </Routes>
