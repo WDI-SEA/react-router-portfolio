@@ -1,0 +1,1 @@
+import { Link } from 'react-router-dom'; export default function Header() { return ( <><Link to='/homepageforTheoRobinsonPortfoliodotcom'><h4>home</h4></Link><Link to='/ideasformulatedcontaining'><p>about</p></Link><Link to='/writtenarticlesbypeoplewhoyoudefinitelycareabout'><p>Blog</p></Link><Link to='/thinkotherpeoplethinkthesameplural'><p>Projects</p></Link></>)}

@@ -1,0 +1,1 @@
+ export default function Projects() { console.log();  ; return ( <> <p>Projects:</p><div className='one'>1</div><div><img className="ooer"/></div></>)}

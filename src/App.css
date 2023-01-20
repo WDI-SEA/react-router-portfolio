@@ -1,0 +1,31 @@
+* {
+  text-align: center;
+}
+.google {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+}
+.one{
+  transition-duration: 9.8s;
+ transition-timing-function: cubic-bezier(0,1.67,1,-0.66); 
+}
+.one:hover{
+  transform:perspective(500px) rotateX(100deg) rotateY(55deg);
+  font-size: 100px;
+  width: 90vw;
+  cursor: pointer;
+}
+.ooer {
+  background-image: 'https://lh3.googleusercontent.com/hFVzkWoL7nYPaH75daducLYCRMLC6-FCTEraFQf1lCXQ4ijXUUAyR9HRg3nFAbDU92Np-0Gp7k_LKw6wzHYw-zgD=w640-h400-e365-rj-sc0x00ffffff';
+  height: 500px;
+  width: 500px;
+  opacity: 0;
+  transition-duration: 5s;
+  transition-timing-function: cubic-bezier(0,1.67,1,-0.66);
+}
+.ooer:hover {
+  background: linear-gradient(90deg, rgba(166,0,36,.8) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,.8) 100%);
+  opacity: 1;
+  height: 600px; width: 600px;
+}
