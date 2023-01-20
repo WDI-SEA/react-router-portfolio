@@ -12,7 +12,8 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import Project from './pages/Project';
 
-
+//partials
+import Header from './partials/Header';
 
 export default function App() {
   const posts = [
@@ -36,15 +37,8 @@ export default function App() {
   return (
     <>
       <BrowserRouter>
-        <header>
-          <nav>
-            <h1>YoshBook</h1>
-            <Link to="/">Home</Link>
-            <Link to="/blog">Blog</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/about">About</Link>
-          </nav>
-        </header>
+        <Header />
+
         <main>
           <Routes>
             <Route path='/' element={ <Home /> } />
