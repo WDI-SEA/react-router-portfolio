@@ -1,11 +1,12 @@
-import './App.css';
+import './App.scss';
 import Home from './component/Home';
 import About from './component/About';
 import Blog from './component/Blog';
 import Projects from './component/Projects';
 import Header from './component/partials/Header';
-import Footer from './component/partials/Footer';
-import {BrowserRouter, Routes,Route} from 'react-router-dom'
+// import Footer from './component/partials/Footer';
+import {Routes, Route} from 'react-router-dom'
+import Sidebar from './component/partials/Sidebar';
 
 function App() {
   const posts = [
@@ -23,8 +24,7 @@ function App() {
 
   return (
     <div className="App">
-
-      <BrowserRouter>
+      <Sidebar />
       <Header />
       <Routes>
         <Route path='/' element={<Home />}/> 
@@ -32,8 +32,8 @@ function App() {
         <Route path='/blog' element={<Blog post={posts}/>}/>
         <Route path='/projects' element={<Projects />}/>
       </Routes>
-      <Footer />
-      </BrowserRouter>
+
+      {/* <Footer /> */}
     </div>
   );
 }
