@@ -4,6 +4,9 @@ import Blog from './components/Blog';
 import About from './components/About';
 import Projects from './components/Projects';
 import Header from './components/partials/Header';
+import './styles.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { Button, Alert } from 'react-bootstrap'
 
 let posts = [
   {

@@ -1,16 +1,18 @@
 import { Link } from 'react-router-dom'
+import { Navbar, Nav, Container } from 'react-bootstrap'
 
 const Header = () => {
     return (
         <>
-        <header className='card'>
-        <nav>
-            <Link to='/'>Home Page</Link>{' | '}
-            <Link to='/blog'>Blogs</Link>{' | '}
-            <Link to='/projects'>Projects</Link>{' | '}
-            <Link to='/about'>About Page</Link>
-        </nav>
-        </header>
+        <Navbar bg="dark" variant="dark">
+        <Container>
+            <Navbar.Brand to='/home'>Navbar</Navbar.Brand>
+            <Nav.Link href='/' className='nav'>Home Page</Nav.Link>
+            <Nav.Link href='/blog' className='nav'>Blogs</Nav.Link>
+            <Nav.Link href='/projects' className='nav'>Projects</Nav.Link>
+            <Nav.Link href='/about' className='nav'>About Page</Nav.Link>
+        </Container>
+        </Navbar>
         </>
     )
 }

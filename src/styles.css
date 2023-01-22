@@ -1,0 +1,27 @@
+* {
+    /* box-sizing: border-box; */
+    flex: auto;
+
+}
+
+/* body {
+    margin: 0;
+} */
+
+/* .nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.nav:hover {
+    background-color:  #777;
+} */
