@@ -5,7 +5,7 @@
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 45%;
         max-height: 90%;
     }
     h1{
@@ -61,4 +61,9 @@ h2 {
     border: 1px solid #ffd700;
     float: left;
     animation: fadeIn 1s 1.5s backwards;
+
+    &:hover {
+        background-color: #ffd700;
+        color: #333;
+    }
 }

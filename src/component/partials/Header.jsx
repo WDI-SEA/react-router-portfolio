@@ -9,6 +9,7 @@ function Header() {
             <Link to='/about'><div className='nav-item'>About</div></Link>
             <Link to='/blog'><div className='nav-item'>Blog</div></Link>
             <Link to='/projects'><div className='nav-item'>Projects</div></Link>
+            <Link to='/contact'><div className='nav-item'>Contact</div></Link>
         </nav>
         </div>
      );

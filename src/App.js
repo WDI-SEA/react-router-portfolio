@@ -3,6 +3,7 @@ import Home from './component/Home';
 import About from './component/About';
 import Blog from './component/Blog';
 import Projects from './component/Projects';
+import Contact from './component/Contact';
 import Header from './component/partials/Header';
 // import Footer from './component/partials/Footer';
 import {Routes, Route} from 'react-router-dom'
@@ -31,6 +32,7 @@ function App() {
         <Route path='/about' element={<About />}/>
         <Route path='/blog' element={<Blog post={posts}/>}/>
         <Route path='/projects' element={<Projects />}/>
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
 
       {/* <Footer /> */}
