@@ -1,7 +1,7 @@
 {
   "name": "react-router-portfolio",
   "version": "0.1.0",
-  "homepage": "https://turtle-sprite.github.io/react-router-portfolio/about",
+  "homepage": "https://turtle-sprite.github.io/crystal-sheeley-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
