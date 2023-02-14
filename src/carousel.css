@@ -35,8 +35,6 @@
   width: 100%;
 }
 .carousel__text__container {
-  /* width: 50%; */
-  /* margin: 0; */
   text-align: center;
   position: absolute;
   top: 50%;
@@ -46,6 +44,8 @@
 }
 .project-title {
   font-size: 1.7rem;
+  display: inline;
+  line-height: 0;
 }
 .project-description {
   font-size: 1.3rem;
@@ -60,12 +60,10 @@
 }
 .project-link {
   font-size: 1.9rem;
-  /* margin: 0 50px; */
   flex-grow: 1;
 }
 .project-github {
   font-size: 1.9rem;
-  /* margin: 0 50px; */
   flex-grow: 1;
 }
 @media screen and (max-width: 800px) {
@@ -77,11 +75,9 @@
   }
   .project-link {
     font-size: 1.5rem;
-    /* margin: 0 25px; */
   }
   .project-github {
     font-size: 1.5rem;
-    /* margin: 0 25px; */
   }
 }
 @media screen and (max-width: 520px) {
@@ -94,12 +90,10 @@
     font-size: 0.8rem;
   }
 }
+.carousel__header {
+  display: inline;
+}
 .carousel__button {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%);
-  background: transparent;
-  border: 0;
   cursor: pointer;
 }
 .carousel__button--left {
@@ -127,7 +121,4 @@
 }
 .carousel__indicator.current-slide {
   background: rgba(0, 0, 0, 0.75);
-}
-.is-hidden {
-  display: none;
 }
