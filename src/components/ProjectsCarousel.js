@@ -31,33 +31,15 @@ export default function ProjectsCarousel() {
     setTimeout(() => setAutoPlayKCMOMovers(true), 5);
   }, [autoPlayPokeClone]);
 
-  // console.log("ProjectsInfo.projects:\n", ProjectsInfo.projects, "\n\n");
-  // const arrProjectCards = ProjectsInfo.projects.map((p, index) => {
-  //   return <ProjectCard
-  //     title={p.title}
-  //     key={p.key}
-  //     styleLeft={p.styleLeft}
-  //     description={p.description}
-  //     video={videos[index]}
-  //     autoPlayBool={autoPlayPokeClone}
-  //     liveLink={p.liveLink}
-  //     githubRepo={p.githubRepo}
-  //   />;
-  // });
-  // console.log("arrProjectCards:\n", arrProjectCards, "\n\n");
-
   return (
     <div id="projects__container">
       <div className="carousel">
-        <button className="carousel__button carousel__button--left is-hidden">
-          <img src="https://i.imgur.com/UiUhUQW.png" alt="chevronL" />
-        </button>
-
         <div className="carousel__track-container">
           <ul className="carousel__track">
             {ProjectsInfo.projects.map((p, index) => {
               return (
                 <ProjectCard
+                  index={index}
                   title={p.title}
                   key={p.key}
                   styleLeft={p.styleLeft}
@@ -71,12 +53,6 @@ export default function ProjectsCarousel() {
             })}
           </ul>
         </div>
-
-        <button className="carousel__button carousel__button--right">
-          <img src="/../images/right-chevron.png" alt="chevronR" />
-          pick one
-          <img src="https://i.imgur.com/p8SFtmi.png" alt="chevronR" />
-        </button>
 
         <div className="carousel__nav">
           <button className="carousel__indicator current-slide"></button>

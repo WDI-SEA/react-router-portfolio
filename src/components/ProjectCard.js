@@ -1,14 +1,22 @@
 import React from "react";
+import CarouselBtnPrev from "./CarouselBtnPrev";
+import CarouselBtnNext from "./CarouselBtnNext";
 
 export default function ProjectCard(props) {
   return (
     <li
-      className="carousel__slide current-slide"
       style={{ left: props.styleLeft }}
+      className={`carousel__slide ${props.index===0 ? 'current-slide' : '' }`}
     >
       <div className="carousel__text__container">
         <div>
-          <h2 className="project-title ">{props.title}</h2>
+          <div className="carousel__header">
+            <CarouselBtnPrev index={props.index} />
+            &nbsp;&nbsp;&nbsp;
+            <h2 className="project-title ">{props.title}</h2>
+            &nbsp;&nbsp;&nbsp;
+            <CarouselBtnNext index={props.index} />
+          </div>
           <p className="project-description carousel__text">
             {props.description}
           </p>
