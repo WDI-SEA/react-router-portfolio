@@ -12,9 +12,9 @@ export default function ProjectCard(props) {
         <div>
           <div className="carousel__header">
             <CarouselBtnPrev index={props.index} />
-            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;
             <h2 className="project-title ">{props.title}</h2>
-            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;
             <CarouselBtnNext index={props.index} />
           </div>
           <p className="project-description carousel__text">

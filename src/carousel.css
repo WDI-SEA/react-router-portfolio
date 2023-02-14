@@ -10,13 +10,13 @@
 }
 .carousel {
   position: relative;
-  height: 590px;
+  height: 670px;
   width: 80%;
   margin: 0 auto;
   align-self: center;
 }
 .carousel__track-container {
-  height: 555px;
+  height: 635px;
   position: relative;
   overflow: hidden;
 }
