@@ -23,10 +23,15 @@ function App() {
         <Modal.Body>
           <form action="https://formsubmit.co/mkohlberg95@gmail.com" method="POST">
             <input type="file" name="attachment"></input>
+            <br/>
             <input type="text" name="name" placeholder='Enter your name' required/>
+            <br/>
             <input type="email" name="email" placeholder='Enter your email' required/>
+            <br/>
             <input type="text" name="_subject" placeholder='Enter the subject'></input>
+            <br/>
             <textarea name="message" placeholder="Enter your message"></textarea>
+            <br/>
             <input type="hidden" name="_autoresponse" value="Thank you, I will be with you shortly!"></input>
             <br/>
             <button type="submit">Send</button>
