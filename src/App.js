@@ -21,7 +21,7 @@ function App() {
           <Modal.Title>Email Me</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <form action="https://formsubmit.co/mkohlberg95@gmail.com" method="POST">
+          <form action="https://formsubmit.co/mkohlberg95@gmail.com" method="POST" encType="multipart/form-data">
             <input type="file" name="attachment"></input>
             <br/>
             <input type="text" name="name" placeholder='Enter your name' required/>
