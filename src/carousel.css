@@ -85,11 +85,6 @@
     font-size: 1rem;
   }
 }
-@media screen and (max-width: 400px) {
-  .carousel__text {
-    font-size: 0.8rem;
-  }
-}
 .carousel__header {
   display: inline;
 }
