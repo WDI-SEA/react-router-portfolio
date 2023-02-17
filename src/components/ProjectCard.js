@@ -6,7 +6,7 @@ export default function ProjectCard(props) {
   return (
     <li
       style={{ left: props.styleLeft }}
-      className={`carousel__slide ${props.index===0 ? 'current-slide' : '' }`}
+      className={`carousel__slide ${props.index === 0 ? "current-slide" : ""}`}
     >
       <div className="carousel__text__container">
         <div>
@@ -17,6 +17,8 @@ export default function ProjectCard(props) {
             &nbsp;&nbsp;
             <CarouselBtnNext index={props.index} />
           </div>
+          <br />
+          <br />
           <p className="project-description carousel__text">
             {props.description}
           </p>
