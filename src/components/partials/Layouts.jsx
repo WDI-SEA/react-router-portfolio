@@ -5,11 +5,9 @@ export default function Layout(props) {
         <>
             <Header />
             <main>
-                {}
+                <h1>Dxk0ta's Blog</h1>
+                {props.children}
             </main>
-            <footer>
-                <p>im the footer</p>
-            </footer>
         </>
     )
 }
