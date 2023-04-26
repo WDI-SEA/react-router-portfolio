@@ -1,4 +1,4 @@
-
+import {Link} from "react-router-dom"
 
 export default function Blogs(props) {
 
@@ -7,10 +7,7 @@ export default function Blogs(props) {
             <>
             <div className="blogContainer">
                 <div className='title'> 
-                    {post.title}
-                </div>
-                <div>
-                    {post.description}
+                    <Link to={`/blog/${i}`}>{post.title}</Link>
                 </div>
             </div>
             </>

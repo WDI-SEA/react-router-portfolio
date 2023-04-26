@@ -9,6 +9,7 @@ import Blog from "./components/Blog"
 import About from "./components/About"
 import Projects from "./components/Projects"
 import Layout from './partials/Layout'
+import BlogPost from './components/BlogPost'
 
 import blogPost from './post'
 import logo from './logo.svg';
@@ -28,6 +29,10 @@ function App() {
           <Route 
           path='/blog'
           element={<Blog blogPost={blogPost}/>}
+          />
+          <Route 
+          path='/blog/:id'
+          element={<BlogPost blogPost={blogPost}/>}
           />
           <Route
           path='/about'
