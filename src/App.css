@@ -1,0 +1,42 @@
+ul {
+  margin: 0;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+}
+
+.App, a {
+  text-align: center;
+  color: skyblue;
+  text-decoration: none;
+}
+
+.bg-grey {
+  background-color: rgb(49, 55, 56);
+  transition: background-color 0.5s ease;
+}
+
+.bg-pink {
+  background-color: rgb(188, 112, 124);
+  transition: background-color 0.5s ease;
+}
+
+.bg-purple {
+  background-color: rgb(51, 0, 169);
+  transition: background-color 0.5s ease;
+}
+
+.bg-dark-green {
+  background-color: rgb(15, 82, 21);
+  transition: background-color 0.5s ease;
+}
