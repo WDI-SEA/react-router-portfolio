@@ -10,6 +10,31 @@ import Projects from './Projects'
 import Header from './Header'
 import './App.css';
 
+
+
+const blogData = [
+  {
+    title: 'Post title',
+    author: 'John Doe',
+    date: 'April 26, 2023',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed urna eu tellus hendrerit facilisis. Donec blandit euismod est, non ultrices sapien consequat ac.'
+  },
+  {
+    title: 'Post title',
+    author: 'Jane Smith',
+    date: 'April 25, 2023',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed urna eu tellus hendrerit facilisis. Donec blandit euismod est, non ultrices sapien consequat ac.'
+  },
+  {
+    title: 'Post title',
+    author: 'John Doe',
+    date: 'April 24, 2023',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed urna eu tellus hendrerit facilisis. Donec blandit euismod est, non ultrices sapien consequat ac.'
+  }
+];
+
+
+
 function App() {
   return(
     <div>
@@ -26,7 +51,7 @@ function App() {
           />
           <Route 
             path='/blog'
-            element={<Blog />}
+            element={<Blog blogData={blogData}/>}
           />
           <Route 
             path='/projects'
