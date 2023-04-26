@@ -25,7 +25,7 @@ function About() {
                 </p>
 
                 <p>
-                    Thank you for visiting my website, and please feel free to reach out to me via <a href="mailto:garrett.heiner@gmail.com" target="_blank">email</a>, or <a href="https://github.com/Heiner000" target="_blank">GitHub</a>.
+                    Thank you for visiting my website, and please feel free to reach out to me via <a href="mailto:garrett.heiner@gmail.com" target="_blank" rel="noreferrer">email</a>, or <a href="https://github.com/Heiner000" target="_blank" rel="noreferrer">GitHub</a>.
 
                 </p>
             </div>

@@ -5,6 +5,7 @@ import {
 } from "react-router-dom"
 
 import './App.css';
+
 import Layout from "./components/partials/Layout";
 import About from "./components/pages/About";
 import Homepage from "./components/pages/Homepage";
@@ -17,7 +18,7 @@ function App() {
   
 
   return (
-    <div className="App">
+    <div className="container">
       <Router>
         <Layout>
           <Routes>

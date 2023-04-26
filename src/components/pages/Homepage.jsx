@@ -1,7 +1,8 @@
 function Homepage() {
     return ( 
-        <div className="body">
-            <h1>Welcome Home, buddy</h1>
+        <div className="title-div">
+            <h1>You Have Arrived</h1>
+            <small>Check out the links above</small>
         </div>
      );
 }

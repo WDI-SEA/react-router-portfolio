@@ -2,16 +2,23 @@ import Header from "./Header"
 
 export default function Layout(props) {
     console.log(props)
-    return(
-        <>
+    return (
+        <div className="body">
+
             <Header />
 
-            {/* this is how you make a non-void element in react */}
-            {props.children}
+            <div className="content">
+                <div className="content-inside">
 
-            <footer>
+                {/* this is how you make a non-void element in react */}
+                {props.children}
+                </div>
+            </div>
+
+            <footer className="footer">
                 <p>© Garrett Heiner GNU GPLv3 {new Date().getFullYear()}</p>
             </footer>
-        </>
+
+        </div>
     )
 }

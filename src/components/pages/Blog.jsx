@@ -12,7 +12,7 @@ function Blog(props) {
 
     return (
         <div className="container">
-            <h1>Sim, Sou Blogueiro</h1>
+            <h1>Samwise, a Blogger</h1>
 
             {allPosts}
         </div>
