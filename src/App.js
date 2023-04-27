@@ -3,35 +3,13 @@ import {
   Routes,
   Route 
 } from 'react-router-dom'
-import Homepage from './Homepage'
-import About from './About'
-import Blog from './Blog'
-import Projects from './Projects'
-import Header from './Header'
+import Homepage from './components/Homepage'
+import About from './components/About'
+import Contact from './components/Contact'
+import Projects from './components/Projects'
+import Header from './components/navbar/Header'
 import './App.css';
-
-
-
-const blogData = [
-  {
-    title: 'Post title',
-    author: 'John Doe',
-    date: 'April 26, 2023',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed urna eu tellus hendrerit facilisis. Donec blandit euismod est, non ultrices sapien consequat ac.'
-  },
-  {
-    title: 'Post title',
-    author: 'Jane Smith',
-    date: 'April 25, 2023',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed urna eu tellus hendrerit facilisis. Donec blandit euismod est, non ultrices sapien consequat ac.'
-  },
-  {
-    title: 'Post title',
-    author: 'John Doe',
-    date: 'April 24, 2023',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed urna eu tellus hendrerit facilisis. Donec blandit euismod est, non ultrices sapien consequat ac.'
-  }
-];
+import Footer from './components/footer/Footer'
 
 
 
@@ -50,14 +28,15 @@ function App() {
             element={<About />}
           />
           <Route 
-            path='/blog'
-            element={<Blog blogData={blogData}/>}
+            path='/contact'
+            element={<Contact />}
           />
           <Route 
             path='/projects'
             element={<Projects />}
           />
         </Routes>
+        <Footer />
       </Router>
     </div>
   )
