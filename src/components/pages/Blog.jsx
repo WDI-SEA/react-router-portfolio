@@ -1,30 +1,19 @@
-import { useState } from 'react'
-import Post from './Post'
+import { Link } from "react-router-dom"
 
 export default function Blog(props) {
-
-
-    const [newPostTitle, setNewPostTitle] = useState({})
-    const [newPostBody, setNewPostBody] = useState({})
-    const handleTitleChange = (e) => {
-        let title = e.target.value;
-        setNewPostTitle({title});
-    }   
-    const handleBodyChange = (e) => {
-        let content = e.target.value;
-        setNewPostBody({body})
-    }
-
-    const { id } = Post
-
+    const blogPosts = props.posts.map((post, i) => {
+        return (
+            <h2>
+                <Link to={`/blog/${post.id}`}>
+                    {post.title}
+                </Link>
+            </h2>
+        )
+    })
     return (
-        <form key={`${id}`}>
-            <label htmlFor="post-title">Title:</label>
-            <input type="text" onChange={handleTitleChange}>
-
-            <label htmlFor="post-body">Body:</label>
-                
-            </input>
-        </form>
+        <>
+            <h1>Dxk0ta's Blog!</h1>
+            {blogPosts}
+        </>
     )
 }

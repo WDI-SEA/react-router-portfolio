@@ -7,22 +7,18 @@ import { useState } from 'react'
 import './App.css';
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import Blog from "./components/pages/Blog";
 import Projects from "./components/pages/Projects";
+import Blog from "./components/pages/Blog";
+import Post from'./components/pages/Post';
 import Layouts from "./components/partials/Layouts";
 import Header from "./components/partials/Header";
 
-import dxk0taBlogs from './components/pages/Blog'
-import Post from "./components/pages/Post";
+import postsArr from "./components/pages/Post";
 
 
 export default function App(props) {
   
-  const posts = [
-    {
-      
-    }
-  ]
+  const posts = [(`${props.title, props.body}`)]
   
   return (
     <div className="App">
@@ -42,7 +38,20 @@ export default function App(props) {
 
           <Route 
             path="/blog"
-            element={<Blog />}
+            element={
+              <Blog 
+                posts={postsArr}
+              />
+            }
+          />
+
+          <Route 
+            path={'/blog/:blogId'}
+            element={
+              <Post 
+                posts={postsArr}
+              />
+            }
           />
 
           <Route 
