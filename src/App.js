@@ -6,6 +6,9 @@ import About from './components/About';
 import Layout from './partials/Layout'
 import Projects from './components/Projects';
 import {posts} from './posts'
+import BackgroundVideo from './components/BackgroundVideo';
+import './App.css'
+
 
 function App() {
   return (
