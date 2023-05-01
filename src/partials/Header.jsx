@@ -32,7 +32,7 @@ export default function Header() {
         </div>
         <div className="header-grid-item">
           <Link to="/blog" className="btn">
-            Blog
+            Thoughts
             <span></span>
           </Link>
         </div>
@@ -41,7 +41,6 @@ export default function Header() {
             About
             <span></span>
           </Link>
-        </div>
         <div className="header-grid-item" >
           <div onClick={toggleTheme} >
             {theme === "light" ? (
@@ -49,6 +48,7 @@ export default function Header() {
             ) : (
               <img src={darkModeImg} alt="Dark Mode" className="theme-icon" />
             )}
+          </div>
           </div>
         </div>
       </div>
