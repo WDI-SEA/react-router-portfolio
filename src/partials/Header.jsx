@@ -1,13 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import '../App.css'
 
 export default function Header() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-  }
+    const [theme, setTheme] = useState(
+        localStorage.getItem('theme') || 'light'
+      );
+      const toggleTheme = () => {
+        if (theme === 'light') {
+          setTheme('dark');
+        } else {
+          setTheme('light');
+        }
+      };
+      useEffect(() => {
+        localStorage.setItem('theme', theme);
+        document.body.className = theme;
+      }, [theme]);
 
   return (
     <header>
@@ -23,21 +32,15 @@ export default function Header() {
             Blog
             <span ></span>
           </Link>
-
+        </div>
+        <div className="header-grid-item">
           <Link to="/about">
             About
             <span ></span>
           </Link>
-
-          <Link to="/projects">
-            Projects
-            <span ></span>
-          </Link>
         </div>
         <div className="header-grid-item">
-          <button onClick={toggleDarkMode}>
-            {isDarkMode ? "Light Mode" : "Dark Mode"}
-          </button>
+      <button onClick={toggleTheme}>Toggle Theme</button>
         </div>
       </div>
     </header>
