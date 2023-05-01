@@ -1,11 +1,12 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+
 }
 
 .grid-item {
   text-align: center;
+  border: 1px solid #c4c4c4; /* add a border to the grid items to separate them visually */
 }
 
 .placeholder-img {
@@ -29,7 +30,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  gap: 10px;
+  gap: 2px;
 }
 
 .header-grid-item {
@@ -47,3 +48,91 @@ body.dark {
   background-color: black;
   color: white;
 }
+
+.theme-icon {
+    width: 82px;
+    height: 55px;
+    margin-top: 5px;
+  }
+
+  /* Blog container styles */
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  
+  /* Blog header styles */
+  .blog-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  
+  .blog-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  /* Blog post styles */
+  .blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 24px;
+  }
+  
+  .blog-post {
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .blog-post-body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+  
+  .blog-post-link {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    text-align: right;
+  }
+  
+  .blog-post-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .blog-post-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .blog-post-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .blog-post-author {
+    font-size: 18px;
+    color: #999;
+  }
+  
+  .blog-post-body {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  

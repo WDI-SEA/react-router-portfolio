@@ -7,6 +7,8 @@ import Layout from './partials/Layout'
 import {posts} from './posts'
 import BackgroundVideo from './components/BackgroundVideo';
 import './App.css'
+import BlogPost from "./components/BlogPost";
+
 
 function App() {
   
@@ -17,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog posts={posts}/>} />
+          <Route path="/blog/:id" element={<BlogPost posts={posts}/>} />
           <Route path="/about" element={<About />} />
         </Routes>
         </Layout>
