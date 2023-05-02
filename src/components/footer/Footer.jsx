@@ -14,12 +14,6 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    <div className='phone'>
-                        <FaPhone size={20} style={{color: '#fff', marginRight: '2rem'}} />
-                        <div>
-                            <p>480-636-6841</p>
-                        </div>
-                    </div>
 
                     <div className='email'>
                         <FaMailBulk size={20} style={{color: '#fff', marginRight: '2rem'}} />

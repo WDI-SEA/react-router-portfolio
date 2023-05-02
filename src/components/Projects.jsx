@@ -21,13 +21,13 @@ export default function Projects() {
                             <p>explore the caves in this HTML5 canvas game</p>
                             <div className='pro-btns'>
                                 <NavLink 
-                                to="url.com" 
-                                className="btn">
+                                to="https://brogers-97.github.io/Project-1/" 
+                                className="btn" target="_blank" rel="noopener noreferrer">
                                     View
                                 </NavLink>
                                 <NavLink 
-                                to="url.com" 
-                                className="btn">
+                                to="https://github.com/brogers-97/Project-1" 
+                                className="btn" target="_blank" rel="noopener noreferrer">
                                     Source
                                 </NavLink>
                             </div>
@@ -37,7 +37,7 @@ export default function Projects() {
                         <img src="/images/equestrian.png" alt="equestrian organizer" />
                         <h2 className='project-title'>EO App</h2>
                         <div className='pro-details'>
-                            <p>Organize all your hourses with this CRM</p>
+                            <p>Organize all your hurses with this CRM</p>
                             <div className='pro-btns'>
                                 <NavLink 
                                 to="url.com" 
@@ -45,8 +45,8 @@ export default function Projects() {
                                     View
                                 </NavLink>
                                 <NavLink 
-                                to="url.com" 
-                                className="btn">
+                                to="https://github.com/brogers-97/Project-2" 
+                                className="btn" target="_blank" rel="noopener noreferrer">
                                     Source
                                 </NavLink>
                             </div>
