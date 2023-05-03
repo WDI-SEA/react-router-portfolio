@@ -17,7 +17,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.3);
     opacity: 0.8;
 }
 .home{
@@ -54,7 +54,7 @@
 }
 .hero-img::before{
     content: "";
-    background-image: url('/public/images/computer-desk.jpeg');
+    background-image: url('/public/images/background.jpeg');
     background-size: cover;
     background-position: center top;
     height: 100%;
@@ -94,8 +94,10 @@
     padding-bottom: 5rem;
 }
 .project-card{
-    background: #1a1919;
+    background: #77c1b4;
     padding: 1.2rem 1rem;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1.5%;
 }
 .project-card img {
     width: 100%;

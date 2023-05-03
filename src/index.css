@@ -8,7 +8,8 @@
 }
 
 body{
-  background-color: black;
+  background-color: #c48653;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
 }
 
 h1, h3 h4, p, a {
@@ -23,7 +24,7 @@ ul {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(248, 217, 15);
+  background: #5b7a97;
   color: #222;
   border: 1px solid #fff;
   font-weight: 600;

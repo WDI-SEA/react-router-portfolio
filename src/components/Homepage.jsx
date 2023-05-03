@@ -5,7 +5,7 @@ export default function Homepage() {
     return(
         <div className="home">
             <div className="mask">
-                <img src="/images/home-background.jpeg" alt="man working on computer" className="into-img" />
+                <img src="/images/home-background1.webp" alt="man working on computer" className="into-img" />
             </div>
             <div className="content">
                 <p>HI, I'M A DEVELOPER</p>
