@@ -5,14 +5,23 @@ export default function Footer() {
     return(
         <div className='footer'>
             <div className='footer-container'>
-                <div className='left'> 
+                
+                {/* <p>briandrogers04@gmail.com</p> */}
+                
+                <div className='social-icons'>
+                <a href='https://www.linkedin.com/in/brian-rogers-2023ga/' target='_blank' rel='noopener noreferrer'>
+                    <FaLinkedin size={25} style={{color: '#fff', marginRight: '2rem'}} />
+                </a>
+                
+                <a href='https://github.com/brogers-97' target='_blank' rel='noopener noreferrer'>
+                    <FaGithub to={'https://github.com/brogers-97'} size={25} style={{color: '#fff', marginRight: '2rem'}} />
+                </a>
+                </div>
 
-                    <div className='location'>
-                        <FaHome size={20} style={{color: '#fff', marginRight: '2rem'}} />
-                        <div>
-                            <p>Phoenix, AZ</p>
-                        </div>
-                    </div>
+                {/* <p>briandrogers04@gmail.com</p> */}
+
+
+                {/* <div className='footer-center'> 
 
 
                     <div className='email'>
@@ -20,17 +29,18 @@ export default function Footer() {
                         <div>
                             <p>briandrogers04@gmail.com</p>
                         </div>
+                        
                     </div>
 
-                </div>
-                <div className='right'> 
-                    <h4>About the Company</h4>
-                    <p>blah blah blah</p>
-                    <div className='social'>
-                    <FaLinkedin size={20} style={{color: '#fff', marginRight: '2rem'}} />
-                    <FaGithub size={20} style={{color: '#fff', marginRight: '2rem'}} />
+                    <div className='right'> 
+                        <div className='social'>
+                        <FaLinkedin size={20} style={{color: '#fff', marginRight: '2rem'}} />
+                        <FaGithub size={20} style={{color: '#fff', marginRight: '2rem'}} />
+                        </div>
                     </div>
-                </div>
+                    
+
+                </div> */}
             </div>
         </div>
     )

@@ -44,8 +44,6 @@
     margin: 1rem 0.2rem;
 }
 
-
-
 .hero-img{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -54,7 +52,7 @@
 }
 .hero-img::before{
     content: "";
-    background-image: url('/public/images/background.jpeg');
+    background-image: url('/public/images/tatonomusic-FFCgotROOTY-unsplash.jpg');
     background-size: cover;
     background-position: center top;
     height: 100%;
@@ -94,7 +92,7 @@
     padding-bottom: 5rem;
 }
 .project-card{
-    background: #77c1b4;
+    background: #22474d;
     padding: 1.2rem 1rem;
     box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.5);
     border-radius: 1.5%;
