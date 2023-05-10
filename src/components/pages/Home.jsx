@@ -1,8 +1,12 @@
+import "./Home.css"
 
 export default function Home() {
     return (
         <>
-            <h1>Home Page</h1>   
+            <div className="home-title">
+                <h1>Dakota Campbell</h1>
+                <p>Welcome to my personal coding blog.</p>
+            </div >
         </>
     )
 }

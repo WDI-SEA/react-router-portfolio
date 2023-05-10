@@ -1,0 +1,33 @@
+.header-container {
+    font-family: "Dancing Script";
+    background-color:black;
+    height: 90px;
+    display: flex;
+}
+
+.nav-bar {
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 100px;
+}
+.nav-bar a {
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.icon-img-name {
+    color: white;
+    display:flex;
+    flex-direction: row;
+    font-size:xx-large;
+    padding-left: 15px
+}
+
+.icon {
+    height: 90px;
+    width: 90px;
+}
