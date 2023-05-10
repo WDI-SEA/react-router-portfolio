@@ -12,6 +12,7 @@ import Blog from "./components/pages/Blog";
 import Post from'./components/pages/Post';
 import Layouts from "./components/partials/Layouts";
 import Header from "./components/partials/Header";
+import Footer from "./components/partials/Footer";
 
 import postsArr from "./components/pages/Post";
 

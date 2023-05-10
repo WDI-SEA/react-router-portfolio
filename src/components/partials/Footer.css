@@ -1,0 +1,20 @@
+.footer-container {
+    background-color: black;
+    height: 90px;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.footer-container img {
+    height: 60px;
+    width: 60px;
+    transition: transform o.3;
+    padding-left: 25px;
+}
+
+.footer-container img:hover {
+   transform: scale(1.3);
+}
