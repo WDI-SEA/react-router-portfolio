@@ -8,6 +8,7 @@ export default function Header() {
     const [click, setClick] = useState(false)
     const [color, setColor] = useState(false)
     const handleClick = () => setClick(!click)
+    const closeMenu = () => setClick(false)
     const changeColor = () => {
         if(window.scrollY >=100){
             setColor(true)
@@ -22,16 +23,16 @@ export default function Header() {
         <div className={color ? 'header header-bg' : 'header'}>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li>
-                    <Link to='/' >Home</Link>
+                    <Link to='/' onClick={closeMenu} >Home</Link>
                 </li>
                 <li>
-                    <Link to='/about' >About Me</Link>
+                    <Link to='/about' onClick={closeMenu} >About Me</Link>
                 </li>
                 <li>
-                    <Link to='/projects' >My Projects</Link>
+                    <Link to='/projects' onClick={closeMenu} >My Projects</Link>
                 </li>
                 <li>
-                    <Link to='/contact' >Contact</Link>
+                    <Link to='/contact' onClick={closeMenu} >Contact</Link>
                 </li>
             </ul>
             <div className='hamburger' onClick={handleClick}>

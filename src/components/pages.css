@@ -163,7 +163,7 @@
 }
 
 label{
-    color: #fff;
+    color: rgb(106, 106, 106);
     margin-bottom: 0.5rem;
 }
 form{
@@ -177,9 +177,15 @@ form input, form textarea{
     margin-bottom: 1rem;
     padding: 10px 18px;
     font-size: 1.2rem;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
     border-color: rgba(255, 255, 255, 0.1);
-    color: #f4f4f4;
+    color: rgb(106, 106, 106);
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
 

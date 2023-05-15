@@ -21,7 +21,7 @@ export default function Projects() {
                             <p>explore the caves in this HTML5 canvas game</p>
                             <div className='pro-btns'>
                                 <NavLink 
-                                to="https://brogers-97.github.io/Project-1/" 
+                                to="https://brogers-97.github.io/Cave-Explorer/" 
                                 className="btn" target="_blank" rel="noopener noreferrer">
                                     View
                                 </NavLink>
@@ -46,6 +46,25 @@ export default function Projects() {
                                 </NavLink>
                                 <NavLink 
                                 to="https://github.com/brogers-97/Project-2" 
+                                className="btn" target="_blank" rel="noopener noreferrer">
+                                    Source
+                                </NavLink>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='project-card'>
+                        <img src="/images/JoystickJunkies.png" alt="cave explorer" />
+                        <h2 className='project-title'>Joystick Junkies</h2>
+                        <div className='pro-details'>
+                            <p>Socialize with friends over games and reviews</p>
+                            <div className='pro-btns'>
+                                <NavLink 
+                                to="https://main--playful-arithmetic-40d56a.netlify.app" 
+                                className="btn" target="_blank" rel="noopener noreferrer">
+                                    View
+                                </NavLink>
+                                <NavLink 
+                                to="https://github.com/brogers-97/project3client" 
                                 className="btn" target="_blank" rel="noopener noreferrer">
                                     Source
                                 </NavLink>
