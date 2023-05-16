@@ -82,6 +82,7 @@
 .project-heading{
     text-align: center;
     padding: 4rem 0 2rem 0;
+    color: rgb(95, 95, 95);
 }
 .project-container{
     max-width: 1140px;
@@ -131,13 +132,28 @@
     text-align: center;
     margin: auto;
     padding: 1rem;
-    max-width: 350px;
+    max-width: 500px;
 }
 .about .left p{
     margin: 1.2rem 0;
+    color: rgb(95, 95, 95);
 }
 .about .right{
     max-width: 700px;
+}
+.who-am-i{
+    color: rgb(95, 95, 95);
+}
+.right {
+    overflow-y: auto;
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+.skills-title{
+    color: rgb(95, 95, 95);
+    margin-top: 25px;
+    margin-bottom: 100px;
 }
 .right .img-container{
     display: grid;
