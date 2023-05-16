@@ -53,7 +53,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className='project-card'>
-                        <img src="/images/JoystickJunkies.png" alt="cave explorer" />
+                        <img src="/images/joystick-junkies.png" alt="cave explorer" />
                         <h2 className='project-title'>Joystick Junkies</h2>
                         <div className='pro-details'>
                             <p>Socialize with friends over games and reviews</p>
