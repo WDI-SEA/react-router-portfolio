@@ -30,6 +30,9 @@ export default function Contact() {
             </div>
         </div>
 
+        <div className='contact-title-div'>
+        <h1 className='contact-title'>I want to hear from you, send me a message!</h1>
+        </div>
         <div className='form'>
             <form ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
