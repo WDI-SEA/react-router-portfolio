@@ -37,11 +37,12 @@ export default function Projects() {
                         <img src="/images/equestrian.png" alt="equestrian organizer" />
                         <h2 className='project-title'>EO App</h2>
                         <div className='pro-details'>
-                            <p>Organize all your hurses with this CRM</p>
+                            <p>Organize all your horses with this CRM</p>
                             <div className='pro-btns'>
                                 <NavLink 
-                                to="url.com" 
-                                className="btn">
+                                to="https://equestrian-organizer.herokuapp.com/" 
+                                className="btn" target='_blank'
+                                rel="noopener noreferrer">
                                     View
                                 </NavLink>
                                 <NavLink 
