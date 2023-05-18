@@ -5,7 +5,7 @@
     display:flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 45px;
 }
 
 .footer-container img {
@@ -18,3 +18,8 @@
 .footer-container img:hover {
    transform: scale(1.3);
 }
+
+.githubicon {
+   padding-right: 40px;
+}
+
