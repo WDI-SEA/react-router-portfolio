@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom'
 import Homepage from './components/Homepage'
 import About from './components/About'
-import Contact from './components/Contact'
+// import Contact from './components/Contact'
 import Projects from './components/Projects'
 import Header from './components/navbar/Header'
 import './App.css';
