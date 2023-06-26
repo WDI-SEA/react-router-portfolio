@@ -31,9 +31,9 @@ export default function Header() {
                 <li>
                     <Link to='/projects' onClick={closeMenu} >My Projects</Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to='/contact' onClick={closeMenu} >Contact</Link>
-                </li>
+                </li> */}
             </ul>
             <div className='hamburger' onClick={handleClick}>
                 {click ? (

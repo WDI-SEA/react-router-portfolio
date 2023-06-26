@@ -1,7 +1,26 @@
 import './pages.css'
 import { Link } from 'react-router-dom'
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function About() {
+
+    const form = useRef();
+    const [message, setMessage] = useState("")
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
+      .then((result) => {
+          console.log(result.text);
+          setMessage('Your email has been sent!')
+      }, (error) => {
+          console.log(error.text);
+          setMessage("An error occured, please try again.")
+      });
+    };
+
     return(
         <div>
         <div className='hero-img'>
@@ -14,12 +33,14 @@ export default function About() {
             <div className='left'>
                 <h1 className='who-am-i'>Who Am I?</h1>
                 <p>As a dedicated Full Stack Software Engineer, I specialize in crafting efficient and user-friendly solutions using JavaScript, Python, Node.js, React.js, and MongoDB. My focus lies in developing scalable front-end and back-end components, along with efficient database management. I'm passionate about staying updated with the latest industry trends and continuously seeking new challenges to refine my skills. I thrive in collaborative settings, effectively communicate with various stakeholders, and consistently deliver projects on time.</p>
-                <Link to='/contact'>
+                {/* <Link to='/contact'>
                     <button className='btn'>contact</button>
-                </Link>
+                </Link> */}
             </div>
-            <div className='right'>
-                <h1 className='skills-title'>Scroll for Skills</h1>
+        </div>
+
+        <div className='right'>
+                <h1 className='skills-title'>Skills</h1>
                 <div className='img-container'>
                     <div className='img-stack top'>
                         <img src="/images/react1.png" className='img' alt='true'/>
@@ -61,6 +82,27 @@ export default function About() {
                     </div>
                 </div>
             </div>
+
+        <div>
+
+        <div className='contact-title-div'>
+        <h1 className='contact-title'>I want to hear from you, send me a message!</h1>
+        </div>
+        <div className='form'>
+            <form ref={form} onSubmit={sendEmail}>
+                <label>Name</label>
+                <input type="text" name="user_name" />
+                <label>Email</label>
+                <input type="email" name="user_email" />
+                <label>Message</label>
+                <textarea name="message" />
+                <button className='btn' type='submit'>Submit</button>
+            </form>
+
+        {message && <h3 className='msg'>{message}</h3>}
+
+        </div>
+
         </div>
 
         </div>

@@ -9,7 +9,10 @@
 
 body{
   background-color: #e5ddc8;
-background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+/* background-image: url("https://www.transparenttextures.com/patterns/skulls.png"); */
+background-color: #1e1f21;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #1e1f21 15px ), repeating-linear-gradient( #282d3255, #282d32 );
 }
 
 h1, h3 h4, p, a {
@@ -24,7 +27,7 @@ ul {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: #d6b327;
+  background: grey;
   color: #222;
   border: 1px solid #fff;
   font-weight: 600;

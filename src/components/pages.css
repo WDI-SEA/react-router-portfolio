@@ -34,11 +34,13 @@
 .home .content h1{
     font-size: 4rem;
     padding: 0.6rem 0 1.5rem;
+    color: black;
 }
 .home .content p{
     font-size: 1.4rem;
     font-weight: 200;
     text-transform: uppercase;
+    color: black;
 }
 .content .btn{
     margin: 1rem 0.2rem;
@@ -52,7 +54,7 @@
 }
 .hero-img::before{
     content: "";
-    background-image: url('/public/images/tatonomusic-FFCgotROOTY-unsplash.jpg');
+    background-image: url('https://images.nature.com/original/magazine-assets/d41586-022-04383-z/d41586-022-04383-z_23802780.jpg');
     background-size: cover;
     background-position: center top;
     height: 100%;
@@ -82,7 +84,7 @@
 .project-heading{
     text-align: center;
     padding: 4rem 0 2rem 0;
-    color: rgb(95, 95, 95);
+    color: white;
 }
 .project-container{
     max-width: 1140px;
@@ -93,7 +95,7 @@
     padding-bottom: 5rem;
 }
 .project-card{
-    background: #22474d;
+    background: #0c0f12;
     padding: 1.2rem 1rem;
     box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.5);
     border-radius: 1.5%;
@@ -104,6 +106,9 @@
 .project-title{
     color: white;
     padding: 1rem 0;
+}
+.project-image{
+    background-size: cover;
 }
 .pro-details{
     padding-bottom: 1rem;
@@ -136,26 +141,25 @@
 }
 .about .left p{
     margin: 1.2rem 0;
-    color: rgb(95, 95, 95);
+    color: white;
 }
 .about .right{
     max-width: 700px;
 }
 .who-am-i{
-    color: rgb(95, 95, 95);
+    color: white;
 }
 .right{
-    height: 650px;
-    max-width: 100%;
+    /* height: 650px;
+    max-width: 100%; */
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-    overflow-y: auto;
+    /* padding: 1rem;
+    overflow-y: auto; */
 }
 .skills-title{
-    color: rgb(95, 95, 95);
-    margin-top: 25px;
-    margin-bottom: 100px;
+    color: white;
+    margin: 0 auto;
 }
 .right .img-container{
     display: grid;
@@ -163,6 +167,9 @@
     position: relative;
     align-items: center;
     text-align: center;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
 }
 .right .img{
     max-width: 90%;
@@ -180,8 +187,9 @@
     z-index: 5;
 }
 .contact-title{
-    color: rgb(95, 95, 95);
-    padding-top: 15px;
+    color: white;
+    padding-top: 35px;
+    text-align: center;
 }
 .contact-title-div{
     display: flex;

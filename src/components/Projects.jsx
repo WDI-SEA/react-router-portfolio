@@ -15,7 +15,7 @@ export default function Projects() {
                 <h1 className='project-heading'>Projects</h1>
                 <div className='project-container'>
                     <div className='project-card'>
-                        <img src="/images/cave-explorer.png" alt="cave explorer" />
+                        <img className='project-image' src="/images/cave-explorer.png" alt="cave explorer" />
                         <h2 className='project-title'>Cave Explorer</h2>
                         <div className='pro-details'>
                             <p>explore the caves in this HTML5 canvas game</p>
@@ -34,7 +34,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className='project-card'>
-                        <img src="/images/equestrian.png" alt="equestrian organizer" />
+                        <img className='project-image' src="/images/equestrian.png" alt="equestrian organizer" />
                         <h2 className='project-title'>EO App</h2>
                         <div className='pro-details'>
                             <p>Organize all your horses with this CRM</p>
@@ -54,7 +54,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className='project-card'>
-                        <img src="/images/joystick-junkies.png" alt="cave explorer" />
+                        <img className='project-image' src="/images/joystick-junkies.png" alt="cave explorer" />
                         <h2 className='project-title'>Joystick Junkies</h2>
                         <div className='pro-details'>
                             <p>Socialize with friends over games and reviews</p>
