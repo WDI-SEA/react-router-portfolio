@@ -27,10 +27,10 @@ function App() {
             path='/about'
             element={<About />}
           />
-          <Route 
+          {/* <Route 
             path='/contact'
             element={<Contact />}
-          />
+          /> */}
           <Route 
             path='/projects'
             element={<Projects />}
