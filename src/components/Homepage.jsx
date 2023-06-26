@@ -5,7 +5,7 @@ export default function Homepage() {
     return(
         <div className="home">
             <div className="mask">
-                <img src="https://media.istockphoto.com/id/1267044898/photo/photo-of-a-laptop-on-a-white-desk-with-a-green-plant.jpg?b=1&s=612x612&w=0&k=20&c=A9TGki0BM7LaKCdyqHFZ1qlItiGJJbbiOvTxagwh7Qc=" alt='home picture' className="into-img" />
+                <img src="https://media.istockphoto.com/id/1267044898/photo/photo-of-a-laptop-on-a-white-desk-with-a-green-plant.jpg?b=1&s=612x612&w=0&k=20&c=A9TGki0BM7LaKCdyqHFZ1qlItiGJJbbiOvTxagwh7Qc=" alt='home computer' className="into-img" />
             </div>
             <div className="content">
                 <p>HI, I'M A  FULLSTACK DEVELOPER</p>
