@@ -38,9 +38,10 @@ export default function About() {
                 </Link> */}
             </div>
         </div>
-
+        <div className='skills-title-div'>
+            <h1 className='skills-title'>Skills</h1>
+        </div>
         <div className='right'>
-                <h1 className='skills-title'>Skills</h1>
                 <div className='img-container'>
                     <div className='img-stack top'>
                         <img src="/images/react1.png" className='img' alt='true'/>

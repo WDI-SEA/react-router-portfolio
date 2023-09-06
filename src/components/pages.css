@@ -9,6 +9,7 @@
     background-size: cover;
     background-position: center;
     object-fit: cover;
+
 }
 .mask::after{
     content: "";
@@ -99,6 +100,7 @@
     padding: 1.2rem 1rem;
     box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.5);
     border-radius: 1.5%;
+    position: relative;
 }
 .project-card img {
     width: 100%;
@@ -109,6 +111,38 @@
 }
 .project-image{
     background-size: cover;
+    border: 1px solid white;
+    width: 90%;
+    height: 55%;
+}
+.simustock-img{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.simu-img {
+    width: 50%;
+    height: 50%;
+}
+.info-text{
+    color: black;
+}
+.info-text-tech{
+    color: blue;
+}
+.info-box {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position it below the project card */
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1; /* Ensure it appears above other elements */
+}
+.project-card:hover .info-box {
+    display: block;
 }
 .pro-details{
     padding-bottom: 1rem;
@@ -148,18 +182,26 @@
 }
 .who-am-i{
     color: white;
+    font-size: 60px;
 }
 .right{
     /* height: 650px;
     max-width: 100%; */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     /* padding: 1rem;
     overflow-y: auto; */
 }
 .skills-title{
     color: white;
-    margin: 0 auto;
+    justify-content: center;
+    font-size: 60px;
+}
+.skills-title-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .right .img-container{
     display: grid;

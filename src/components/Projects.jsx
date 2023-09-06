@@ -32,6 +32,11 @@ export default function Projects() {
                                 </NavLink>
                             </div>
                         </div>
+                        <div className='info-box'>
+                            <p className='info-text'>Technologies Used:</p>
+                            <p className='info-text-tech'>HTML5, JavaScript, CSS, Web Audio</p>
+                            <p className='info-text'>I used HTML canvas feature to put a display screen for the pixels. Once that was in place it came down to creating rendering functions and also collision detections. Both functions run forever creating the never ending effect of this game. </p>
+                        </div>
                     </div>
                     <div className='project-card'>
                         <img className='project-image' src="/images/equestrian.png" alt="equestrian organizer" />
@@ -52,6 +57,11 @@ export default function Projects() {
                                 </NavLink>
                             </div>
                         </div>
+                        <div className='info-box'>
+                            <p className='info-text'>Technologies Used:</p>
+                            <p className='info-text-tech'>HTML, JavaScript, CSS, Express, PSQL, Twilio</p>
+                            <p className='info-text'>Express has its server side rendering that was used to create the horse database for equestrians. Starting with building a landing page that will display all tasks, horses, pastdue and current weather. All of these can be communicted to the server, such as removing or updating a horses condition. Adding twilio created a notification to the users cellphone of upcoming tasks as well. Currently only uses one phone line*. Making an account is free and will show all functionality </p>
+                        </div>
                     </div>
                     <div className='project-card'>
                         <img className='project-image' src="/images/joystick-junkies.png" alt="cave explorer" />
@@ -70,6 +80,38 @@ export default function Projects() {
                                     Source
                                 </NavLink>
                             </div>
+                        </div>
+                        <div className='info-box'>
+                            <p className='info-text'>Technologies Used:</p>
+                            <p className='info-text-tech'>React, JavaScript, CSS, MongoDB, API</p>
+                            <p className='info-text'>I lead a team of 3 to create a spin on social media for gaming entertainers. Using React to create the multiple pages and the components that are within each. The database was made with mongoDB so that we can store all posts, ratings and comments for display among friends. We created an API communication to RAWG which give unlimited access to searching the game data. We also included the feature to change an old password as well, while still keeping it hashed. Making an account is free and will show all functionality</p>
+                        </div>
+                    </div>
+                    <div className='project-card'>
+                        <div className='simustock-img'>
+                            <img className='simu-img' src="/images/simustock2.png" alt="cave explorer" />
+                            <img className='simu-img' src="/images/simustock1.png" alt="cave explorer" />
+                        </div>
+                        <h2 className='project-title'>SimuStock</h2>
+                        <div className='pro-details'>
+                            <p>Trade fake money with real data to test your market strategies</p>
+                            <div className='pro-btns'>
+                                <NavLink 
+                                to="" 
+                                className="btn" target="_blank" rel="noopener noreferrer">
+                                    View
+                                </NavLink>
+                                <NavLink 
+                                to="https://github.com/brogers-97/project-4-client" 
+                                className="btn" target="_blank" rel="noopener noreferrer">
+                                    Source
+                                </NavLink>
+                            </div>
+                        </div>
+                        <div className='info-box'>
+                            <p className='info-text'>Technologies Used:</p>
+                            <p className='info-text-tech'>React, Python, JavaScript, CSS, MongoDB, Soup Webscraper, MarketData Plugin, Mobile Friendly UI</p>
+                            <p className='info-text'>Teaming up with a partner we created this Django application. React, javascript, jsx on the frontend and python on the backend with psql. The app will pull up and desired stock by scraping the web for the most recent stock price, then displaying the trend using plugins. The user can choose to buy/sell and the price, quantity and date are all stored into the database. The app will calculate all gains and losses upon the sale as well using the data stored from the purchase. We added a social aspect as well where you are able to popular stocks among other users, this helps with finding social trends that economics can't. App is still not deployed, check in soon*</p>
                         </div>
                     </div>
                 </div>
