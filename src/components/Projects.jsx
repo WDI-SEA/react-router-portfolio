@@ -110,7 +110,7 @@ export default function Projects() {
                         </div>
                         <div className='info-box'>
                             <p className='info-text'>Technologies Used:</p>
-                            <p className='info-text-tech'>React, Python, JavaScript, CSS, MongoDB, Soup Webscraper, MarketData Plugin, Mobile Friendly UI</p>
+                            <p className='info-text-tech'>React, Python, JavaScript, CSS, PSQL, Soup Webscraper, MarketData Plugin, Mobile Friendly UI</p>
                             <p className='info-text'>Teaming up with a partner we created this Django application. React, javascript, jsx on the frontend and python on the backend with psql. The app will pull up and desired stock by scraping the web for the most recent stock price, then displaying the trend using plugins. The user can choose to buy/sell and the price, quantity and date are all stored into the database. The app will calculate all gains and losses upon the sale as well using the data stored from the purchase. We added a social aspect as well where you are able to popular stocks among other users, this helps with finding social trends that economics can't. App is still not deployed, check in soon*</p>
                         </div>
                     </div>
