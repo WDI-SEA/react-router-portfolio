@@ -1,0 +1,14 @@
+.home-title {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.home-background {
+    background-image: url('../assets/homebackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    font-family: "Dancing Script";
+    padding-top: 25px;
+}
+
