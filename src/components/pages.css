@@ -1,0 +1,286 @@
+.mask {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.into-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+}
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0.8;
+}
+.home{
+    height: 100%;
+    width: 100%;
+}
+.home .content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.home .content h1{
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+    color: black;
+}
+.home .content p{
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: black;
+}
+.content .btn{
+    margin: 1rem 0.2rem;
+}
+
+.hero-img{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 60vh;
+    position: relative;
+}
+.hero-img::before{
+    content: "";
+    background-image: url('https://images.nature.com/original/magazine-assets/d41586-022-04383-z/d41586-022-04383-z_23802780.jpg');
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img h1{
+    font-size: 2.4rem;
+}
+.hero-img p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
+.project-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    color: white;
+}
+.project-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+.project-card{
+    background: #0c0f12;
+    padding: 1.2rem 1rem;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1.5%;
+    position: relative;
+}
+.project-card img {
+    width: 100%;
+}
+.project-title{
+    color: white;
+    padding: 1rem 0;
+}
+.project-image{
+    background-size: cover;
+    border: 1px solid white;
+    width: 90%;
+    height: 55%;
+}
+.simustock-img{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.simu-img {
+    width: 50%;
+    height: 50%;
+}
+.info-text{
+    color: black;
+}
+.info-text-tech{
+    color: blue;
+}
+.info-box {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position it below the project card */
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1; /* Ensure it appears above other elements */
+}
+.project-card:hover .info-box {
+    display: block;
+}
+.pro-details{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.pro-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+.pro-btns .btn{
+    padding: 0.5rem 1.5rem;
+}
+
+.about{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.about .left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 500px;
+}
+.about .left p{
+    margin: 1.2rem 0;
+    color: white;
+}
+.about .right{
+    max-width: 700px;
+}
+.who-am-i{
+    color: white;
+    font-size: 60px;
+}
+.right{
+    /* height: 650px;
+    max-width: 100%; */
+    display: flex;
+    flex-direction: row;
+    /* padding: 1rem;
+    overflow-y: auto; */
+}
+.skills-title{
+    color: white;
+    justify-content: center;
+    font-size: 60px;
+}
+.skills-title-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right .img-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+}
+.right .img{
+    max-width: 90%;
+    border: 1px solid #333;
+}
+.right .top{
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 6;
+}
+.right .bottom{
+    grid-column: 4 / -1;
+    grid-row: 1;
+    z-index: 5;
+}
+.contact-title{
+    color: white;
+    padding-top: 35px;
+    text-align: center;
+}
+.contact-title-div{
+    display: flex;
+    justify-content: center;
+}
+label{
+    color: rgb(106, 106, 106);
+    margin-bottom: 0.5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+form input, form textarea{
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: rgb(106, 106, 106);
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+
+@media screen and (max-width:640px) {
+    .home .content h1{
+        font-size: 3rem;
+    }
+    .home .content p{
+        font-size: 1.4rem;
+    }
+    .hero-img h1{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .project-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+body{
+  background-color: #e5ddc8;
+/* background-image: url("https://www.transparenttextures.com/patterns/skulls.png"); */
+background-color: #1e1f21;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #1e1f21 15px ), repeating-linear-gradient( #282d3255, #282d32 );
+}
+
+
+h1, h3 h4, p, a {
+  color: white;
+  text-decoration: none;
+}
+ul {
+  color: white;
+  list-style-type: none;
+}
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: grey;
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-light{
+  background: transparent;
+  color: #fff;
+}
+.btn:hover{
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
+}
